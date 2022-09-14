@@ -1,7 +1,10 @@
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top ">
   <div class="container-fluid d-flex align-items-center justify-content-between">
-    <a href="1-0-index.php" class="logo"><img src="" alt="" class="img-fluid"></a>
+  <a class="navbar-brand" href="https://www.pdn.ac.lk/cgu/">
+    <img src="../assets/img/logo/University_of_Peradeniya_crest.png" width="40" height="40" class="d-inline-block align-top" alt="">
+    Career Guidance Unit
+  </a>
 <!-- start nav bar -->
     <nav class="nav-menu d-none d-lg-block">
       <ul>
