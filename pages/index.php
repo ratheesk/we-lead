@@ -1,5 +1,1 @@
-<?php include('../components/header.php'); ?>
-
-<?php 
-echo "Hello world";
- ?>
+<?php include('../components/header.inc.php'); ?>

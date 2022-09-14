@@ -48,3 +48,5 @@
 
 </head>
 
+<body>
+  <?php include('nav-bar.inc.php'); ?>
