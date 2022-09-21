@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
   background: rgba(182, 191, 198, 0.7);
 }
 
@@ -904,4 +904,12 @@ section {
 /*------------Imprint-----------*/
 #imprint {
   padding-top: 100px;
+}
+
+/*------------Choose language-----------*/
+#choose-language {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
