@@ -913,3 +913,16 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*------------Under construction-----------*/
+#under-construction {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#under-construction h2 {
+  margin-top: 40px;
+  color: #274D6C;
+}
