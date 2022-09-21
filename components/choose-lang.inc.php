@@ -2,7 +2,7 @@
 <section id="choose-language">
 <div class="container">
   <div class="row justify-content-center">
-<div class="card" style="width: 18rem;">
+<div class="card" style="max-width: 400px;">
   <img class="card-img-top" src="../assets/img/choose.jpg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Choose your language</h5>
