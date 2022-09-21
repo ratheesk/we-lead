@@ -10,6 +10,13 @@ if (isset($_POST['name'])){
  $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
  header("location: holland-career-test-eng-1.php"); // Redirecting to first page 
  } 
+ else {
+    // Fetching all values posted from second page and storing it in variable.
+    foreach ($_POST as $key => $value) {
+    $_SESSION['post'][$key] = $value;
+    }
+    } 
+
 } else {
  if (empty($_SESSION['error_page2'])) {
  header("location: holland-career-test-eng-1.php");//redirecting to first page
