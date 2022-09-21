@@ -9,9 +9,9 @@
     <p class="card-text">You may continue with your convenient language</p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">English</li>
-    <li class="list-group-item">Sinhala</li>
-    <li class="list-group-item">Tamil</li>
+    <li class="list-group-item"><a href="holland-career-test-eng.php">English</a></li>
+    <li class="list-group-item"><a href="holland-career-test-sin.php">Sinhala</a></li>
+    <li class="list-group-item"><a href="holland-career-test-tam.php">Tamil</a></li>
   </ul>
 </div>
 </div>
