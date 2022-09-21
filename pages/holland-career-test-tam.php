@@ -1,3 +1,4 @@
-<?php include('../components/header.inc.php'); ?>
+<?php include('../components/general/header.inc.php'); ?>
+<?php include('../components/general/under-construction.inc.php'); ?>
 
-<?php include('../components/footer.inc.php'); ?>
+<?php include('../components/general/footer.inc.php'); ?>
