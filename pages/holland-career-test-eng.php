@@ -1,3 +1,0 @@
-<?php include('../components/general/header.inc.php'); ?>
-
-<?php include('../components/general/footer.inc.php'); ?>
