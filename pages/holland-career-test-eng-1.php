@@ -20,11 +20,17 @@ session_start(); // Session starts here.
  ?>
  </span>
  <form action="holland-career-test-eng-2.php" method="post">
- <div class="form-group">
- <label>Full Name :<span>*</span></label>
- <input name="name" type="text" placeholder="Ex-James Anderson" required>
+<div class="form-group">
+ <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="q1" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">1</label>
 </div>
- <div class="form-group">
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="q1" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+</div>
+<div class="form-group">
  <input type="reset" value="Reset" />
  <input type="submit" value="Next" />
  </div>

@@ -2,9 +2,9 @@
 
  <?php
  session_start();
- if (isset($_POST['city'])) {
+ if (isset($_POST['q3'])) {
  if (!empty($_SESSION['post'])){
- if (empty($_POST['city'])){ 
+ if (empty($_POST['q3'])){ 
  // Setting error for page 3.
  $_SESSION['error_page3'] = "Mandatory field(s) are missing, Please fill it again";
  header("location: holland-career-test-eng-3.php"); // Redirecting to third page.
@@ -24,9 +24,9 @@
 <div class="card" style="max-width: 400px;">
   <div class="card-body">
 <?php
-echo $name;
-echo $city;
-echo $gender;
+echo $q3;
+echo $q2;
+echo $q1;
 ?>
 </div>
 </div>

@@ -4,8 +4,8 @@
 <?php
 session_start();
 // Checking first page values for empty,If it finds any blank field then redirected to first page.
-if (isset($_POST['gender'])){
- if (empty($_POST['gender'])){ 
+if (isset($_POST['q2'])){
+ if (empty($_POST['q2'])){ 
  // Setting error message
  $_SESSION['error_page2'] = "Mandatory field(s) are missing, Please fill it again";
  header("location: holland-career-test-eng-2.php"); // Redirecting to first page 
@@ -42,8 +42,14 @@ if (!empty($_SESSION['error_page3'])) {
 
  <form action="holland-career-test-eng-4.php" method="post">
  <div class="form-group">
- <label>City :<span>*</span></label>
- <input name="city" id="city" type="text" size="25" required>
+ <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="q3" id="inlineRadio1" value="option3">
+  <label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="q3" id="inlineRadio2" value="option4">
+  <label class="form-check-label" for="inlineRadio2">2</label>
+</div>
 </div>
 <div class="form-group">
  <input type="reset" value="Reset" />
