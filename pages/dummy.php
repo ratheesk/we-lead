@@ -769,3 +769,390 @@
 </div>
 
 <!--set 3-->
+
+<div
+    class="form-item webform-component webform-component-radios webform-component--r-5 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-r-5"><span class="label-text">Install an alarm system in a building
+            <span class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-r-5" class="form-radios">
+        <div class="form-item form-item-submitted-r-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-5-1"><input required="required" type="radio" id="edit-submitted-r-5-1"
+                    name="submitted[r_5]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-r-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-5-2"><input required="required" type="radio" id="edit-submitted-r-5-2"
+                    name="submitted[r_5]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-r-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-5-3"><input required="required" type="radio" id="edit-submitted-r-5-3"
+                    name="submitted[r_5]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-r-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-5-4"><input required="required" type="radio" id="edit-submitted-r-5-4"
+                    name="submitted[r_5]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-r-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-5-5"><input required="required" type="radio" id="edit-submitted-r-5-5"
+                    name="submitted[r_5]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--r-6 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-r-6"><span class="label-text">Install kitchen cabinets <span
+                class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-r-6" class="form-radios">
+        <div class="form-item form-item-submitted-r-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-6-1"><input required="required" type="radio" id="edit-submitted-r-6-1"
+                    name="submitted[r_6]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-r-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-6-2"><input required="required" type="radio" id="edit-submitted-r-6-2"
+                    name="submitted[r_6]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-r-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-6-3"><input required="required" type="radio" id="edit-submitted-r-6-3"
+                    name="submitted[r_6]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-r-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-6-4"><input required="required" type="radio" id="edit-submitted-r-6-4"
+                    name="submitted[r_6]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-r-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-r-6-5"><input required="required" type="radio" id="edit-submitted-r-6-5"
+                    name="submitted[r_6]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--i-5 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-i-5"><span class="label-text">Look at cells through a microscope
+            <span class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-i-5" class="form-radios">
+        <div class="form-item form-item-submitted-i-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-5-1"><input required="required" type="radio" id="edit-submitted-i-5-1"
+                    name="submitted[i_5]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-i-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-5-2"><input required="required" type="radio" id="edit-submitted-i-5-2"
+                    name="submitted[i_5]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-i-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-5-3"><input required="required" type="radio" id="edit-submitted-i-5-3"
+                    name="submitted[i_5]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-i-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-5-4"><input required="required" type="radio" id="edit-submitted-i-5-4"
+                    name="submitted[i_5]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-i-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-5-5"><input required="required" type="radio" id="edit-submitted-i-5-5"
+                    name="submitted[i_5]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--i-6 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-i-6"><span class="label-text">Work in a chemistry lab <span
+                class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-i-6" class="form-radios">
+        <div class="form-item form-item-submitted-i-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-6-1"><input required="required" type="radio" id="edit-submitted-i-6-1"
+                    name="submitted[i_6]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-i-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-6-2"><input required="required" type="radio" id="edit-submitted-i-6-2"
+                    name="submitted[i_6]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-i-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-6-3"><input required="required" type="radio" id="edit-submitted-i-6-3"
+                    name="submitted[i_6]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-i-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-6-4"><input required="required" type="radio" id="edit-submitted-i-6-4"
+                    name="submitted[i_6]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-i-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-i-6-5"><input required="required" type="radio" id="edit-submitted-i-6-5"
+                    name="submitted[i_6]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--a-5 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-a-5"><span class="label-text">Design magazine ads <span
+                class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-a-5" class="form-radios">
+        <div class="form-item form-item-submitted-a-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-5-1"><input required="required" type="radio" id="edit-submitted-a-5-1"
+                    name="submitted[a_5]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-a-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-5-2"><input required="required" type="radio" id="edit-submitted-a-5-2"
+                    name="submitted[a_5]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-a-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-5-3"><input required="required" type="radio" id="edit-submitted-a-5-3"
+                    name="submitted[a_5]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-a-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-5-4"><input required="required" type="radio" id="edit-submitted-a-5-4"
+                    name="submitted[a_5]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-a-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-5-5"><input required="required" type="radio" id="edit-submitted-a-5-5"
+                    name="submitted[a_5]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--a-6 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-a-6"><span class="label-text">Write a script for a television show
+            <span class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-a-6" class="form-radios">
+        <div class="form-item form-item-submitted-a-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-6-1"><input required="required" type="radio" id="edit-submitted-a-6-1"
+                    name="submitted[a_6]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-a-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-6-2"><input required="required" type="radio" id="edit-submitted-a-6-2"
+                    name="submitted[a_6]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-a-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-6-3"><input required="required" type="radio" id="edit-submitted-a-6-3"
+                    name="submitted[a_6]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-a-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-6-4"><input required="required" type="radio" id="edit-submitted-a-6-4"
+                    name="submitted[a_6]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-a-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-a-6-5"><input required="required" type="radio" id="edit-submitted-a-6-5"
+                    name="submitted[a_6]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--s-5 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-s-5"><span class="label-text">Counsel a person recovering from drug
+            addiction <span class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-s-5" class="form-radios">
+        <div class="form-item form-item-submitted-s-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-5-1"><input required="required" type="radio" id="edit-submitted-s-5-1"
+                    name="submitted[s_5]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-s-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-5-2"><input required="required" type="radio" id="edit-submitted-s-5-2"
+                    name="submitted[s_5]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-s-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-5-3"><input required="required" type="radio" id="edit-submitted-s-5-3"
+                    name="submitted[s_5]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-s-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-5-4"><input required="required" type="radio" id="edit-submitted-s-5-4"
+                    name="submitted[s_5]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-s-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-5-5"><input required="required" type="radio" id="edit-submitted-s-5-5"
+                    name="submitted[s_5]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--s-6 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-s-6"><span class="label-text">Counsel a person with depression
+            <span class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-s-6" class="form-radios">
+        <div class="form-item form-item-submitted-s-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-6-1"><input required="required" type="radio" id="edit-submitted-s-6-1"
+                    name="submitted[s_6]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-s-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-6-2"><input required="required" type="radio" id="edit-submitted-s-6-2"
+                    name="submitted[s_6]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-s-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-6-3"><input required="required" type="radio" id="edit-submitted-s-6-3"
+                    name="submitted[s_6]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-s-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-6-4"><input required="required" type="radio" id="edit-submitted-s-6-4"
+                    name="submitted[s_6]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-s-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-s-6-5"><input required="required" type="radio" id="edit-submitted-s-6-5"
+                    name="submitted[s_6]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--e-5 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-e-5"><span class="label-text">Hire and fire employees <span
+                class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-e-5" class="form-radios">
+        <div class="form-item form-item-submitted-e-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-5-1"><input required="required" type="radio" id="edit-submitted-e-5-1"
+                    name="submitted[e_5]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-e-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-5-2"><input required="required" type="radio" id="edit-submitted-e-5-2"
+                    name="submitted[e_5]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-e-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-5-3"><input required="required" type="radio" id="edit-submitted-e-5-3"
+                    name="submitted[e_5]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-e-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-5-4"><input required="required" type="radio" id="edit-submitted-e-5-4"
+                    name="submitted[e_5]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-e-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-5-5"><input required="required" type="radio" id="edit-submitted-e-5-5"
+                    name="submitted[e_5]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--e-6 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-e-6"><span class="label-text">Close an important business deal
+            <span class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-e-6" class="form-radios">
+        <div class="form-item form-item-submitted-e-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-6-1"><input required="required" type="radio" id="edit-submitted-e-6-1"
+                    name="submitted[e_6]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-e-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-6-2"><input required="required" type="radio" id="edit-submitted-e-6-2"
+                    name="submitted[e_6]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-e-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-6-3"><input required="required" type="radio" id="edit-submitted-e-6-3"
+                    name="submitted[e_6]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-e-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-6-4"><input required="required" type="radio" id="edit-submitted-e-6-4"
+                    name="submitted[e_6]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-e-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-e-6-5"><input required="required" type="radio" id="edit-submitted-e-6-5"
+                    name="submitted[e_6]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--c-5 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-c-5"><span class="label-text">Check tax returns for errors <span
+                class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-c-5" class="form-radios">
+        <div class="form-item form-item-submitted-c-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-5-1"><input required="required" type="radio" id="edit-submitted-c-5-1"
+                    name="submitted[c_5]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-c-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-5-2"><input required="required" type="radio" id="edit-submitted-c-5-2"
+                    name="submitted[c_5]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-c-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-5-3"><input required="required" type="radio" id="edit-submitted-c-5-3"
+                    name="submitted[c_5]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-c-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-5-4"><input required="required" type="radio" id="edit-submitted-c-5-4"
+                    name="submitted[c_5]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-c-5 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-5-5"><input required="required" type="radio" id="edit-submitted-c-5-5"
+                    name="submitted[c_5]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+<div
+    class="form-item webform-component webform-component-radios webform-component--c-6 form-group webform-component-test-element">
+    <label class="control-label" for="edit-submitted-c-6"><span class="label-text">Calculate the cost of an insurance
+            claim <span class="form-required" title="This field is required.">*</span></span></label>
+    <div required="required" id="edit-submitted-c-6" class="form-radios">
+        <div class="form-item form-item-submitted-c-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-6-1"><input required="required" type="radio" id="edit-submitted-c-6-1"
+                    name="submitted[c_6]" value="1" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Dislike </span></label>
+        </div>
+        <div class="form-item form-item-submitted-c-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-6-2"><input required="required" type="radio" id="edit-submitted-c-6-2"
+                    name="submitted[c_6]" value="2" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-c-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-6-3"><input required="required" type="radio" id="edit-submitted-c-6-3"
+                    name="submitted[c_6]" value="3" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Neutral </span></label>
+        </div>
+        <div class="form-item form-item-submitted-c-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-6-4"><input required="required" type="radio" id="edit-submitted-c-6-4"
+                    name="submitted[c_6]" value="4" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text"> </span></label>
+        </div>
+        <div class="form-item form-item-submitted-c-6 form-type-radio radio"> <label class="control-label"
+                for="edit-submitted-c-6-5"><input required="required" type="radio" id="edit-submitted-c-6-5"
+                    name="submitted[c_6]" value="5" class="form-radio fancy-processed"><span
+                    class="fancy-input"></span><span class="label-text">Like </span></label>
+        </div>
+    </div>
+</div>
+
+<!--set 4-->
