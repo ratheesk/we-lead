@@ -23,11 +23,14 @@ if (isset($_POST['name'])){
  }
 }
 ?>
+ <!--========================= Choose Language Section========================= -->
 
-<div class="card mt-5">
+<section id="choose-language">
+<div class="container">
+  <div class="row justify-content-center">
+<div class="card" style="max-width: 400px;">
   <div class="card-body">
-
- <span id="error">
+  <span id="error">
 <?php
 // To show error of page 2.
 if (!empty($_SESSION['error_page2'])) {
@@ -48,8 +51,10 @@ if (!empty($_SESSION['error_page2'])) {
  <input type="submit" value="Next" />
 </div>
  </form>
-
 </div>
 </div>
+</div>
+</section>
+<!--========================= End Choose Language Section========================= -->
 
 <?php include('../components/footer.inc.php'); ?>

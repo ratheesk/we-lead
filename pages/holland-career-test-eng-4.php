@@ -12,15 +12,26 @@
  foreach ($_POST as $key => $value) {
  $_SESSION['post'][$key] = $value;
  } 
- extract($_SESSION['post']); // Function to extract array.
-
-echo $name;
-echo $city;
-echo $gender;
- 
+ extract($_SESSION['post']); // Function to extract array. 
  
  }}}
  ?>
+ <!--========================= Choose Language Section========================= -->
 
+ <section id="choose-language">
+<div class="container">
+  <div class="row justify-content-center">
+<div class="card" style="max-width: 400px;">
+  <div class="card-body">
+<?php
+echo $name;
+echo $city;
+echo $gender;
+?>
+</div>
+</div>
+</div>
+</section>
+<!--========================= End Choose Language Section========================= -->
 
 <?php include('../components/footer.inc.php'); ?>

@@ -3,7 +3,12 @@
 <?php
 session_start(); // Session starts here.
 ?>
- <div class="card mt-5">
+
+ <!--========================= Choose Language Section========================= -->
+<section id="choose-language">
+<div class="container">
+  <div class="row justify-content-center">
+<div class="card" style="max-width: 400px;">
   <div class="card-body">
   <span id="error">
  <!---- Initializing Session for errors --->
@@ -24,7 +29,11 @@ session_start(); // Session starts here.
  <input type="submit" value="Next" />
  </div>
  </form>
-  </div>
 </div>
+</div>
+</div>
+</section>
+
+<!--========================= End Choose Language Section========================= -->
 
 <?php include('../components/footer.inc.php'); ?>
