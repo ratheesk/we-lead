@@ -1652,5 +1652,3 @@
 </div><div class="form-item form-item-submitted-c-10 form-type-radio radio"> <label class="control-label" for="edit-submitted-c-10-5"><input required="required" type="radio" id="edit-submitted-c-10-5" name="submitted[c_10]" value="5" class="form-radio fancy-processed"><span class="fancy-input"></span><span class="label-text">Like </span></label>
 </div></div>
 </div>
-
-<!--set 6-->
