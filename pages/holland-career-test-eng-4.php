@@ -45,7 +45,7 @@ if (!empty($_SESSION['error_page4'])) {
  <div class="container-fluid card pt-3">
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Install an alarm system in a building</p>
+                    <p>Build a stone wall</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -74,7 +74,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Install kitchen cabinets</p>
+                    <p>Operate a bulldozer</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -103,7 +103,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Look at cells through a microscope</p>
+                    <p>Analyze soil samples for pollution</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -132,7 +132,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Work in a chemistry lab</p>
+                    <p>Study a fault line to predict earthquakes</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -161,7 +161,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Design magazine ads</p>
+                    <p>Design a billboard advertisemen</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -190,7 +190,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Write a script for a television show</p>
+                    <p>Edit a movie</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -219,7 +219,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Counsel a person recovering from drug addiction</p>
+                    <p>Plan educational games for preschool children</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -248,7 +248,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Counsel a person with depression</p>
+                    <p>Plan activities for elderly people</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -277,7 +277,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Hire and fire employees</p>
+                    <p>Lead a team</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -306,7 +306,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Close an important business deal</p>
+                    <p>Start a new business</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -335,7 +335,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Check tax returns for errors</p>
+                    <p>Calculate the cost of a construction project</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -364,7 +364,7 @@ if (!empty($_SESSION['error_page4'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Calculate the cost of an insurance  claim</p>
+                    <p>Help customers fill out loan applications</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
