@@ -45,7 +45,7 @@ if (!empty($_SESSION['error_page3'])) {
  <div class="container-fluid card pt-3">
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Install a hardwood floor</p>
+                    <p>Install an alarm system in a building</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -74,7 +74,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Repair an air conditioning system</p>
+                    <p>Install kitchen cabinets</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -103,7 +103,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Research the properties of nuclear energy</p>
+                    <p>Look at cells through a microscope</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -132,36 +132,36 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Research a new medicine</p>
+                    <p>Work in a chemistry lab</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_4" id="q_4_1" value="1"  required="required">
-                            <label class="form-check-label" for="q_4_1">1</label>
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_1" value="1"  required="required">
+                            <label class="form-check-label" for="q_6_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_4" id="q_4_2" value="2">
-                            <label class="form-check-label" for="q_4_2">2</label>
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_2" value="2">
+                            <label class="form-check-label" for="q_6_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_4" id="q_4_3" value="3">
-                            <label class="form-check-label" for="q_4_3">3</label>
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_3" value="3">
+                            <label class="form-check-label" for="q_6_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_4" id="q_4_4" value="4">
-                            <label class="form-check-label" for="q_4_4">4</label>
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_4" value="4">
+                            <label class="form-check-label" for="q_6_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_4" id="q_4_5" value="5">
-                            <label class="form-check-label" for="q_4_5">5</label>
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_5" value="5">
+                            <label class="form-check-label" for="q_6_5">5</label>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Design a greeting card</p>
+                    <p>Design magazine ads</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -190,7 +190,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Illustrate a children’s book</p>
+                    <p>Write a script for a television show</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -219,7 +219,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Help a disabled person with their daily routine</p>
+                    <p>Counsel a person recovering from drug addiction</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -248,7 +248,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Tutor a child with a learning disability</p>
+                    <p>Counsel a person with depression</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -277,7 +277,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Negotiate business partnerships</p>
+                    <p>Hire and fire employees</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -306,7 +306,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Motivate employees to achieve success</p>
+                    <p>Close an important business deal</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -335,7 +335,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Keep payroll records</p>
+                    <p>Check tax returns for errors</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -364,7 +364,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Use spreadsheets to organize financial data</p>
+                    <p>Calculate the cost of an insurance  claim</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
