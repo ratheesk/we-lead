@@ -2,129 +2,129 @@
 
 <a>
     Repair a dishwasher
-    [r_1]
+    [k_1]
 </a>
 <a>
 
     Use precision machines to build custom metal parts
-    [r_2]
+    [k_2]
 </a>
 <a>
 
     Analyze the structure of molecules
-    [i_1]
+    [q_1]
 </a>
 <a>
 
     Do scientific experiments
-    [i_2]
+    [q_2]
 </a>
 <a>
 
     Design a magazine cover
-    [a_1]
+    [m_1]
 </a>
 <a>
 
     Paint a portrait
-    [a_2]
+    [m_2]
 </a>
 <a>
 
     Teach social skills to disabled children
-    [s_1]
+    [n_1]
 </a>
 <a>
 
     Teach adults to read
-    [s_2]
+    [n_2]
 </a>
 <a>
 
     Coordinate a business conference
-    [e_1]
+    [o_1]
 </a>
 <a>
 
     Plan a marketing strategy for a new
     company
-    [e_2]
+    [o_2]
 </a>
 <a>
 
     Track monthly expenses for a company
-    [c_1]
+    [p_1]
 </a>
 <a>
 
     Review financial records for accuracy
-    [c_2]
+    [p_2]
 </a>
 <!-- - set 2-->
 
 
 <a>
     Install a hardwood floor
-    [r_3]
+    [k_3]
 
 </a>
 <a>
 
     Repair an air conditioning system
-    [r_4]
+    [k_4]
 </a>
 <a>
 
     Research the properties of nuclear energy
-    [i_3]
+    [q_3]
 </a>
 <a>
 
     Research a new medicine
 
-    [i_4]
+    [q_4]
 </a>
 <a>
 
     Design a greeting card
 
-    [a_3]
+    [m_3]
 </a>
 <a>
 
     Illustrate a children’s book
 
-    [a_4]
+    [m_4]
 </a>
 <a>
 
     Help a disabled person with their daily routine
-    [s_3]
+    [n_3]
 </a>
 <a>
 
     Tutor a child with a learning disability
-    [s_4]
+    [n_4]
 </a>
 <a>
 
     Negotiate business partnerships
-    [e_3]
+    [o_3]
 </a>
 <a>
 
     Motivate employees to achieve success
-    [e_4]
+    [o_4]
 </a>
 <a>
 
     Keep payroll records
-    [c_3]
+    [p_3]
 </a>
 <a>
 
     Use spreadsheets to organize financial data
-    [c_4]
+    [p_4]
 </a>
 
     <!-- - set 3-->
@@ -132,63 +132,63 @@
     <a>
 
     Install an alarm system in a building
-    [r_5]
+    [k_5]
 
 </a>
 <a>
 
     Install kitchen cabinets
-    [r_6]
+    [k_6]
 </a>
 <a>
 
     Look at cells through a microscope
-    [i_5]
+    [q_5]
 </a>
 <a>
 
     Work in a chemistry lab
-    [i_6]
+    [q_6]
 </a>
 <a>
 
     Design magazine ads
-    [a_5]
+    [m_5]
 </a>
 <a>
 
     Write a script for a television show
-    [a_6]
+    [m_6]
 </a>
 <a>
 
     Counsel a person recovering from drug addiction
-    [s_5]
+    [n_5]
 </a>
 <a>
 
     Counsel a person with depression
-    [s_6]
+    [n_6]
 </a>
 <a>
 
     Hire and fire employees
-    [e_5]
+    [o_5]
 </a>
 <a>
 
     Close an important business deal
-    [e_6]
+    [o_6]
 </a>
 <a>
 
     Check tax returns for errors
-    [c_5]
+    [p_5]
 </a>
 <a>
 
     Calculate the cost of an insurance  claim
-    [c_6]
+    [p_6]
 </a>
 <a>
 
@@ -196,63 +196,63 @@
 
 
     Build a stone wall
-    [r_7]
+    [k_7]
 
 </a>
 <a>
 
     Operate a bulldozer
-    [r_8]
+    [k_8]
 </a>
 <a>
 
     Analyze soil samples for pollution
-    [i_7]
+    [q_7]
 </a>
 <a>
 
     Study a fault line to predict earthquakes
-    [i_8]
+    [q_8]
 </a>
 <a>
 
     Design a billboard advertisement
-    [a_7]
+    [m_7]
 </a>
 <a>
 
     Edit a movie
-    [a_8]
+    [m_8]
 </a>
 <a>
 
     Plan educational games for preschool children
-    [s_7]
+    [n_7]
 </a>
 <a>
 
     Plan activities for elderly people
-    [s_8]
+    [n_8]
 </a>
 <a>
 
     Lead a team
-    [e_7]
+    [o_7]
 </a>
 <a>
 
     Start a new business
-    [e_8]
+    [o_8]
 </a>
 <a>
 
     Calculate the cost of a construction project
-    [c_7]
+    [p_7]
 </a>
 <a>
 
     Help customers fill out loan applications
-    [c_8]
+    [p_8]
 </a>
 <a>
 
@@ -260,62 +260,62 @@
 
 
     Take apart a car engine
-    [r_9]
+    [k_9]
 
 </a>
 <a>
 
     Inspect a roof for leaks
-    [r_1_0]
+    [k_1_0]
 </a>
 <a>
 
     Do laboratory tests to diseases
-    [i_9]
+    [q_9]
 </a>
 <a>
 
     Research heat esistant materials for airplane engines
-    [i_1_0]
+    [q_1_0]
 </a>
 <a>
 
     Compose a song
-    [a_9]
+    [m_9]
 </a>
 <a>
 
     Write a poem
-    [a_1_0]
+    [m_1_0]
 </a>
 <a>
 
     Help diabetic patients plan a proper diet plan
-    [s_9]
+    [n_9]
 </a>
 <a>
 
     Help a needy family find appropriate housing
-    [s_1_0]
+    [n_1_0]
 </a>
 <a>
 
     Give a speech in front of many people
-    [e_9]
+    [o_9]
 </a>
 <a>
 
     Persuade others to my point of view
-    [e_1_0]
+    [o_1_0]
 </a>
 <a>
 
     Collect tax payments
 
-    [c_9]
+    [p_9]
 </a>
 <a>
 
     Develop a budget for a city government
-    [c_1_0]
+    [p_1_0]
 </a>
