@@ -41,11 +41,11 @@ if (!empty($_SESSION['error_page5'])) {
 ?>
  </span>
 
- <form action="holland-career-test-eng-4.php" method="post">
+ <form action="holland-career-test-eng-6.php" method="post">
  <div class="container-fluid card pt-3">
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Build a stone wall</p>
+                    <p>Take apart a car engine</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -74,7 +74,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Operate a bulldozer</p>
+                    <p>Inspect a roof for leaks</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -103,7 +103,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Analyze soil samples for pollution</p>
+                    <p>Do laboratory tests to diseases</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -132,7 +132,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Study a fault line to predict earthquakes</p>
+                    <p>Research heat esistant materials for airplane engines</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -161,7 +161,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Design a billboard advertisemen</p>
+                    <p>Compose a song</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -190,7 +190,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Edit a movie</p>
+                    <p>Write a poem</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -219,7 +219,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Plan educational games for preschool children</p>
+                    <p>Help diabetic patients plan a proper diet plan</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -248,7 +248,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Plan activities for elderly people</p>
+                    <p>Help a needy family find appropriate housing</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -277,7 +277,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Lead a team</p>
+                    <p>Give a speech in front of many people</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -306,7 +306,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Start a new business</p>
+                    <p>Persuade others to my point of view</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -335,7 +335,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Calculate the cost of a construction project</p>
+                    <p>Collect tax payments</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -364,7 +364,7 @@ if (!empty($_SESSION['error_page5'])) {
             </div>
             <div class="row align-middle border pt-3 ml-2 mr-2">
                 <div class="col-md-6">
-                    <p>Help customers fill out loan applications</p>
+                    <p>Develop a budget for a city government</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
