@@ -4,8 +4,8 @@
 <?php
 session_start();
 // Checking first page values for empty,If it finds any blank field then redirected to first page.
-if (isset($_POST['q2'])){
- if (empty($_POST['q2'])){ 
+if (isset($_POST['m_1'])){
+ if (empty($_POST['m_1'])){ 
  // Setting error message
  $_SESSION['error_page2'] = "Mandatory field(s) are missing, Please fill it again";
  header("location: holland-career-test-eng-2.php"); // Redirecting to first page 
@@ -61,6 +61,23 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
             <div class="row">
                 <div class="col-md-6">
+                    <p>Repair a dishwasher</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="o_2" id="o_2_1" value="1"  required="required">
+                            <label class="form-check-label" for="o_2_1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="o_2" id="o_2_2" value="2">
+                            <label class="form-check-label" for="o_2_2">2</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
                     <p>Analyze the structure of molecules</p>
                 </div>
                 <div class="col-md-6">
@@ -72,6 +89,25 @@ if (!empty($_SESSION['error_page3'])) {
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="p_1" id="p_1_2" value="2">
                             <label class="form-check-label" for="p_1_2">2</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+                <div class="col-md-6">
+                    <p>Analyze the structure of molecules</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="p_2" id="p_2_1" value="1" required="required">
+                            <label class="form-check-label" for="p_2_1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="p_2" id="p_2_2" value="2">
+                            <label class="form-check-label" for="p_2_2">2</label>
                         </div>
                     </div>
                 </div>

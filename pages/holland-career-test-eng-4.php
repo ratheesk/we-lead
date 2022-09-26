@@ -2,9 +2,9 @@
 
  <?php
  session_start();
- if (isset($_POST['q3'])) {
+ if (isset($_POST['o_1'])) {
  if (!empty($_SESSION['post'])){
- if (empty($_POST['q3'])){ 
+ if (empty($_POST['o_1'])){ 
  // Setting error for page 3.
  $_SESSION['error_page3'] = "Mandatory field(s) are missing, Please fill it again";
  header("location: holland-career-test-eng-3.php"); // Redirecting to third page.
@@ -12,7 +12,14 @@
  foreach ($_POST as $key => $value) {
  $_SESSION['post'][$key] = $value;
  } 
- extract($_SESSION['post']); // Function to extract array. 
+ extract($_SESSION['post']); // Function to extract array.
+ 
+ $k=$k_1+$k_2;
+ $q=$q_1+$q_2;
+ $m=$m_1+$m_2;
+ $n=$n_1+$n_2;
+ $o=$o_1+$o_2;
+ $p=$p_1+$p_2;
  
  }}}
  ?>
@@ -24,9 +31,12 @@
 <div class="card" style="max-width: 400px;">
   <div class="card-body">
 <?php
-echo $q3;
-echo $q2;
-echo $q1;
+echo "points for building is $k <br>";
+echo "points for thinking is $q <br>";
+echo "points for creating is $m <br>";
+echo "points for helping is $n <br>";
+echo "points for persuading is $o <br>";
+echo "points for organising is $p <br>";
 ?>
 </div>
 </div>
