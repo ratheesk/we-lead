@@ -1,0 +1,11 @@
+Number of career interests in holland code career test = 6
+
+they are refered in id and names with following letters:
+
+building - _k
+thinking - _l
+creating - _m
+helping - _n
+persuading - _o
+organising - _p
+
