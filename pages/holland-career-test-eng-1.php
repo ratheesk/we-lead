@@ -24,29 +24,29 @@ session_start(); // Session starts here.
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q1" id="q1" value="1"  required="required">
-                            <label class="form-check-label" for="q1_1">1</label>
+                            <input class="form-check-input" type="radio" name="k_1" id="k_1_1" value="1"  required="required">
+                            <label class="form-check-label" for="k_1_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q1" id="q1_2" value="2">
-                            <label class="form-check-label" for="q2">2</label>
+                            <input class="form-check-input" type="radio" name="k_1" id="K_1_2" value="2">
+                            <label class="form-check-label" for="K_1_2">2</label>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p>Use precision machines to build custom metal parts</p>
+                    <p>Analyze the structure of molecules</p>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q2" id="q2_1" value="1" required="required">
-                            <label class="form-check-label" for="q1">1</label>
+                            <input class="form-check-input" type="radio" name="q_1" id="q_1_1" value="1" required="required">
+                            <label class="form-check-label" for="q_1_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q2" id="q2_2" value="2">
-                            <label class="form-check-label" for="q2">2</label>
+                            <input class="form-check-input" type="radio" name="q_1" id="q_1_2" value="2">
+                            <label class="form-check-label" for="q_1_2">2</label>
                         </div>
                     </div>
                 </div>
