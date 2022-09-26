@@ -395,6 +395,7 @@ if (!empty($_SESSION['error_page2'])) {
             <input class="btn btn-danger mr-4" type="reset" value="Reset" />
             <input class="btn btn-success" type="submit" value="Next" />
         </div>
+ </div>
  </form>
  </div>
 </section>
