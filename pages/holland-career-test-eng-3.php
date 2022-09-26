@@ -4,8 +4,8 @@
 <?php
 session_start();
 // Checking first page values for empty,If it finds any blank field then redirected to first page.
-if (isset($_POST['k_5'])){
- if (empty($_POST['k_5'])){ 
+if (isset($_POST['k_3'])){
+ if (empty($_POST['k_3'])){ 
  // Setting error message
  $_SESSION['error_page2'] = "Mandatory field(s) are missing, Please fill it again";
  header("location: holland-career-test-eng-2.php"); // Redirecting to first page 
