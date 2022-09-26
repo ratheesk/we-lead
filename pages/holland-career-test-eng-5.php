@@ -4,10 +4,10 @@
 <?php
 session_start();
 // Checking first page values for empty,If it finds any blank field then redirected to first page.
-if (isset($_POST['k_5'])){
- if (empty($_POST['k_5'])){ 
+if (isset($_POST['k_7'])){
+ if (empty($_POST['k_7'])){ 
  // Setting error message
- $_SESSION['error_page3'] = "Mandatory field(s) are missing, Please fill it again";
+ $_SESSION['error_page4'] = "Mandatory field(s) are missing, Please fill it again";
  header("location: holland-career-test-eng-3.php"); // Redirecting to first page 
  }
  else {
@@ -17,7 +17,7 @@ if (isset($_POST['k_5'])){
     }
     } 
 } else {
- if (empty($_SESSION['error_page4'])) {
+ if (empty($_SESSION['error_page5'])) {
  header("location: holland-career-test-eng-1.php");//redirecting to first page
  }
 }
@@ -28,15 +28,15 @@ if (isset($_POST['k_5'])){
  <section>
     <div class="container">
     <div class="section-title text-center mt-4">
-          <span data-aos="fade-up">Page 4</span>
-          <p data-aos="fade-up">You are in the page 4 of 5, mark your interest in each activity shown. Do not worry about whether you have the skills or training to do an activity, or how much money you might make. Simply think about whether you would enjoy doing it or not.</p>
+          <span data-aos="fade-up">Page 5</span>
+          <p data-aos="fade-up">You are in the page 5 of 5, mark your interest in each activity shown. Do not worry about whether you have the skills or training to do an activity, or how much money you might make. Simply think about whether you would enjoy doing it or not.</p>
     </div>   
   <span id="error">
 <?php
-// To show error of page 4.
-if (!empty($_SESSION['error_page4'])) {
- echo $_SESSION['error_page4'];
- unset($_SESSION['error_page4']);
+// To show error of page 5.
+if (!empty($_SESSION['error_page5'])) {
+ echo $_SESSION['error_page5'];
+ unset($_SESSION['error_page5']);
 }
 ?>
  </span>
