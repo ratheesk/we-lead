@@ -8,9 +8,8 @@ session_start(); // Session starts here.
 <section>
     <div class="container">
     <div class="section-title text-center mt-4">
-          <span data-aos="fade-up">About Us</span>
-          <p data-aos="fade-up">The Ocean Ride project is a 13 days bicycle ride around the coastal districts of Sri Lanka, covering over 1300+km to promote marine conservation, create awareness among the local population about the importance of taking care of the ocean, responsible utilization of ocean resources, and creating inspiration to impact the future generation.
-          </p>
+          <span data-aos="fade-up">Page 1</span>
+          <p data-aos="fade-up">To take the holland code career quiz, mark your interest in each activity shown. Do not worry about whether you have the skills or training to do an activity, or how much money you might make. Simply think about whether you would enjoy doing it or not.</p>
     </div>      
     <span id="error">
         <!---- Initializing Session for errors --->
@@ -371,9 +370,9 @@ session_start(); // Session starts here.
                     </div>
                 </div>
             </div>
-        <div class="form-group">
-            <input type="reset" value="Reset" />
-            <input type="submit" value="Next" />
+        <div class="form-group text-center pt-3 pb-3">
+            <input class="btn btn-danger mr-4" type="reset" value="Reset" />
+            <input class="btn btn-success" type="submit" value="Next" />
         </div>
     </form>
     </div>
