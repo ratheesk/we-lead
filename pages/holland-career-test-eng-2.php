@@ -41,21 +41,47 @@ if (!empty($_SESSION['error_page2'])) {
  </span>
 
  <form action="holland-career-test-eng-3.php" method="post">
- <div class="form-group">
- <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="q2" id="inlineRadio1" value="option3">
-  <label class="form-check-label" for="inlineRadio1">1</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="q2" id="inlineRadio2" value="option4">
-  <label class="form-check-label" for="inlineRadio2">2</label>
-</div>
-</div>
-<div class="form-group">
-<div class="form-group">
- <input type="reset" value="Reset" />
- <input type="submit" value="Next" />
-</div>
+ <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Repair a dishwasher</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="m_1" id="m_1_1" value="1"  required="required">
+                            <label class="form-check-label" for="m_1_1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="m_1" id="m_1_2" value="2">
+                            <label class="form-check-label" for="m_1_2">2</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Analyze the structure of molecules</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="n_1" id="n_1_1" value="1" required="required">
+                            <label class="form-check-label" for="n_1_1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="n_1" id="n_1_2" value="2">
+                            <label class="form-check-label" for="n_1_2">2</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Next" />
+        </div>
  </form>
 </div>
 </div>
