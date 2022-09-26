@@ -46,8 +46,7 @@
 </a>
 <a>
 
-    Plan a marketing strategy for a new
-    company
+    Plan a marketing strategy for a new company
     [o_2]
 </a>
 <a>
