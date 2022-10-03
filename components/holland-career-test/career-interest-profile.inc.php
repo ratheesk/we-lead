@@ -6,13 +6,22 @@
     will appeal to you, while others will be less attractive. Choosing a career which is a good match
     for your interest profile ensures that you enjoy your daily work and get satisfaction out of your
     accomplishments.</p>
-<?php echo 'Your primary interest area is '.$primary_interest_area[0].' and is in ' . $primary_interest_area[1];?>
+<?php
+ //get the percentages
+ $building = ($k / 10) * 100;
+ $thinking = ($q / 10) * 100;
+ $creating = ($m / 10) * 100;
+ $helping = ($n / 10) * 100;
+ $persuading = ($o / 10) * 100;
+ $organising = ($p / 10) * 100;
+ echo 'Your primary interest area is '.$primary_interest_area[0].' and is in ' . $primary_interest_area[1];
+ ?>
 
 <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
 <script>
 var xValues = ["building", "thinking", "creating", "helping", "persuading","organising"];
-var yValues = [55, 49, 44, 24, 15, 20];
+var yValues = [<?php echo $thinking; ?>, 49, 44, 24, 15, 20];
 var barColors = ["red", "green","blue","orange","brown","yellow"];
 
 new Chart("myChart", {
