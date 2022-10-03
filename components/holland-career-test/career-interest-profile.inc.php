@@ -25,6 +25,13 @@
 </div>
 <!--End of Bar chart-->
 
+<!--Interest areas explanation-->
+<h4 class="card-title">The Six Interest Areas</h4>
+<p class="card-text">Each of the six interest areas describes a cluster of related work tasks and activities. People who
+    are drawn to each of these interest areas tend to have certain characteristics, preferences, and personality traits
+    in common.</p>
+<!--End of Interest areas explanation-->
+
 <!--Script for bar chart-->
 <script>
 var xValues = ["Building", "Thinking", "Creating", "Helping", "Persuading", "Organising"];
@@ -59,7 +66,7 @@ new Chart("myChart", {
                 display: true,
                 ticks: {
                     beginAtZero: true, // minimum value will be 0.
-                    steps: 10, 
+                    steps: 10,
                     max: 100
                 }
             }]
