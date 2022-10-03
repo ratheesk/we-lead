@@ -26,13 +26,41 @@
 
  
  }}}
+    //dummy values
+     $k = 1;
+     $q = 2;
+     $m = 3;
+     $n = 4;
+     $o = 5;
+     $p = 6;
+    //function to get the primary interest area
+     function primary_interest($args) {
+         $results = array();
+         $max_value = max($args);
+         $results[] = $max_value;
+      
+         //now get the key for the first occurence of max value
+         $found_key = false;
+         foreach ($args as $key => $value) {
+             if ($value == $max_value && !$found_key) {
+                 $results[] =  $key;
+                 $found_key = true;
+             }
+         }
+         return $results;
+     }
+     
+     //save the values in an array with correct name
+     $obatained_values = array(
+         'build' => $k,
+         'think' => $q,
+         'creat' => $m,
+         'help' => $n,
+         'persuade' => $o,
+         'organise' => $p);
+    //get the primary interest area and that value
+     $primary_interest_area = primary_interest($obatained_values);
 
- $_SESSION['building'] = 1;
- $_SESSION['thinking']   = 2;
- $_SESSION['creating']   = 3;
- $_SESSION['helping']   = 4;
- $_SESSION['persuading']   = 5;
- $_SESSION['organising']   = 6;
  ?>
 
 <!--========================= Choose Language Section========================= -->
