@@ -26,13 +26,17 @@
         return $results;
     }
 
-    $params = array(
+    $obatained_values = array(
         'building' => $building,
         'thinking' => $thinking,
         'creating' => $creating,
         'helping' => $helping,
         'persuading' => $persuading,
         'organising' => $organising);
+
+    $primary_interest_area = primary_interest($obatained_values);
+
+    echo 'Max value = '.$primary_interest_area[0].' and is in ' . $primary_interest_area[1];
     
     ?>
 <h4 class="card-title">Your Career Interest Profile</h4>
