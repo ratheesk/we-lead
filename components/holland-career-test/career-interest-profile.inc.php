@@ -16,9 +16,9 @@
  $organising = ($p / 10) * 100;
  echo 'Your primary interest area is '.$primary_interest_area[0].' and is in ' . $primary_interest_area[1];
  ?>
-
+<div class="d-flex justify-content-center">
 <canvas id="myChart" height="400px" style="width:100%; max-width:600px"></canvas>
-
+</div>
 <script>
 var xValues = ["Bbuilding", "Thinking", "Creating", "Helping", "Persuading","Organising"];
 var yValues = [<?php echo $building; ?>, 
