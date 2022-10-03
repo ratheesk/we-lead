@@ -25,14 +25,14 @@
  $p=$p_1+$p_2+$p_3+$p_4+$p_5+$p_6+$p_7+$p_8+$p_9+$p_1_0;
 
  
- }}}else {
-  if (empty($_SESSION['error_page5'])) {
-  header("location: holland-career-test-eng-1.php");//redirecting to first page
-  }
- }
+ }}}
 
- $_SESSION['thinking'] = 5;
- $_SESSION['building']   = 10;
+ $_SESSION['building'] = 1;
+ $_SESSION['thinking']   = 2;
+ $_SESSION['creating']   = 3;
+ $_SESSION['helping']   = 4;
+ $_SESSION['persuading']   = 5;
+ $_SESSION['organising']   = 6;
  ?>
 
 <!--========================= Choose Language Section========================= -->
