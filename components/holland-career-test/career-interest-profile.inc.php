@@ -17,10 +17,10 @@
  echo 'Your primary interest area is '.$primary_interest_area[0].' and is in ' . $primary_interest_area[1];
  ?>
 
-<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+<canvas id="myChart" height="400px" style="width:100%; max-width:600px"></canvas>
 
 <script>
-var xValues = ["building", "thinking", "creating", "helping", "persuading","organising"];
+var xValues = ["Bbuilding", "Thinking", "Creating", "Helping", "Persuading","Organising"];
 var yValues = [<?php echo $building; ?>, 
                 <?php echo $thinking; ?>, 
                 <?php echo $creating; ?>, 
@@ -48,7 +48,8 @@ new Chart("myChart", {
         yAxes: [{
             display: true,
             ticks: {
-                beginAtZero: true,   // minimum value will be 0.
+                beginAtZero: true,
+                steps: 10,   // minimum value will be 0.
                 max: 100
             }
         }]
