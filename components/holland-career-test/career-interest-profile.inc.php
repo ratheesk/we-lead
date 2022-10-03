@@ -11,9 +11,9 @@
 <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
 <script>
-var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
-var yValues = [55, 49, 44, 24, 15];
-var barColors = ["red", "green","blue","orange","brown"];
+var xValues = ["building", "thinking", "creating", "helping", "persuading","organising"];
+var yValues = [55, 49, 44, 24, 15, 20];
+var barColors = ["red", "green","blue","orange","brown","yellow"];
 
 new Chart("myChart", {
   type: "bar",
