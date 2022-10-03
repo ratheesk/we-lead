@@ -11,7 +11,6 @@
 <script type="text/javascript" src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 <script type="text/javascript" src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="../assets/vendor/aos/aos.js"></script>
-<script type="text/javascript" src="../assets/vendor/chartjs/Chart.min.js"></script>
 
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>
