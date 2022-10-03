@@ -53,6 +53,12 @@
 </div>
 <!--End of Interest areas explanation-->
 
+<!--Top Interest areas explanation-->
+<h4 class="card-title">Your Top Interests</h4>
+<p class="card-text">Your primary interest area is also called your career type. Your career type describes the kind of
+    job tasks and activities you enjoy doing, as well as what motivates and satisfies you at work. Certain personality
+    traits and characteristics are associated with each career type.</p>
+<!--End of Top Interest areas explanation-->
 <!--Script for bar chart-->
 <script>
 var xValues = ["Building", "Thinking", "Creating", "Helping", "Persuading", "Organising"];
