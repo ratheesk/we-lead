@@ -30,6 +30,21 @@
 <p class="card-text">Each of the six interest areas describes a cluster of related work tasks and activities. People who
     are drawn to each of these interest areas tend to have certain characteristics, preferences, and personality traits
     in common.</p>
+
+    <div class="row align-middle border-0 pt-3 ml-2 mr-2">
+    <div class="col-md-2"><strong>Building</strong></div>
+    <div class="col-md-10">Building jobs involve the use of tools, machines, or physical skill. Builders like working with their hands and bodies, working with plants and animals, and working outdoors.</div>
+    <div class="col-md-2 mt-3"><strong>Building</strong></div>
+    <div class="col-md-10 mt-2"></div>  
+    <div class="col-md-2 mt-3"><strong>Building</strong></div>
+    <div class="col-md-10 mt-2"></div>  
+    <div class="col-md-2 mt-3"><strong>Building</strong></div>
+    <div class="col-md-10 mt-2"></div>  
+    <div class="col-md-2 mt-3"><strong>Building</strong></div>
+    <div class="col-md-10 mt-2"></div>  
+    <div class="col-md-2 mt-3"><strong>Building</strong></div>
+    <div class="col-md-10 mt-2"></div>    
+</div>
 <!--End of Interest areas explanation-->
 
 <!--Script for bar chart-->
