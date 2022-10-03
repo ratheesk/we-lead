@@ -21,7 +21,12 @@
 
 <script>
 var xValues = ["building", "thinking", "creating", "helping", "persuading","organising"];
-var yValues = [<?php echo $thinking; ?>, 49, 44, 24, 15, 20];
+var yValues = [<?php echo $building; ?>, 
+                <?php echo $thinking; ?>, 
+                <?php echo $creating; ?>, 
+                <?php echo $helping; ?>, 
+                <?php echo $persuading; ?>, 
+                <?php echo $organising; ?>];
 var barColors = ["red", "green","blue","orange","brown","yellow"];
 
 new Chart("myChart", {
@@ -37,8 +42,16 @@ new Chart("myChart", {
     legend: {display: false},
     title: {
       display: true,
-      text: "World Wine Production 2018"
-    }
+      text: "Your interest"
+    },
+    scales: {
+        yAxes: [{
+            display: true,
+            ticks: {
+                beginAtZero: true   // minimum value will be 0.
+            }
+        }]
+        }
   }
 });
 </script>   
