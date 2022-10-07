@@ -75,7 +75,30 @@
                     traits and characteristics are associated with each career type.</p>
                 <!--End of Top Interest areas explanation-->
                 <!--Primary interest area-->
-                <?php include('eng-primary-building.inc.php'); ?>
+                <?php
+                    switch ($primary_interest_area[1]) {
+                    case "build":
+                        include('eng-primary-building.inc.php');
+                        break;
+                    case "think":
+                        include('eng-primary-thinking.inc.php');
+                        break;
+                    case "creat":
+                        include('eng-primary-creating.inc.php');
+                        break;
+                    case "help":
+                        include('eng-primary-helping.inc.php');
+                        break;
+                    case "persuade":
+                        include('eng-primary-persuading.inc.php');
+                        break;
+                    case "organise":
+                        include('eng-primary-organising.inc.php');
+                        break;
+                    default:
+                        echo "Something went wrong";
+                    }
+                    ?>                
                 <!--End of Primary interest area-->
             </div>
         </div>
