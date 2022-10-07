@@ -1,5 +1,7 @@
 <h4 class="card-title mt-4">YOUR PRIMARY INTEREST AREA IS PERSUADING</h4>
-<p class="card-text"></p>
+<p class="card-text">As a Persuader, you are driven to lead, influence, motivate, and direct other people. You are
+    interested in making your mark on the world by impacting the perspectives and decisions of others. You enjoy feeling
+    powerful and important, and want to lead the way.</p>
 
 <div class="container-fluid">
     <div class="row">

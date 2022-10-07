@@ -1,5 +1,8 @@
 <h4 class="card-title mt-4">YOUR PRIMARY INTEREST AREA IS CREATING</h4>
-<p class="card-text"></p>
+<p class="card-text">As a Creator, your primary drive is to use your creative talents and express yourself artistically
+    through your work. You have a strong aesthetic sense and seek work that allows you to connect with experiences that
+    stimulate the senses. You enjoy art, music, drama, dance, architecture, and literature, and seek work that exposes
+    you to various art forms and allows you to communicate your own vision among them.</p>
 
 <div class="container-fluid">
     <div class="row">
@@ -58,13 +61,13 @@
                         <li class="list-item">Fashion Designer</li>
                         <li class="list-item">Art Director</li>
                         <li class="list-item">Graphic Designer</li>
-                        <li class="list-item">Writer</li>                        
+                        <li class="list-item">Writer</li>
                         <li class="list-item">Musician or Singer</li>
                         <li class="list-item">Interior Designer</li>
                         <li class="list-item">Landscape Architect</li>
                         <li class="list-item">Photographer</li>
                         <li class="list-item">Reporter</li>
-                        
+
                     </ul>
         </div>
         <div class="col-md-4 mb-3">
