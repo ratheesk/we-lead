@@ -130,6 +130,11 @@
                     suggestions
                     as a starting point to build your own system of evaluating possible careers.
                 </p>
+                <h5 class="card-title mt-4">What Makes Your Ideal Career?</h5>
+                <p class="card-text">In choosing a career, you want to be mindful of the factors that are most important
+                    to you. Many of these factors will be based on your interests and personality, but some will be
+                    unique to you. This section will provide you with some guidance in the factors that may be important
+                    to you in your career search. </p>
                 <!--End of Choosing the right career-->
             </div>
         </div>
