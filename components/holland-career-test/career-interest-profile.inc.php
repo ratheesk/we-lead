@@ -26,7 +26,7 @@
 <!--End of Bar chart-->
 
 <!--Interest areas explanation-->
-<h4 class="card-title">The Six Interest Areas</h4>
+<h4 class="card-title mt-2">The Six Interest Areas</h4>
 <p class="card-text">Each of the six interest areas describes a cluster of related work tasks and activities. People who
     are drawn to each of these interest areas tend to have certain characteristics, preferences, and personality traits
     in common.</p>
@@ -54,7 +54,7 @@
 <!--End of Interest areas explanation-->
 
 <!--Top Interest areas explanation-->
-<h4 class="card-title">Your Top Interests</h4>
+<h4 class="card-title mt-2">Your Top Interests</h4>
 <p class="card-text">Your primary interest area is also called your career type. Your career type describes the kind of
     job tasks and activities you enjoy doing, as well as what motivates and satisfies you at work. Certain personality
     traits and characteristics are associated with each career type.</p>
