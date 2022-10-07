@@ -26,8 +26,8 @@
                     will appeal to you, while others will be less attractive. Choosing a career which is a good match
                     for your interest profile ensures that you enjoy your daily work and get satisfaction out of your
                     accomplishments.</p>
-                    
-                <?php include('career-interest-profile.inc.php'); ?>
+
+                <?php include('career-interest-graph.inc.php'); ?>
 
                 <!--Interest areas explanation-->
                 <h4 class="card-title mt-2">The Six Interest Areas</h4>
