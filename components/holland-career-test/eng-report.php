@@ -135,12 +135,19 @@
                     to you. Many of these factors will be based on your interests and personality, but some will be
                     unique to you. This section will provide you with some guidance in the factors that may be important
                     to you in your career search. </p>
-                
-                 
-                 <h5 class="card-title mt-4">SATISFYING YOUR CORE NEEDS</h5>
-                 <p class="card-text"></p>
-                 <p class="card-text"></p>
-                 <p class="card-text"></p>
+
+
+                <h5 class="card-title mt-4">SATISFYING YOUR CORE NEEDS</h5>
+                <p class="card-text">An ideal career should satisfy your most fundamental motivations to work. Although
+                    everyone wants to feel a sense of purpose, we all differ in how we like to feel that we contribute.
+                    To understand what sort of career will be satisfying, you must understand the factors that create
+                    satisfaction for you.</p>
+
+                <p class="card-text">Below, you will see a list of the factors that are most likely to be important to
+                    you in a career. Generally, if a career has all or most of these factors, you will find the
+                    day-to-day work satisfying. As you explore different careers, you can use this list as a sort of
+                    checklist for each potential career. The more closely a career seems to fit your list of core needs,
+                    the more likely you'll be happy with it in the long term.</p>
                 <!--End of Choosing the right career-->
             </div>
         </div>
