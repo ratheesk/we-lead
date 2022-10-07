@@ -81,7 +81,7 @@
                     </ul>
         </div>
         <div class="col-md-4 mb-3">
-            <span><strong>text</strong><span>
+            <span><strong>Areas of Study for Builders</strong><span>
                     <ul class="list-group mt-1">
                         <li class="list-item">Physical Education or Exercise Science</li>
                         <li class="list-item">Construction Management</li>
