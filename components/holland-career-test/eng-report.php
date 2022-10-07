@@ -1,3 +1,4 @@
+
 <!--========================= Report Section========================= -->
 <section>
     <div class="container">
@@ -27,7 +28,7 @@
                     for your interest profile ensures that you enjoy your daily work and get satisfaction out of your
                     accomplishments.</p>
 
-                <?php include('career-interest-graph.inc.php'); ?>
+                <?php include('eng-career-interest-graph.inc.php'); ?>
 
                 <!--Interest areas explanation-->
                 <h4 class="card-title mt-4">The Six Interest Areas</h4>
@@ -74,7 +75,7 @@
                     traits and characteristics are associated with each career type.</p>
                 <!--End of Top Interest areas explanation-->
                 <!--Primary interest area-->
-                <?php include('primary-building.inc.php'); ?>
+                <?php include('eng-primary-building.inc.php'); ?>
                 <!--End of Primary interest area-->
             </div>
         </div>

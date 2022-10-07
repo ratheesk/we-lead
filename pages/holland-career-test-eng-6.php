@@ -63,6 +63,6 @@
 
  ?>
 
-<?php include('../components/holland-career-test/report.php'); ?>
+<?php include('../components/holland-career-test/eng-report.php'); ?>
 
 <?php include('../components/footer.inc.php'); ?>
