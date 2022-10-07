@@ -13,11 +13,11 @@
  echo 'Your primary interest area is '.$primary_interest_area[0].' and is in ' . $primary_interest_area[1];
  ?>
 
-<!--Bar chart-->
+
 <div class="d-flex justify-content-center">
     <canvas id="myChart" height="400px" style="width:100%; max-width:600px"></canvas>
 </div>
-<!--End of Bar chart-->
+
 
 
 <!--Script for bar chart-->

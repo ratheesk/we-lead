@@ -28,8 +28,10 @@
                     for your interest profile ensures that you enjoy your daily work and get satisfaction out of your
                     accomplishments.</p>
 
+                <!--Bar chart-->
                 <?php include('eng-career-interest-graph.inc.php'); ?>
-
+                <!--End of Bar chart-->
+                
                 <!--Interest areas explanation-->
                 <h4 class="card-title mt-4">The Six Interest Areas</h4>
                 <p class="card-text">Each of the six interest areas describes a cluster of related work tasks and
