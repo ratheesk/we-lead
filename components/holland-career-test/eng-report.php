@@ -1,4 +1,3 @@
-
 <!--========================= Report Section========================= -->
 <section>
     <div class="container">
@@ -31,7 +30,7 @@
                 <!--Bar chart-->
                 <?php include('eng-career-interest-graph.inc.php'); ?>
                 <!--End of Bar chart-->
-                
+
                 <!--Interest areas explanation-->
                 <h4 class="card-title mt-4">The Six Interest Areas</h4>
                 <p class="card-text">Each of the six interest areas describes a cluster of related work tasks and
@@ -76,6 +75,7 @@
                     Certain personality
                     traits and characteristics are associated with each career type.</p>
                 <!--End of Top Interest areas explanation-->
+
                 <!--Primary interest area-->
                 <?php
                     switch ($primary_interest_area[1]) {
@@ -100,8 +100,37 @@
                     default:
                         echo "Something went wrong";
                     }
-                    ?>                
+                    ?>
                 <!--End of Primary interest area-->
+
+                <!--Choosing the right career-->
+                <h4 class="card-title mt-4">Choosing the Right Career</h4>
+                <p class="card-text">As you continue in your career search, it will be crucial that you have a system
+                    for evaluating your opportunities.
+                    You need a well-defined approach to looking at various careers and deciding whether they are worth
+                    further
+                    exploration. You’ve already taken the first step by assessing your interests, but now the task is to
+                    take that selfknowledge and translate it into a game plan for exploring your career options.</p>
+
+                <p class="card-text">The first step is to clearly understand your criteria for the career path you seek.
+                    You don’t need to know exactly
+                    which career is right for you, but you do need to know what you are looking for. You must understand
+                    the factors
+                    which are more important to your happiness and satisfaction in a career. Equally, you must
+                    understand the
+                    aspects of a career that you want to avoid, so that you don’t end up in a job that frequently
+                    requires you to do
+                    things that are not a good fit.</p>
+
+                <p class="card-text">This section will suggest some criteria that you may want to use as part of your
+                    career exploration process. These
+                    are based on your interest profile, but you will probably find that some of the suggested criteria
+                    seem more
+                    relevant to you than others. You may also find that you want to add to what is given here. Use these
+                    suggestions
+                    as a starting point to build your own system of evaluating possible careers.
+                </p>
+                <!--End of Choosing the right career-->
             </div>
         </div>
     </div>
