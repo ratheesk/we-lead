@@ -38,43 +38,58 @@
     </div>
 </div>
 
-<p class="card-text"></p>
+<p class="card-text">Because you are a Helper, it will be essential that you have a job that allows you to relate
+    closely with other people. You want to connect with others and feel that you have been of service to them. You may
+    especially prefer to work with vulnerable people, like children, the sick, or the elderly. </p>
 
-<p class="card-text"></p>
+<p class="card-text">Helpers tend to be warm, empathetic people. They are typically friendly and approachable, and put
+    others at ease. Helpers are often found listening to other people’s stories and trying to coach them through their
+    problems. They are often selfless and may put their own needs aside in the service of others.</p>
 
-<p class="card-text"></p>
+<p class="card-text">Helpers like their work best when it connects deeply with their values and makes them feel that
+    they are making a difference in the world. As a Helper, your primary goal will be to understand what is important to
+    you, and decide how you can best manifest your ideals in your chosen career path. </p>
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-4 mb-3">
-            <span ><strong>text</strong><span>
-            <ul class="list-group mt-1">
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-            </ul>
+            <span><strong>Sample Jobs for Helpers</strong><span>
+                    <ul class="list-group mt-1">
+                        <li class="list-item">Teacher</li>
+                        <li class="list-item">Child Care Worker</li>
+                        <li class="list-item">Physical Therapist</li>
+                        <li class="list-item">Nurse</li>
+                        <li class="list-item">Massage Therapist</li>
+                        <li class="list-item">Health Educator</li>
+                        <li class="list-item">Physician Assistant</li>
+                        <li class="list-item">Occupational Therapist</li>
+                        <li class="list-item">Speech-Language Pathologist</li>
+                    </ul>
         </div>
         <div class="col-md-4 mb-3">
-            <span ><strong>text</strong><span>
-            <ul class="list-group mt-1">
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-            </ul>
+            <span><strong>Career Fields for Helpers</strong><span>
+                    <ul class="list-group mt-1">
+                        <li class="list-item">Counseling and Coaching</li>
+                        <li class="list-item">Social Service</li>
+                        <li class="list-item">Personal Care and Service</li>
+                        <li class="list-item">Health Care</li>
+                        <li class="list-item">Human Resources</li>
+                        <li class="list-item">Education</li>
+                        <li class="list-item">Management</li>
+                    </ul>
         </div>
         <div class="col-md-4 mb-3">
-            <span ><strong>text</strong><span>
-            <ul class="list-group mt-1">
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-                <li class="list-item">text</li>
-            </ul>
+            <span><strong>Areas of Study for Helpers</strong><span>
+                    <ul class="list-group mt-1">
+                        <li class="list-item">Social Work</li>
+                        <li class="list-item">Psychology</li>
+                        <li class="list-item">Counseling</li>
+                        <li class="list-item">Education</li>
+                        <li class="list-item">Child Development</li>
+                        <li class="list-item">Gerontology</li>
+                        <li class="list-item">Medical Sciences</li>
+                        <li class="list-item">Nursing</li>
+                    </ul>
         </div>
     </div>
 </div>
