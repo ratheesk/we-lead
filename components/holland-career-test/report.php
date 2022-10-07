@@ -18,7 +18,7 @@
             <div class="card-header">
                 let's get started!
             </div>
-            <div class="card-body">
+            <div class="card-body ml-2 mr-2">
 
                 <h4 class="card-title">Your Career Interest Profile</h4>
                 <p class="card-text">This section shows your top career interest areas. There are 6 total interest
@@ -30,7 +30,7 @@
                 <?php include('career-interest-graph.inc.php'); ?>
 
                 <!--Interest areas explanation-->
-                <h4 class="card-title mt-2">The Six Interest Areas</h4>
+                <h4 class="card-title mt-4">The Six Interest Areas</h4>
                 <p class="card-text">Each of the six interest areas describes a cluster of related work tasks and
                     activities. People who
                     are drawn to each of these interest areas tend to have certain characteristics, preferences, and
@@ -66,13 +66,16 @@
                 <!--End of Interest areas explanation-->
 
                 <!--Top Interest areas explanation-->
-                <h4 class="card-title mt-2">Your Top Interests</h4>
+                <h4 class="card-title mt-4">Your Top Interests</h4>
                 <p class="card-text">Your primary interest area is also called your career type. Your career type
                     describes the kind of
                     job tasks and activities you enjoy doing, as well as what motivates and satisfies you at work.
                     Certain personality
                     traits and characteristics are associated with each career type.</p>
                 <!--End of Top Interest areas explanation-->
+                <!--Primary interest area-->
+                <?php include('primary-building.inc.php'); ?>
+                <!--End of Primary interest area-->
             </div>
         </div>
     </div>
