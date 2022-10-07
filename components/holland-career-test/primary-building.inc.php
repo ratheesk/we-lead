@@ -6,33 +6,33 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-4 mb-3">
-            <span ><strong>Your Core Values</strong><span>
+            <span ><strong>Top Job Tasks</strong><span>
             <ul class="list-group mt-1">
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
+                <li class="list-item">Building</li>
+                <li class="list-item">Repairing</li>
+                <li class="list-item">Taking Action</li>
+                <li class="list-item">Using Machines</li>
+                <li class="list-item">Using Tools</li>
             </ul>
         </div>
         <div class="col-md-4 mb-3">
             <span ><strong>Your Core Values</strong><span>
             <ul class="list-group mt-1">
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
+                <li class="list-item">Practicality</li>
+                <li class="list-item">Productivity</li>
+                <li class="list-item">Structure</li>
+                <li class="list-item">Independence</li>
+                <li class="list-item">Physical Skill</li>
             </ul>
         </div>
         <div class="col-md-4 mb-3">
-            <span ><strong>Your Core Values</strong><span>
+            <span ><strong>Key Personality Traits</strong><span>
             <ul class="list-group mt-1">
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
-                <li class="list-item">Hello</li>
+                <li class="list-item">Realistic</li>
+                <li class="list-item">Sensible</li>
+                <li class="list-item">Mechanical</li>
+                <li class="list-item">Traditional</li>
+                <li class="list-item">Down-to-earth</li>
             </ul>
         </div>
     </div>
