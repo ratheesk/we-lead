@@ -232,7 +232,7 @@
                                     important to avoid career paths that require a lot of time spent on activities that
                                     you simply aren't suited to.</p>
 
-                                <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
+                                <span class="ml-2"><strong>Tasks to Avoid :</strong><span>
                                         <?php
                                 switch ($least_interest_area[1]) {
                                     case "build":
@@ -281,7 +281,7 @@
                                             every question, but to gain a better and more complete understanding of
                                             whether a career is a good fit for you.</p>
 
-                                        <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
+                                        <span class="ml-2"><strong>Your Key Questions :</strong><span>
                                                 <?php
                                 switch ($primary_interest_area[1]) {
                                     case "build":
