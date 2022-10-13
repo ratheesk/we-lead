@@ -78,7 +78,7 @@
 
                 <!--Primary interest area-->
                 <?php
-                    switch ($primary_interest_area[1]) {
+                switch ($primary_interest_area[1]) {
                     case "build":
                         include('eng-primary-building.inc.php');
                         break;
@@ -99,8 +99,8 @@
                         break;
                     default:
                         echo "Something went wrong";
-                    }
-                    ?>
+                }
+                ?>
                 <!--End of Primary interest area-->
 
                 <!--Choosing the right career-->
@@ -148,75 +148,115 @@
                     day-to-day work satisfying. As you explore different careers, you can use this list as a sort of
                     checklist for each potential career. The more closely a career seems to fit your list of core needs,
                     the more likely you'll be happy with it in the long term.</p>
-                
+
                 <!--Prefered tasks-->
                 <span class="ml-2"><strong>Your Core Needs :</strong><span>
-                <?php
-                    switch ($primary_interest_area[1]) {
-                    case "build":
-                        include('eng-core-needs-building.inc.php');
-                        break;
-                    case "think":
-                        include('eng-core-needs-thinking.inc.php');
-                        break;
-                    case "creat":
-                        include('eng-core-needs-creating.inc.php');
-                        break;
-                    case "help":
-                        include('eng-core-needs-helping.inc.php');
-                        break;
-                    case "persuade":
-                        include('eng-core-needs-persuading.inc.php');
-                        break;
-                    case "organise":
-                        include('eng-core-needs-organising.inc.php');
-                        break;
-                    default:
-                        echo "Something went wrong";
-                    }
-                    ?>
+                        <?php
+                        switch ($primary_interest_area[1]) {
+                            case "build":
+                                include('eng-core-needs-building.inc.php');
+                                break;
+                            case "think":
+                                include('eng-core-needs-thinking.inc.php');
+                                break;
+                            case "creat":
+                                include('eng-core-needs-creating.inc.php');
+                                break;
+                            case "help":
+                                include('eng-core-needs-helping.inc.php');
+                                break;
+                            case "persuade":
+                                include('eng-core-needs-persuading.inc.php');
+                                break;
+                            case "organise":
+                                include('eng-core-needs-organising.inc.php');
+                                break;
+                            default:
+                                echo "Something went wrong";
+                        }
+                        ?>
 
-                <!--End of Prefered tasks-->
+                        <!--End of Prefered tasks-->
+                        <h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
+                        <p class="card-text">One of the most important aspects of job satisfaction is the extent to
+                            which your
+                            daily work fits with your preferred
+                            types of activities. Although this may seem obvious, it can be easy to overlook the mundane
+                            day-to-day aspects of
+                            a job that sounds exciting in the abstract. Before you decide a job is right for you, be
+                            sure you
+                            understand what the
+                            everyday tasks of that job entail, and compare these tasks with your preferred tasks listed
+                            below.
+                        </p>
+                        <!--Prefered tasks-->
+                        <span class="ml-2"><strong>Your prefered tasks :</strong><span>
+                                <?php
+                                switch ($primary_interest_area[1]) {
+                                    case "build":
+                                        include('eng-prefered-task-building.inc.php');
+                                        break;
+                                    case "think":
+                                        include('eng-prefered-task-thinking.inc.php');
+                                        break;
+                                    case "creat":
+                                        include('eng-prefered-task-creating.inc.php');
+                                        break;
+                                    case "help":
+                                        include('eng-prefered-task-helping.inc.php');
+                                        break;
+                                    case "persuade":
+                                        include('eng-prefered-task-persuading.inc.php');
+                                        break;
+                                    case "organise":
+                                        include('eng-prefered-task-organising.inc.php');
+                                        break;
+                                    default:
+                                        echo "Something went wrong";
+                                }
+                                ?>
+                                <!--End of Prefered tasks-->
 
+                                <!--Tasks to avoid-->
+                                <h5 class="card-title mt-4">Avoiding What You Don't Like</h5>
+                                <p class="card-text">Almost as important as understanding what tasks you enjoy is
+                                    understanding which tasks and activites you would prefer to avoid. If some parts of
+                                    a job are very appealing to you, but other aspects are boring, irritating, or
+                                    otherwise unpleasant, it's unlikely you'll be happy in that job over the long term.
+                                </p>
 
-                <h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
-
-                <p class="card-text">One of the most important aspects of job satisfaction is the extent to which your
-                    daily work fits with your preferred
-                    types of activities. Although this may seem obvious, it can be easy to overlook the mundane
-                    day-to-day aspects of
-                    a job that sounds exciting in the abstract. Before you decide a job is right for you, be sure you
-                    understand what the
-                    everyday tasks of that job entail, and compare these tasks with your preferred tasks listed below.
-                </p>
-                <!--Prefered tasks-->
-                <span class="ml-2"><strong>Your prefered tasks :</strong><span>
-                <?php
-                    switch ($primary_interest_area[1]) {
-                    case "build":
-                        include('eng-prefered-task-building.inc.php');
-                        break;
-                    case "think":
-                        include('eng-prefered-task-thinking.inc.php');
-                        break;
-                    case "creat":
-                        include('eng-prefered-task-creating.inc.php');
-                        break;
-                    case "help":
-                        include('eng-prefered-task-helping.inc.php');
-                        break;
-                    case "persuade":
-                        include('eng-prefered-task-persuading.inc.php');
-                        break;
-                    case "organise":
-                        include('eng-prefered-task-organising.inc.php');
-                        break;
-                    default:
-                        echo "Something went wrong";
-                    }
-                    ?>
-                <!--End of Prefered tasks-->                                
-                <!--End of Choosing the right career-->
+                                <p class="card-text">For each career you're considering, take stock of the typical daily
+                                    activities and make sure that you will not have to spend significant time on tasks
+                                    you don't enjoy. Although nobody has a job that they love all the time, it is
+                                    important to avoid career paths that require a lot of time spent on activities that
+                                    you simply aren't suited to.</p>
+                                    <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
+                                <?php
+                                switch ($primary_interest_area[1]) {
+                                    case "build":
+                                        include('eng-avoid-task-building.inc.php');
+                                        break;
+                                    case "think":
+                                        include('eng-avoid-task-thinking.inc.php');
+                                        break;
+                                    case "creat":
+                                        include('eng-avoid-task-creating.inc.php');
+                                        break;
+                                    case "help":
+                                        include('eng-avoid-task-helping.inc.php');
+                                        break;
+                                    case "persuade":
+                                        include('eng-avoid-task-persuading.inc.php');
+                                        break;
+                                    case "organise":
+                                        include('eng-avoid-task-organising.inc.php');
+                                        break;
+                                    default:
+                                        echo "Something went wrong";
+                                }
+                                ?>
+                                <!--End of Tasks to avoid-->
+                                <!--End of Choosing the right career-->
             </div>
         </div>
     </div>

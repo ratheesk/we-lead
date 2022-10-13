@@ -31,8 +31,8 @@
      $q = 2;
      $m = 3;
      $n = 4;
-     $o = 9;
-     $p = 6;
+     $o = 5;
+     $p = 9;
     //function to get the primary interest area
      function primary_interest($args) {
          $results = array();
