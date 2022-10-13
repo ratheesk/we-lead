@@ -49,6 +49,23 @@
          }
          return $results;
      }
+
+         //function to get the least interest area
+         function least_interest($args) {
+            $results = array();
+            $min_value = min($args);
+            $results[] = $min_value;
+         
+            //now get the key for the first occurence of min value
+            $found_key = false;
+            foreach ($args as $key => $value) {
+                if ($value == $min_value && !$found_key) {
+                    $results[] =  $key;
+                    $found_key = true;
+                }
+            }
+            return $results;
+        }
      
      //save the values in an array with correct name
      $obatained_values = array(
@@ -61,6 +78,10 @@
     //get the primary interest area and that value
      $primary_interest_area = primary_interest($obatained_values);
 
+     //get the least interest area and that value
+     $least_interest_area = least_interest($obatained_values);
+
+     echo $least_interest_area[1];
  ?>
 
 <?php include('../components/holland-career-test/eng-report.php'); ?>
