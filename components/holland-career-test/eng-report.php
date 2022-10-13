@@ -281,8 +281,8 @@
                                             every question, but to gain a better and more complete understanding of
                                             whether a career is a good fit for you.</p>
 
-                                            <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
-                                        <?php
+                                        <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
+                                                <?php
                                 switch ($primary_interest_area[1]) {
                                     case "build":
                                         include('eng-questions-building.inc.php');
@@ -306,8 +306,31 @@
                                         echo "Something went wrong";
                                 }
                                 ?>
-                                        <!--End of Asking questions-->
-                                        <!--End of Choosing the right career-->
+                                                <!--End of Asking questions-->
+                                                <!--End of Choosing the right career-->
+                                                <!--The Next Step-->
+                                                <h4 class="card-title mt-4">The Next Step</h4>
+                                                <p class="card-text">You've just made an excellent start to your career
+                                                    search process by exploring your interests, talents, preferences,
+                                                    and values. Give yourself a pat on the back!</p>
+
+                                                <p class="card-text">Although choosing a career isn't an easy process,
+                                                    it can be an incredibly rewarding one when done right. By doing
+                                                    an objective assessment of who you are and what you are suited to,
+                                                    you've already gotten off to a huge head start.</p>
+
+                                                <p class="card-text">You've digested a lot of information, so take a
+                                                    while to sit with it. When you're ready, come back to your list of
+                                                    careers and pick out the ones that sound most appealing. Click on
+                                                    the "Read more" link next to each of these
+                                                    careers to learn more about them. Use this as a jumping-off point to
+                                                    begin your own research.
+                                                </p>
+
+                                                <p class="card-text">You have plenty of work ahead of you to find your
+                                                    ideal career, but you should now feel well prepared to get
+                                                    started. We wish you the best of luck in your search!</p>
+                                                <!--End of The Next Step-->
             </div>
         </div>
     </div>
