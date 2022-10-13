@@ -148,10 +148,49 @@
                     day-to-day work satisfying. As you explore different careers, you can use this list as a sort of
                     checklist for each potential career. The more closely a career seems to fit your list of core needs,
                     the more likely you'll be happy with it in the long term.</p>
-                <!--End of Choosing the right career-->
-
+                
                 <!--Prefered tasks-->
-                <span class="ml-2"><strong>Your prefered tasks:</strong><span>
+                <span class="ml-2"><strong>Your Core Needs :</strong><span>
+                <?php
+                    switch ($primary_interest_area[1]) {
+                    case "build":
+                        include('eng-core-needs-building.inc.php');
+                        break;
+                    case "think":
+                        include('eng-core-needs-thinking.inc.php');
+                        break;
+                    case "creat":
+                        include('eng-core-needs-creating.inc.php');
+                        break;
+                    case "help":
+                        include('eng-core-needs-helping.inc.php');
+                        break;
+                    case "persuade":
+                        include('eng-core-needs-persuading.inc.php');
+                        break;
+                    case "organise":
+                        include('eng-core-needs-organising.inc.php');
+                        break;
+                    default:
+                        echo "Something went wrong";
+                    }
+                    ?>
+
+                <!--End of Prefered tasks-->
+
+
+                <h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
+
+                <p class="card-text">One of the most important aspects of job satisfaction is the extent to which your
+                    daily work fits with your preferred
+                    types of activities. Although this may seem obvious, it can be easy to overlook the mundane
+                    day-to-day aspects of
+                    a job that sounds exciting in the abstract. Before you decide a job is right for you, be sure you
+                    understand what the
+                    everyday tasks of that job entail, and compare these tasks with your preferred tasks listed below.
+                </p>
+                <!--Prefered tasks-->
+                <span class="ml-2"><strong>Your prefered tasks :</strong><span>
                 <?php
                     switch ($primary_interest_area[1]) {
                     case "build":
@@ -176,7 +215,8 @@
                         echo "Something went wrong";
                     }
                     ?>
-                <!--End of Prefered tasks-->
+                <!--End of Prefered tasks-->                                
+                <!--End of Choosing the right career-->
             </div>
         </div>
     </div>

@@ -15,7 +15,7 @@
 
 
 <div class="d-flex justify-content-center">
-    <canvas id="myChart" height="400px" style="width:100%; max-width:600px"></canvas>
+    <canvas id="myChart" height="400px" style="width:100%; max-width:600px; max-height:400px"></canvas>
 </div>
 
 
