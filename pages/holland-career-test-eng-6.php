@@ -80,8 +80,6 @@
 
      //get the least interest area and that value
      $least_interest_area = least_interest($obatained_values);
-
-     echo $least_interest_area[1];
  ?>
 
 <?php include('../components/holland-career-test/eng-report.php'); ?>

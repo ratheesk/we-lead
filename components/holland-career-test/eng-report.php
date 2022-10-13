@@ -232,24 +232,24 @@
                                     you simply aren't suited to.</p>
                                     <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
                                 <?php
-                                switch ($primary_interest_area[1]) {
+                                switch ($least_interest_area[1]) {
                                     case "build":
-                                        include('eng-avoid-task-building.inc.php');
+                                        include('eng-prefered-task-building.inc.php');
                                         break;
                                     case "think":
-                                        include('eng-avoid-task-thinking.inc.php');
+                                        include('eng-prefered-task-thinking.inc.php');
                                         break;
                                     case "creat":
-                                        include('eng-avoid-task-creating.inc.php');
+                                        include('eng-prefered-task-creating.inc.php');
                                         break;
                                     case "help":
-                                        include('eng-avoid-task-helping.inc.php');
+                                        include('eng-prefered-task-helping.inc.php');
                                         break;
                                     case "persuade":
-                                        include('eng-avoid-task-persuading.inc.php');
+                                        include('eng-prefered-task-persuading.inc.php');
                                         break;
                                     case "organise":
-                                        include('eng-avoid-task-organising.inc.php');
+                                        include('eng-prefered-task-organising.inc.php');
                                         break;
                                     default:
                                         echo "Something went wrong";
