@@ -189,6 +189,7 @@
                             everyday tasks of that job entail, and compare these tasks with your preferred tasks listed
                             below.
                         </p>
+
                         <!--Prefered tasks-->
                         <span class="ml-2"><strong>Your prefered tasks :</strong><span>
                                 <?php
@@ -230,6 +231,7 @@
                                     you don't enjoy. Although nobody has a job that they love all the time, it is
                                     important to avoid career paths that require a lot of time spent on activities that
                                     you simply aren't suited to.</p>
+
                                 <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
                                         <?php
                                 switch ($least_interest_area[1]) {
@@ -278,6 +280,32 @@
                                             or “no,” and that’s fine. The goal is not to get black-and-white answers to
                                             every question, but to gain a better and more complete understanding of
                                             whether a career is a good fit for you.</p>
+
+                                            <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
+                                        <?php
+                                switch ($primary_interest_area[1]) {
+                                    case "build":
+                                        include('eng-questions-building.inc.php');
+                                        break;
+                                    case "think":
+                                        include('eng-questions-thinking.inc.php');
+                                        break;
+                                    case "creat":
+                                        include('eng-questions-creating.inc.php');
+                                        break;
+                                    case "help":
+                                        include('eng-questions-helping.inc.php');
+                                        break;
+                                    case "persuade":
+                                        include('eng-questions-persuading.inc.php');
+                                        break;
+                                    case "organise":
+                                        include('eng-questions-organising.inc.php');
+                                        break;
+                                    default:
+                                        echo "Something went wrong";
+                                }
+                                ?>
                                         <!--End of Asking questions-->
                                         <!--End of Choosing the right career-->
             </div>
