@@ -137,7 +137,7 @@
                     to you in your career search. </p>
 
 
-                <h5 class="card-title mt-4">SATISFYING YOUR CORE NEEDS</h5>
+                <h5 class="card-title mt-4">Satisfying Your Core Needs</h5>
                 <p class="card-text">An ideal career should satisfy your most fundamental motivations to work. Although
                     everyone wants to feel a sense of purpose, we all differ in how we like to feel that we contribute.
                     To understand what sort of career will be satisfying, you must understand the factors that create
@@ -149,6 +149,34 @@
                     checklist for each potential career. The more closely a career seems to fit your list of core needs,
                     the more likely you'll be happy with it in the long term.</p>
                 <!--End of Choosing the right career-->
+
+                <!--Prefered tasks-->
+                <span class="ml-2"><strong>Your prefered tasks:</strong><span>
+                <?php
+                    switch ($primary_interest_area[1]) {
+                    case "build":
+                        include('eng-prefered-task-building.inc.php');
+                        break;
+                    case "think":
+                        include('eng-prefered-task-thinking.inc.php');
+                        break;
+                    case "creat":
+                        include('eng-prefered-task-creating.inc.php');
+                        break;
+                    case "help":
+                        include('eng-prefered-task-helping.inc.php');
+                        break;
+                    case "persuade":
+                        include('eng-prefered-task-persuading.inc.php');
+                        break;
+                    case "organise":
+                        include('eng-prefered-task-organising.inc.php');
+                        break;
+                    default:
+                        echo "Something went wrong";
+                    }
+                    ?>
+                <!--End of Prefered tasks-->
             </div>
         </div>
     </div>
