@@ -4,4 +4,5 @@
     <li class="list-item">Confident</li>
     <li class="list-item">Ambitious</li>
     <li class="list-item">Adventurous</li>
+    <li class="list-item">Adventurous</li>
 </ul>
