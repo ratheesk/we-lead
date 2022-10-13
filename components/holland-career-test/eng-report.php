@@ -149,7 +149,7 @@
                     checklist for each potential career. The more closely a career seems to fit your list of core needs,
                     the more likely you'll be happy with it in the long term.</p>
 
-                <!--Prefered tasks-->
+                <!--Your Core Needs-->
                 <span class="ml-2"><strong>Your Core Needs :</strong><span>
                         <?php
                         switch ($primary_interest_area[1]) {
@@ -176,7 +176,7 @@
                         }
                         ?>
 
-                        <!--End of Prefered tasks-->
+                        <!--End of Your Core Needs-->
                         <h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
                         <p class="card-text">One of the most important aspects of job satisfaction is the extent to
                             which your
@@ -230,8 +230,8 @@
                                     you don't enjoy. Although nobody has a job that they love all the time, it is
                                     important to avoid career paths that require a lot of time spent on activities that
                                     you simply aren't suited to.</p>
-                                    <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
-                                <?php
+                                <span class="ml-2"><strong>Tasks to Avoid: :</strong><span>
+                                        <?php
                                 switch ($least_interest_area[1]) {
                                     case "build":
                                         include('eng-prefered-task-building.inc.php');
@@ -255,8 +255,31 @@
                                         echo "Something went wrong";
                                 }
                                 ?>
-                                <!--End of Tasks to avoid-->
-                                <!--End of Choosing the right career-->
+                                        <!--End of Tasks to avoid-->
+
+                                        <!--Asking questions-->
+
+                                        <h5 class="card-title mt-4">Asking The Important Questions</h5>
+
+                                        <p class="card-text">As you explore careers, you will be asking many questions.
+                                            You are probably already wondering about common concerns, like how much
+                                            money you might make, how much education or training you will need, or how
+                                            easy it might be to find a job in a particular field.</p>
+
+                                        <p class="card-text">But it’s also important that you ask questions that are
+                                            personal to you and your interests. These questions will help you dial in to
+                                            the careers that will suit your personality. Here, we suggest some questions
+                                            that you may want to ask about each career you are seriously considering.
+                                        </p>
+
+                                        <p class="card-text">You might answer these questions by doing research online,
+                                            in books, magazines, or trade journals, or by interviewing people in the
+                                            field. You may find that the answers to some questions are not a clear “yes”
+                                            or “no,” and that’s fine. The goal is not to get black-and-white answers to
+                                            every question, but to gain a better and more complete understanding of
+                                            whether a career is a good fit for you.</p>
+                                        <!--End of Asking questions-->
+                                        <!--End of Choosing the right career-->
             </div>
         </div>
     </div>
