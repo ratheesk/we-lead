@@ -27,12 +27,12 @@
  
  }}}
     //dummy values
-     $k = 8;
-     $q = 2;
-     $m = 3;
-     $n = 4;
-     $o = 5;
-     $p = 9;
+     $k = 5;
+     $q = 9;
+     $m = 6;
+     $n = 7;
+     $o = 9;
+     $p = 2;
     //function to get the primary interest area
      function primary_interest($args) {
          $results = array();
@@ -50,22 +50,37 @@
          return $results;
      }
 
-         //function to get the least interest area
-         function least_interest($args) {
-            $results = array();
-            $min_value = min($args);
-            $results[] = $min_value;
-         
-            //now get the key for the first occurence of min value
-            $found_key = false;
-            foreach ($args as $key => $value) {
-                if ($value == $min_value && !$found_key) {
-                    $results[] =  $key;
-                    $found_key = true;
-                }
+    //function to get the least interest area
+    function least_interest($args) {
+       $results = array();
+       $min_value = min($args);
+       $results[] = $min_value;
+    
+       //now get the key for the first occurence of min value
+       $found_key = false;
+       foreach ($args as $key => $value) {
+           if ($value == $min_value && !$found_key) {
+               $results[] =  $key;
+               $found_key = true;
+           }
+       }
+       return $results;
+   }
+    //function to check same primary interest areas
+   function same_max_value($args) {
+    $max_value = max($args);
+    $found_key = 0;
+    foreach ($args as $key => $value) {
+        foreach ($args as $key1 => $value1) {
+            if ($value == $value1 && $value == $max_value && $value != 50) {
+                $args[$key1] = 50;
+                $found_key = $found_key + 1;
             }
-            return $results;
         }
+    }
+
+    echo $found_key;
+   }
      
      //save the values in an array with correct name
      $obatained_values = array(
@@ -80,6 +95,8 @@
 
      //get the least interest area and that value
      $least_interest_area = least_interest($obatained_values);
+
+     same_max_value($obatained_values);
  ?>
 
 <?php include('../components/holland-career-test/eng-report.php'); ?>
