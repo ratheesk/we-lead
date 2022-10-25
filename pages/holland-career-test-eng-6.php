@@ -1,4 +1,8 @@
-<?php include('../components/header.inc.php'); ?>
+<?php
+
+use LDAP\Result;
+
+ include('../components/header.inc.php'); ?>
 
 
 <?php
@@ -30,7 +34,7 @@
      $k = 5;
      $q = 9;
      $m = 6;
-     $n = 7;
+     $n = 9;
      $o = 9;
      $p = 2;
     //function to get the primary interest area
@@ -66,22 +70,18 @@
        }
        return $results;
    }
-    //function to check same primary interest areas
-   function same_max_value($args) {
-    $max_value = max($args);
-    $found_key = 0;
-    foreach ($args as $key => $value) {
-        foreach ($args as $key1 => $value1) {
-            if ($value == $value1 && $value == $max_value && $value != 50) {
-                $args[$key1] = 50;
-                $found_key = $found_key + 1;
-            }
+    //function to check same primary interest areas     
+   function same_max_value($all_values,$primary_interest,$primary_interest_value) {
+    $results = array();
+    $results[] = $primary_interest;
+
+    foreach ($all_values as $key => $value) {
+        if ($key != $primary_interest && $value == $primary_interest_value){
+            $results[] = $key;
         }
     }
-
-    echo $found_key;
+    return $results;
    }
-     
      //save the values in an array with correct name
      $obatained_values = array(
          'build' => $k,
@@ -96,7 +96,13 @@
      //get the least interest area and that value
      $least_interest_area = least_interest($obatained_values);
 
-     same_max_value($obatained_values);
+     $same_primary_interest_areas = same_max_value($obatained_values,$primary_interest_area[1],$primary_interest_area[0]);
+
+     echo count($same_primary_interest_areas);
+
+     foreach ($same_primary_interest_areas as $value) {
+        echo "$value <br>";
+      }
  ?>
 
 <?php include('../components/holland-career-test/eng-report.php'); ?>
