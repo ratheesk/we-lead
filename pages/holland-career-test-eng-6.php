@@ -82,6 +82,20 @@ use LDAP\Result;
     }
     return $results;
    }
+
+    //function to check same minimum interest areas     
+    function same_min_value($all_values,$least_interest,$least_interest_value) {
+     $results = array();
+     $results[] = $least_interest;
+ 
+     foreach ($all_values as $key => $value) {
+         if ($key != $least_interest && $value == $least_interest_value){
+             $results[] = $key;
+         }
+     }
+     return $results;
+    }
+
      //save the values in an array with correct name
      $obatained_values = array(
          'build' => $k,
@@ -95,14 +109,23 @@ use LDAP\Result;
 
      //get the least interest area and that value
      $least_interest_area = least_interest($obatained_values);
-
+    
+     // array of primary interest areas
      $same_primary_interest_areas = same_max_value($obatained_values,$primary_interest_area[1],$primary_interest_area[0]);
+
+    // array of least interest areas
+     $same_least_interest_areas = same_max_value($obatained_values,$least_interest_area[1],$least_interest_area[0]);
 
      echo count($same_primary_interest_areas);
 
      foreach ($same_primary_interest_areas as $value) {
         echo "$value <br>";
       }
+    echo count($same_least_interest_areas);
+
+    foreach ($same_least_interest_areas as $value) {
+        echo "$value <br>";
+    }
  ?>
 
 <?php include('../components/holland-career-test/eng-report.php'); ?>
