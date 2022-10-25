@@ -101,7 +101,7 @@
                         default:
                             echo "Something went wrong";
                     }
-                 }
+                }
                 ?>
                 <!--End of Primary interest area-->
 
@@ -153,34 +153,37 @@
 
                 <!--Your Core Needs-->
                 <span class="ml-2"><strong>Your Core Needs :</strong><span>
-                        <?php
-                        switch ($primary_interest_area[1]) {
-                            case "build":
-                                include('eng-core-needs-building.inc.php');
-                                break;
-                            case "think":
-                                include('eng-core-needs-thinking.inc.php');
-                                break;
-                            case "creat":
-                                include('eng-core-needs-creating.inc.php');
-                                break;
-                            case "help":
-                                include('eng-core-needs-helping.inc.php');
-                                break;
-                            case "persuade":
-                                include('eng-core-needs-persuading.inc.php');
-                                break;
-                            case "organise":
-                                include('eng-core-needs-organising.inc.php');
-                                break;
-                            default:
-                                echo "Something went wrong";
-                        }
-                        ?>
 
-                        <!--End of Your Core Needs-->
-                        <h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
-                        <p class="card-text">One of the most important aspects of job satisfaction is the extent to
+                 <?php
+                 foreach ($same_primary_interest_areas as $value) {
+                     switch ($value) {
+                         case "build":
+                             include('eng-core-needs-building.inc.php');
+                             break;
+                         case "think":
+                             include('eng-core-needs-thinking.inc.php');
+                             break;
+                         case "creat":
+                             include('eng-core-needs-creating.inc.php');
+                             break;
+                         case "help":
+                             include('eng-core-needs-helping.inc.php');
+                             break;
+                         case "persuade":
+                             include('eng-core-needs-persuading.inc.php');
+                             break;
+                         case "organise":
+                             include('eng-core-needs-organising.inc.php');
+                             break;
+                         default:
+                             echo "Something went wrong";
+                     }
+                 }
+                 ?>
+
+                <!--End of Your Core Needs-->
+                <h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
+                <p class="card-text">One of the most important aspects of job satisfaction is the extent to
                             which your
                             daily work fits with your preferred
                             types of activities. Although this may seem obvious, it can be easy to overlook the mundane
@@ -190,149 +193,147 @@
                             understand what the
                             everyday tasks of that job entail, and compare these tasks with your preferred tasks listed
                             below.
-                        </p>
-
-                        <!--Prefered tasks-->
-                        <span class="ml-2"><strong>Your prefered tasks :</strong><span>
-                                <?php
-                                switch ($primary_interest_area[1]) {
-                                    case "build":
-                                        include('eng-prefered-task-building.inc.php');
-                                        break;
-                                    case "think":
-                                        include('eng-prefered-task-thinking.inc.php');
-                                        break;
-                                    case "creat":
-                                        include('eng-prefered-task-creating.inc.php');
-                                        break;
-                                    case "help":
-                                        include('eng-prefered-task-helping.inc.php');
-                                        break;
-                                    case "persuade":
-                                        include('eng-prefered-task-persuading.inc.php');
-                                        break;
-                                    case "organise":
-                                        include('eng-prefered-task-organising.inc.php');
-                                        break;
-                                    default:
-                                        echo "Something went wrong";
-                                }
-                                ?>
-                                <!--End of Prefered tasks-->
-
-                                <!--Tasks to avoid-->
-                                <h5 class="card-title mt-4">Avoiding What You Don't Like</h5>
-                                <p class="card-text">Almost as important as understanding what tasks you enjoy is
+                </p>
+                <!--Prefered tasks-->
+                <span class="ml-2"><strong>Your prefered tasks :</strong><span>
+                <?php
+                foreach ($same_primary_interest_areas as $value) {
+                    switch ($value) {
+                        case "build":
+                            include('eng-prefered-task-building.inc.php');
+                            break;
+                        case "think":
+                            include('eng-prefered-task-thinking.inc.php');
+                            break;
+                        case "creat":
+                            include('eng-prefered-task-creating.inc.php');
+                            break;
+                        case "help":
+                            include('eng-prefered-task-helping.inc.php');
+                            break;
+                        case "persuade":
+                            include('eng-prefered-task-persuading.inc.php');
+                            break;
+                        case "organise":
+                            include('eng-prefered-task-organising.inc.php');
+                            break;
+                        default:
+                            echo "Something went wrong";
+                    }
+                }
+                ?>
+                <!--End of Prefered tasks-->
+                <!--Tasks to avoid-->
+                <h5 class="card-title mt-4">Avoiding What You Don't Like</h5>
+                <p class="card-text">Almost as important as understanding what tasks you enjoy is
                                     understanding which tasks and activites you would prefer to avoid. If some parts of
                                     a job are very appealing to you, but other aspects are boring, irritating, or
                                     otherwise unpleasant, it's unlikely you'll be happy in that job over the long term.
-                                </p>
-
-                                <p class="card-text">For each career you're considering, take stock of the typical daily
+                </p>
+                <p class="card-text">For each career you're considering, take stock of the typical daily
                                     activities and make sure that you will not have to spend significant time on tasks
                                     you don't enjoy. Although nobody has a job that they love all the time, it is
                                     important to avoid career paths that require a lot of time spent on activities that
                                     you simply aren't suited to.</p>
 
-                                <span class="ml-2"><strong>Tasks to Avoid :</strong><span>
-                                        <?php
-                                switch ($least_interest_area[1]) {
-                                    case "build":
-                                        include('eng-prefered-task-building.inc.php');
-                                        break;
-                                    case "think":
-                                        include('eng-prefered-task-thinking.inc.php');
-                                        break;
-                                    case "creat":
-                                        include('eng-prefered-task-creating.inc.php');
-                                        break;
-                                    case "help":
-                                        include('eng-prefered-task-helping.inc.php');
-                                        break;
-                                    case "persuade":
-                                        include('eng-prefered-task-persuading.inc.php');
-                                        break;
-                                    case "organise":
-                                        include('eng-prefered-task-organising.inc.php');
-                                        break;
-                                    default:
-                                        echo "Something went wrong";
-                                }
-                                ?>
-                                        <!--End of Tasks to avoid-->
-
-                                        <!--Asking questions-->
-
-                                        <h5 class="card-title mt-4">Asking The Important Questions</h5>
-
-                                        <p class="card-text">As you explore careers, you will be asking many questions.
+                <span class="ml-2"><strong>Tasks to Avoid :</strong><span>
+                <?php
+                foreach ($same_least_interest_areas as $value) {
+                    switch ($value) {
+                        case "build":
+                            include('eng-prefered-task-building.inc.php');
+                            break;
+                        case "think":
+                            include('eng-prefered-task-thinking.inc.php');
+                            break;
+                        case "creat":
+                            include('eng-prefered-task-creating.inc.php');
+                            break;
+                        case "help":
+                            include('eng-prefered-task-helping.inc.php');
+                            break;
+                        case "persuade":
+                            include('eng-prefered-task-persuading.inc.php');
+                            break;
+                        case "organise":
+                            include('eng-prefered-task-organising.inc.php');
+                            break;
+                        default:
+                            echo "Something went wrong";
+                    }
+                }
+                ?>
+                <!--End of Tasks to avoid-->
+                <!--Asking questions-->
+                <h5 class="card-title mt-4">Asking The Important Questions</h5>
+                <p class="card-text">As you explore careers, you will be asking many questions.
                                             You are probably already wondering about common concerns, like how much
                                             money you might make, how much education or training you will need, or how
                                             easy it might be to find a job in a particular field.</p>
 
-                                        <p class="card-text">But it’s also important that you ask questions that are
+                <p class="card-text">But it’s also important that you ask questions that are
                                             personal to you and your interests. These questions will help you dial in to
                                             the careers that will suit your personality. Here, we suggest some questions
                                             that you may want to ask about each career you are seriously considering.
-                                        </p>
-
-                                        <p class="card-text">You might answer these questions by doing research online,
+                </p>
+                <p class="card-text">You might answer these questions by doing research online,
                                             in books, magazines, or trade journals, or by interviewing people in the
                                             field. You may find that the answers to some questions are not a clear “yes”
                                             or “no,” and that’s fine. The goal is not to get black-and-white answers to
                                             every question, but to gain a better and more complete understanding of
                                             whether a career is a good fit for you.</p>
 
-                                        <span class="ml-2"><strong>Your Key Questions :</strong><span>
-                                                <?php
-                                switch ($primary_interest_area[1]) {
-                                    case "build":
-                                        include('eng-questions-building.inc.php');
-                                        break;
-                                    case "think":
-                                        include('eng-questions-thinking.inc.php');
-                                        break;
-                                    case "creat":
-                                        include('eng-questions-creating.inc.php');
-                                        break;
-                                    case "help":
-                                        include('eng-questions-helping.inc.php');
-                                        break;
-                                    case "persuade":
-                                        include('eng-questions-persuading.inc.php');
-                                        break;
-                                    case "organise":
-                                        include('eng-questions-organising.inc.php');
-                                        break;
-                                    default:
-                                        echo "Something went wrong";
-                                }
-                                ?>
-                                                <!--End of Asking questions-->
-                                                <!--End of Choosing the right career-->
-                                                <!--The Next Step-->
-                                                <h4 class="card-title mt-4">The Next Step</h4>
-                                                <p class="card-text">You've just made an excellent start to your career
+                <span class="ml-2"><strong>Your Key Questions :</strong><span>
+                <?php
+                foreach ($same_primary_interest_areas as $value) {
+                    switch ($value) {
+                        case "build":
+                            include('eng-questions-building.inc.php');
+                            break;
+                        case "think":
+                            include('eng-questions-thinking.inc.php');
+                            break;
+                        case "creat":
+                            include('eng-questions-creating.inc.php');
+                            break;
+                        case "help":
+                            include('eng-questions-helping.inc.php');
+                            break;
+                        case "persuade":
+                            include('eng-questions-persuading.inc.php');
+                            break;
+                        case "organise":
+                            include('eng-questions-organising.inc.php');
+                            break;
+                        default:
+                            echo "Something went wrong";
+                    }
+                }
+                ?>
+                <!--End of Asking questions-->
+                <!--End of Choosing the right career-->
+                <!--The Next Step-->
+                <h4 class="card-title mt-4">The Next Step</h4>
+                <p class="card-text">You've just made an excellent start to your career
                                                     search process by exploring your interests, talents, preferences,
                                                     and values. Give yourself a pat on the back!</p>
 
-                                                <p class="card-text">Although choosing a career isn't an easy process,
+                <p class="card-text">Although choosing a career isn't an easy process,
                                                     it can be an incredibly rewarding one when done right. By doing
                                                     an objective assessment of who you are and what you are suited to,
                                                     you've already gotten off to a huge head start.</p>
 
-                                                <p class="card-text">You've digested a lot of information, so take a
+                <p class="card-text">You've digested a lot of information, so take a
                                                     while to sit with it. When you're ready, come back to your list of
                                                     careers and pick out the ones that sound most appealing. Click on
                                                     the "Read more" link next to each of these
                                                     careers to learn more about them. Use this as a jumping-off point to
                                                     begin your own research.
-                                                </p>
-
-                                                <p class="card-text">You have plenty of work ahead of you to find your
+                </p>
+                <p class="card-text">You have plenty of work ahead of you to find your
                                                     ideal career, but you should now feel well prepared to get
                                                     started. We wish you the best of luck in your search!</p>
-                                                <!--End of The Next Step-->
+                <!--End of The Next Step-->
             </div>
         </div>
     </div>

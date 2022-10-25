@@ -33,7 +33,7 @@ use LDAP\Result;
     //dummy values
      $k = 5;
      $q = 9;
-     $m = 6;
+     $m = 2;
      $n = 9;
      $o = 9;
      $p = 2;
