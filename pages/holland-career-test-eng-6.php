@@ -1,8 +1,4 @@
-<?php
-
-use LDAP\Result;
-
- include('../components/header.inc.php'); ?>
+<?php include('../components/header.inc.php'); ?>
 
 
 <?php
@@ -107,8 +103,8 @@ use LDAP\Result;
     //get the primary interest area and that value
      $primary_interest_area = primary_interest($obatained_values);
 
-     //get the least interest area and that value
-     $least_interest_area = least_interest($obatained_values);
+    //get the least interest area and that value
+    $least_interest_area = least_interest($obatained_values);
     
      // array of primary interest areas
      $same_primary_interest_areas = same_max_value($obatained_values,$primary_interest_area[1],$primary_interest_area[0]);
@@ -116,16 +112,11 @@ use LDAP\Result;
     // array of least interest areas
      $same_least_interest_areas = same_max_value($obatained_values,$least_interest_area[1],$least_interest_area[0]);
 
-     echo count($same_primary_interest_areas);
-
-     foreach ($same_primary_interest_areas as $value) {
-        echo "$value <br>";
-      }
-    echo count($same_least_interest_areas);
-
-    foreach ($same_least_interest_areas as $value) {
-        echo "$value <br>";
+    if (count($same_primary_interest_areas) > 1) {
+        echo 'there are ' .count($same_primary_interest_areas). ' primary interest areas';
+         include('../components/holland-career-test/eng-report-confirm-modal.inc.php');
     }
+
  ?>
 
 <?php include('../components/holland-career-test/eng-report.php'); ?>
