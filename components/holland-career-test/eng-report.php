@@ -3,6 +3,10 @@
     <div class="container">
         <div class="section-title text-center mt-4">
             <span data-aos="fade-up">Results</span>
+            <?php 
+            if (count($same_primary_interest_areas) > 1) {
+              echo '<p class="text-danger pt-3">There are ' .count($same_primary_interest_areas). ' primary interest areas for you according to your answers.
+              We reccomend you to try again with more accurate answers.<p>'; }           ?>
             <div class="text-left">
                 <p data-aos="fade-up">Welcome to your career report! There's a lot of information here, so take your
                     time and read through it at your own pace.</p>

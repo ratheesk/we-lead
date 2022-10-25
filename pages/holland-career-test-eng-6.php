@@ -30,7 +30,7 @@
      $k = 5;
      $q = 9;
      $m = 2;
-     $n = 9;
+     $n = 6;
      $o = 9;
      $p = 2;
     //function to get the primary interest area
@@ -112,13 +112,14 @@
     // array of least interest areas
      $same_least_interest_areas = same_max_value($obatained_values,$least_interest_area[1],$least_interest_area[0]);
 
-    if (count($same_primary_interest_areas) > 1) {
-        echo 'there are ' .count($same_primary_interest_areas). ' primary interest areas';
-         include('../components/holland-career-test/eng-report-confirm-modal.inc.php');
-    }
+    //if (count($same_primary_interest_areas) > 1) {
+    //    include('../components/holland-career-test/eng-report-confirm-modal.inc.php');
+    //}else {
+    //    include('../components/holland-career-test/eng-report.php'); 
+    //}
+
 
  ?>
-
 <?php include('../components/holland-career-test/eng-report.php'); ?>
 
 <?php include('../components/footer.inc.php'); ?>
