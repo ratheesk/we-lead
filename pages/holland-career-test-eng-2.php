@@ -42,7 +42,7 @@ if (!empty($_SESSION['error_page2'])) {
  </span>
 
  <form action="holland-career-test-eng-3.php" method="post">
- <div class="container-fluid card pt-3 pb-3">
+ <div class="container-fluid card pt-3 pb-3 holland-quiz-container">
         <?php
          // questions and names
          $data = [

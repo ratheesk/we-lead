@@ -59,7 +59,7 @@ session_start(); // Session starts here.
 
 
     <form action="holland-career-test-eng-2.php" method="post">
-        <div class="container-fluid card pt-3 pb-3 holland-quiz">
+        <div class="container-fluid card pt-3 pb-3 holland-quiz-container">
         <?php
          // questions and names
          $data = [
