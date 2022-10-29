@@ -46,18 +46,18 @@ if (!empty($_SESSION['error_page3'])) {
         <?php
          // questions and names
          $data = [
-            ["Install an alarm system in a building", "k_3"],
-            ["Install kitchen cabinets", "k_4"],
-            ["Look at cells through a microscope", "q_3"],
-            ["Work in a chemistry lab", "q_4"],
-            ["Design magazine ads", "m_3"],
-            ["Write a script for a television show", "m_4"],
-            ["Counsel a person recovering from drug addiction", "n_3"],
-            ["Counsel a person with depression", "n_4"],
-            ["Hire and fire employees", "o_3"],
-            ["Close an important business deal", "o_4"],
-            ["Check tax returns for errors", "p_3"],
-            ["Calculate the cost of an insurance claim", "p_4"]
+            ["Install an alarm system in a building", "k_5"],
+            ["Install kitchen cabinets", "k_6"],
+            ["Look at cells through a microscope", "q_5"],
+            ["Work in a chemistry lab", "q_6"],
+            ["Design magazine ads", "m_5"],
+            ["Write a script for a television show", "m_6"],
+            ["Counsel a person recovering from drug addiction", "n_5"],
+            ["Counsel a person with depression", "n_6"],
+            ["Hire and fire employees", "o_5"],
+            ["Close an important business deal", "o_6"],
+            ["Check tax returns for errors", "p_5"],
+            ["Calculate the cost of an insurance claim", "p_6"]
             ] ;
         
             for ($i = 0; $i < 12; $i++) {
