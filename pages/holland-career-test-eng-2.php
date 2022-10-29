@@ -104,6 +104,10 @@ if (!empty($_SESSION['error_page2'])) {
             }
         ?>
     </div>
+    <div class="form-group text-center pt-3 pb-3">
+            <input class="btn btn-danger mr-4" type="reset" value="Reset" />
+            <input class="btn btn-success" type="submit" value="Next" />
+    </div>
  </form>
  </div>
 </section>

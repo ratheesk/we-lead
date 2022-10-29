@@ -126,9 +126,9 @@
     [p_4]
 </a>
 
-    <!-- - set 3-->
+<!-- - set 3-->
 
-    <a>
+<a>
 
     Install an alarm system in a building
     [k_5]
@@ -186,7 +186,7 @@
 </a>
 <a>
 
-    Calculate the cost of an insurance  claim
+    Calculate the cost of an insurance claim
     [p_6]
 </a>
 <a>
