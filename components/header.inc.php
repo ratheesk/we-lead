@@ -54,4 +54,5 @@
 </head>
 
 <body>
+  <?php include('top-bar.inc.php'); ?>
   <?php include('nav-bar.inc.php'); ?>
