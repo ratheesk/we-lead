@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!--========================= Report Section========================= -->
 <section id="report">
     <div class="container">

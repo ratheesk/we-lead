@@ -100,6 +100,7 @@
 
    // array of least interest areas
     $same_least_interest_areas = same_max_value($obatained_values,$least_interest_area[1],$least_interest_area[0]);
+
  }}} else {
     if (empty($_SESSION['error_page6'])) {
     header("location: holland-career-test-eng-1.php");//redirecting to first page
@@ -132,14 +133,7 @@ if (!empty($_SESSION['error_page6'])) {
 ?>
  </span>
 <?php include('../components/holland-career-test/eng-report.php'); ?>
-
-<script language="javascript" type="text/javascript">
-  /* <![CDATA[ */
-    document.write('<a href="pdf.php?url=' + encodeURIComponent(location.href) +'">');
-    document.write('Create PDF file of this page');
-    document.write('</a>');
-  /* ]]> */
-</script>
-
+<?php include('pdf.php'); ?>
+<a href='filename.pdf' download>Download mt report</a>
 <?php include('../components/footer.inc.php'); ?>
 
