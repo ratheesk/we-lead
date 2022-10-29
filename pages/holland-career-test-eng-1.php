@@ -11,7 +11,7 @@ session_start(); // Session starts here.
           <span data-aos="fade-up">Page 1</span>
           <p data-aos="fade-up">To take the holland code career quiz, mark your interest in each activity shown. Do not worry about whether you have the skills or training to do an activity, or how much money you might make. Simply think about whether you would enjoy doing it or not.</p>
     </div>      
-    <span id="error">
+    <span class="text-danger" id="error">
         <!---- Initializing Session for errors --->
         <?php
  if (!empty($_SESSION['error'])) {
