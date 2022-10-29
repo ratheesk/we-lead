@@ -1,5 +1,5 @@
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light px-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-light px-0 wow fadeIn" data-wow-delay="0.1s" id="top-bar">
         <div class="row text-end d-none d-lg-flex">
             <div class="text-start px-5 col-lg-12">
                 <small>Follow us:</small>

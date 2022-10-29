@@ -1,5 +1,5 @@
 <!--========================= Report Section========================= -->
-<section>
+<section id="report">
     <div class="container">
     <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
                 <h4 class="section-title bg-white text-center text-primary px-3">Results</h4>

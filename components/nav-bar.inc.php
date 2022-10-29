@@ -1,6 +1,6 @@
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s" id="nav-bar">
         <a href="#" class="navbar-brand ms-3 d-lg-none">MENU</a>
         <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
         </div>
     </nav>
     <!-- Navbar End -->
-    
+
 <!-- ======= Header ======= 
 <header id="header" class="fixed-top ">
   <div class="container-fluid d-flex align-items-center justify-content-between">

@@ -1,0 +1,11 @@
+#brand, #footer-bar, #nav-bar, #top-bar {
+    display: none;
+}
+
+#report {
+    float:none;
+    margin:0px;
+    overflow:auto;
+    padding:0;
+    width:100%;
+}
