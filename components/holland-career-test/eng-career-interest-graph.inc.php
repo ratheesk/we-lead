@@ -4,12 +4,12 @@
 
 <?php
  //get the percentages
- $building = ($k / 50) * 100;
- $thinking = ($q / 50) * 100;
- $creating = ($m / 50) * 100;
- $helping = ($n / 50) * 100;
- $persuading = ($o / 50) * 100;
- $organising = ($p / 50) * 100;
+ $building = ($k / 40) * 100;
+ $thinking = ($q / 40) * 100;
+ $creating = ($m / 40) * 100;
+ $helping = ($n / 40) * 100;
+ $persuading = ($o / 40) * 100;
+ $organising = ($p / 40) * 100;
  ?>
 
 
