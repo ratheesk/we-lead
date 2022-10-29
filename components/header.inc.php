@@ -55,4 +55,5 @@
 
 <body>
   <?php include('top-bar.inc.php'); ?>
+  <?php include('brand.inc.php'); ?>
   <?php include('nav-bar.inc.php'); ?>
