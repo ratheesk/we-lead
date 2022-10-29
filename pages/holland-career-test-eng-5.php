@@ -27,10 +27,10 @@ if (isset($_POST['k_7'])){
 
  <section>
     <div class="container">
-    <div class="section-title text-center mt-4">
-          <span data-aos="fade-up">Page 5</span>
-          <p data-aos="fade-up">You are in the page 5 of 5, mark your interest in each activity shown. Do not worry about whether you have the skills or training to do an activity, or how much money you might make. Simply think about whether you would enjoy doing it or not.</p>
-    </div>   
+    <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
+                <h4 class="section-title bg-white text-center text-primary px-3">Page 1</h4>
+          <p data-aos="fade-up">Mark your interest in each activity shown. Do not worry about whether you have the skills or training to do an activity, or how much money you might make. Simply think about whether you would enjoy doing it or not.</p>
+    </div> 
   <span class="text-danger" id="error">
 <?php
 // To show error of page 5.

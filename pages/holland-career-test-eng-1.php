@@ -7,8 +7,8 @@ session_start(); // Session starts here.
 <!--========================= Choose Language Section========================= -->
 <section>
     <div class="container">
-    <div class="section-title text-center mt-4">
-          <span data-aos="fade-up">Page 1</span>
+    <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
+                <h4 class="section-title bg-white text-center text-primary px-3">Page 1</h4>
           <p data-aos="fade-up">To take the holland code career quiz, mark your interest in each activity shown. Do not worry about whether you have the skills or training to do an activity, or how much money you might make. Simply think about whether you would enjoy doing it or not.</p>
     </div>      
     <span class="text-danger" id="error">
