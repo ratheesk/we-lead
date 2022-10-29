@@ -19,6 +19,7 @@ get it done.',
 Builder, your primary career goal will be to discover a job where you can use your physical or mechanical skills to
 take useful, observable action on the world around you.']
 ];
+
 $sample_jobs = [
     ['Police Officer or Detective',
     'Pilot',
@@ -31,23 +32,44 @@ $sample_jobs = [
     'Athlete or Coach']
 ];
 
-$html = '
-<h4 class="card-title mt-4">YOUR PRIMARY INTEREST AREA IS Rathees</h4>
-<p class="card-text">As a Builder, you prefer physical work that uses your hands and body and gives you a tangible
-    result for your efforts. You prefer working with concrete objects, not abstract concepts. You may be drawn to work
-    with tools, machines, plants, or animals. You like to be outdoors and be physically active throughout the day.</p>
+$career_fields = [
+    ['Construction',
+    'Mechanics',
+    'Transportation & Distribution',
+    'Military',
+    'Athletics',
+    'Farming or Ranching',
+    'Manufacturing and Industry',
+    'Maintenance and Repair',
+    'Food Preparation']
+];
+
+$areas_of_study = [
+    ['Physical Education or Exercise Science',
+    'Construction Management',
+    'Engineering',
+    'Agriculture',
+    'Environmental Science',
+    'Food Science',
+    'Forestry',
+    'Construction, Maintenance or Repair',
+    'Culinary Arts']
+];
+
+$ind = 0;
+
+$html = '<h4 class="card-title mt-4">YOUR PRIMARY INTEREST AREA IS '.$primary[$ind][0].'</h4>
+<p class="card-text">'.$paragraph[$ind][0].'</p>
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-4 mb-3">
             <span><strong>Top Job Tasks</strong><span>
-                    <ul class="list-group mt-1">
-                        <li class="list-item">Building</li>
-                        <li class="list-item">Repairing</li>
-                        <li class="list-item">Taking Action</li>
-                        <li class="list-item">Using Machines</li>
-                        <li class="list-item">Using Tools</li>
-                    </ul>
+                    <ul class="list-group mt-1">';
+foreach ($sample_jobs[$ind] as $value) {
+    $html .= '<li class="list-item">'.$value.'</li>';
+                      }
+$html .= '</ul>
         </div>
         <div class="col-md-4 mb-3">
             <span><strong>Your Core Values</strong><span>
