@@ -50,23 +50,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_5" id="k_5_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="k_5" id="k_5_1" value="1"  required="required">
                             <label class="form-check-label" for="k_5_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_5" id="k_5_2" value="1">
+                            <input class="form-check-input" type="radio" name="k_5" id="k_5_2" value="2">
                             <label class="form-check-label" for="k_5_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_5" id="k_5_3" value="2">
+                            <input class="form-check-input" type="radio" name="k_5" id="k_5_3" value="3">
                             <label class="form-check-label" for="k_5_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_5" id="k_5_4" value="3">
+                            <input class="form-check-input" type="radio" name="k_5" id="k_5_4" value="4">
                             <label class="form-check-label" for="k_5_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_5" id="k_5_5" value="4">
+                            <input class="form-check-input" type="radio" name="k_5" id="k_5_5" value="5">
                             <label class="form-check-label" for="k_5_5">5</label>
                         </div>
                     </div>
@@ -79,23 +79,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_6" id="k_6_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="k_6" id="k_6_1" value="1"  required="required">
                             <label class="form-check-label" for="k_6_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_6" id="k_6_2" value="1">
+                            <input class="form-check-input" type="radio" name="k_6" id="k_6_2" value="2">
                             <label class="form-check-label" for="k_6_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_6" id="k_6_3" value="2">
+                            <input class="form-check-input" type="radio" name="k_6" id="k_6_3" value="3">
                             <label class="form-check-label" for="k_6_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_6" id="k_6_4" value="3">
+                            <input class="form-check-input" type="radio" name="k_6" id="k_6_4" value="4">
                             <label class="form-check-label" for="k_6_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="k_6" id="k_6_5" value="4">
+                            <input class="form-check-input" type="radio" name="k_6" id="k_6_5" value="5">
                             <label class="form-check-label" for="k_6_5">5</label>
                         </div>
                     </div>
@@ -108,23 +108,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_5" id="q_5_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="q_5" id="q_5_1" value="1"  required="required">
                             <label class="form-check-label" for="q_5_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_5" id="q_5_2" value="1">
+                            <input class="form-check-input" type="radio" name="q_5" id="q_5_2" value="2">
                             <label class="form-check-label" for="q_5_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_5" id="q_5_3" value="2">
+                            <input class="form-check-input" type="radio" name="q_5" id="q_5_3" value="3">
                             <label class="form-check-label" for="q_5_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_5" id="q_5_4" value="3">
+                            <input class="form-check-input" type="radio" name="q_5" id="q_5_4" value="4">
                             <label class="form-check-label" for="q_5_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_5" id="q_5_5" value="4">
+                            <input class="form-check-input" type="radio" name="q_5" id="q_5_5" value="5">
                             <label class="form-check-label" for="q_5_5">5</label>
                         </div>
                     </div>
@@ -137,23 +137,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_6" id="q_6_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_1" value="1"  required="required">
                             <label class="form-check-label" for="q_6_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_6" id="q_6_2" value="1">
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_2" value="2">
                             <label class="form-check-label" for="q_6_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_6" id="q_6_3" value="2">
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_3" value="3">
                             <label class="form-check-label" for="q_6_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_6" id="q_6_4" value="3">
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_4" value="4">
                             <label class="form-check-label" for="q_6_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="q_6" id="q_6_5" value="4">
+                            <input class="form-check-input" type="radio" name="q_6" id="q_6_5" value="5">
                             <label class="form-check-label" for="q_6_5">5</label>
                         </div>
                     </div>
@@ -166,23 +166,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_5" id="m_5_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="m_5" id="m_5_1" value="1"  required="required">
                             <label class="form-check-label" for="m_5_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_5" id="m_5_2" value="1">
+                            <input class="form-check-input" type="radio" name="m_5" id="m_5_2" value="2">
                             <label class="form-check-label" for="m_5_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_5" id="m_5_3" value="2">
+                            <input class="form-check-input" type="radio" name="m_5" id="m_5_3" value="3">
                             <label class="form-check-label" for="m_5_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_5" id="m_5_4" value="3">
+                            <input class="form-check-input" type="radio" name="m_5" id="m_5_4" value="4">
                             <label class="form-check-label" for="m_5_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_5" id="m_5_5" value="4">
+                            <input class="form-check-input" type="radio" name="m_5" id="m_5_5" value="5">
                             <label class="form-check-label" for="m_5_5">5</label>
                         </div>
                     </div>
@@ -195,23 +195,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_6" id="m_6_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="m_6" id="m_6_1" value="1"  required="required">
                             <label class="form-check-label" for="m_6_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_6" id="m_6_2" value="1">
+                            <input class="form-check-input" type="radio" name="m_6" id="m_6_2" value="2">
                             <label class="form-check-label" for="m_6_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_6" id="m_6_3" value="2">
+                            <input class="form-check-input" type="radio" name="m_6" id="m_6_3" value="3">
                             <label class="form-check-label" for="m_6_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_6" id="m_6_4" value="3">
+                            <input class="form-check-input" type="radio" name="m_6" id="m_6_4" value="4">
                             <label class="form-check-label" for="m_6_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="m_6" id="m_6_5" value="4">
+                            <input class="form-check-input" type="radio" name="m_6" id="m_6_5" value="5">
                             <label class="form-check-label" for="m_6_5">5</label>
                         </div>
                     </div>
@@ -224,23 +224,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_5" id="n_5_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="n_5" id="n_5_1" value="1"  required="required">
                             <label class="form-check-label" for="n_5_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_5" id="n_5_2" value="1">
+                            <input class="form-check-input" type="radio" name="n_5" id="n_5_2" value="2">
                             <label class="form-check-label" for="n_5_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_5" id="n_5_3" value="2">
+                            <input class="form-check-input" type="radio" name="n_5" id="n_5_3" value="3">
                             <label class="form-check-label" for="n_5_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_5" id="n_5_4" value="3">
+                            <input class="form-check-input" type="radio" name="n_5" id="n_5_4" value="4">
                             <label class="form-check-label" for="n_5_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_5" id="n_5_5" value="4">
+                            <input class="form-check-input" type="radio" name="n_5" id="n_5_5" value="5">
                             <label class="form-check-label" for="n_5_5">5</label>
                         </div>
                     </div>
@@ -253,23 +253,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_6" id="n_6_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="n_6" id="n_6_1" value="1"  required="required">
                             <label class="form-check-label" for="n_6_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_6" id="n_6_2" value="1">
+                            <input class="form-check-input" type="radio" name="n_6" id="n_6_2" value="2">
                             <label class="form-check-label" for="n_6_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_6" id="n_6_3" value="2">
+                            <input class="form-check-input" type="radio" name="n_6" id="n_6_3" value="3">
                             <label class="form-check-label" for="n_6_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_6" id="n_6_4" value="3">
+                            <input class="form-check-input" type="radio" name="n_6" id="n_6_4" value="4">
                             <label class="form-check-label" for="n_6_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="n_6" id="n_6_5" value="4">
+                            <input class="form-check-input" type="radio" name="n_6" id="n_6_5" value="5">
                             <label class="form-check-label" for="n_6_5">5</label>
                         </div>
                     </div>
@@ -282,23 +282,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_5" id="o_5_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="o_5" id="o_5_1" value="1"  required="required">
                             <label class="form-check-label" for="o_5_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_5" id="o_5_2" value="1">
+                            <input class="form-check-input" type="radio" name="o_5" id="o_5_2" value="2">
                             <label class="form-check-label" for="o_5_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_5" id="o_5_3" value="2">
+                            <input class="form-check-input" type="radio" name="o_5" id="o_5_3" value="3">
                             <label class="form-check-label" for="o_5_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_5" id="o_5_4" value="3">
+                            <input class="form-check-input" type="radio" name="o_5" id="o_5_4" value="4">
                             <label class="form-check-label" for="o_5_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_5" id="o_5_5" value="4">
+                            <input class="form-check-input" type="radio" name="o_5" id="o_5_5" value="5">
                             <label class="form-check-label" for="o_5_5">5</label>
                         </div>
                     </div>
@@ -311,23 +311,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_6" id="o_6_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="o_6" id="o_6_1" value="1"  required="required">
                             <label class="form-check-label" for="o_6_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_6" id="o_6_2" value="1">
+                            <input class="form-check-input" type="radio" name="o_6" id="o_6_2" value="2">
                             <label class="form-check-label" for="o_6_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_6" id="o_6_3" value="2">
+                            <input class="form-check-input" type="radio" name="o_6" id="o_6_3" value="3">
                             <label class="form-check-label" for="o_6_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_6" id="o_6_4" value="3">
+                            <input class="form-check-input" type="radio" name="o_6" id="o_6_4" value="4">
                             <label class="form-check-label" for="o_6_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="o_6" id="o_6_5" value="4">
+                            <input class="form-check-input" type="radio" name="o_6" id="o_6_5" value="5">
                             <label class="form-check-label" for="o_6_5">5</label>
                         </div>
                     </div>
@@ -340,23 +340,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_5" id="p_5_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="p_5" id="p_5_1" value="1"  required="required">
                             <label class="form-check-label" for="p_5_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_5" id="p_5_2" value="1">
+                            <input class="form-check-input" type="radio" name="p_5" id="p_5_2" value="2">
                             <label class="form-check-label" for="p_5_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_5" id="p_5_3" value="2">
+                            <input class="form-check-input" type="radio" name="p_5" id="p_5_3" value="3">
                             <label class="form-check-label" for="p_5_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_5" id="p_5_4" value="3">
+                            <input class="form-check-input" type="radio" name="p_5" id="p_5_4" value="4">
                             <label class="form-check-label" for="p_5_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_5" id="p_5_5" value="4">
+                            <input class="form-check-input" type="radio" name="p_5" id="p_5_5" value="5">
                             <label class="form-check-label" for="p_5_5">5</label>
                         </div>
                     </div>
@@ -369,23 +369,23 @@ if (!empty($_SESSION['error_page3'])) {
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_6" id="p_6_1" value="0"  required="required">
+                            <input class="form-check-input" type="radio" name="p_6" id="p_6_1" value="1"  required="required">
                             <label class="form-check-label" for="p_6_1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_6" id="p_6_2" value="1">
+                            <input class="form-check-input" type="radio" name="p_6" id="p_6_2" value="2">
                             <label class="form-check-label" for="p_6_2">2</label>
                         </div>                        
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_6" id="p_6_3" value="2">
+                            <input class="form-check-input" type="radio" name="p_6" id="p_6_3" value="3">
                             <label class="form-check-label" for="p_6_3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_6" id="p_6_4" value="3">
+                            <input class="form-check-input" type="radio" name="p_6" id="p_6_4" value="4">
                             <label class="form-check-label" for="p_6_4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="p_6" id="p_6_5" value="4">
+                            <input class="form-check-input" type="radio" name="p_6" id="p_6_5" value="5">
                             <label class="form-check-label" for="p_6_5">5</label>
                         </div>
                     </div>
