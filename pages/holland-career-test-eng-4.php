@@ -46,18 +46,18 @@ if (!empty($_SESSION['error_page4'])) {
         <?php
          // questions and names
          $data = [
-            ["Install an alarm system in a building", "k_7"],
-            ["Install kitchen cabinets", "k_8"],
-            ["Look at cells through a microscope", "q_7"],
-            ["Work in a chemistry lab", "q_8"],
-            ["Design magazine ads", "m_7"],
-            ["Write a script for a television show", "m_8"],
-            ["Counsel a person recovering from drug addiction", "n_7"],
-            ["Counsel a person with depression", "n_8"],
-            ["Hire and fire employees", "o_7"],
-            ["Close an important business deal", "o_8"],
-            ["Check tax returns for errors", "p_7"],
-            ["Calculate the cost of an insurance claim", "p_8"]
+            ["Build a stone wall", "k_7"],
+            ["Operate a bulldozer", "k_8"],
+            ["Analyze soil samples for pollution", "q_7"],
+            ["Study a fault line to predict earthquakes", "q_8"],
+            ["Design a billboard advertisement", "m_7"],
+            ["Edit a movie", "m_8"],
+            ["Plan educational games for preschool children", "n_7"],
+            ["Plan activities for elderly people", "n_8"],
+            ["Lead a team", "o_7"],
+            ["Start a new business", "o_8"],
+            ["Calculate the cost of a construction project", "p_7"],
+            ["Help customers fill out loan applications", "p_8"]
             ] ;
         
             for ($i = 0; $i < 12; $i++) {
