@@ -985,9 +985,9 @@ input + svg {
 	cursor: pointer;
 }
 
-input[class="super-happy"]:hover + svg,
-input[class="super-happy"]:checked + svg,
-input[class="super-happy"]:focus + svg {
+input[class="joyful"]:hover + svg,
+input[class="joyful"]:checked + svg,
+input[class="joyful"]:focus + svg {
 	fill: #0c8714;
 }
 
@@ -1003,15 +1003,15 @@ input[class="neutral"]:focus + svg {
 	fill: rgb(198, 125, 8);
 }
 
-input[class="sad"]:hover + svg,
-input[class="sad"]:checked + svg,
-input[class="sad"]:focus + svg {
+input[class="bore"]:hover + svg,
+input[class="bore"]:checked + svg,
+input[class="bore"]:focus + svg {
 	fill: #c50606;;
 }
 
-input[class="super-sad"]:hover + svg,
-input[class="super-sad"]:checked + svg,
-input[class="super-sad"]:focus + svg {
+input[class="dull"]:hover + svg,
+input[class="dull"]:checked + svg,
+input[class="dull"]:focus + svg {
 	fill: #990000;
 }
 
