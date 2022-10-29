@@ -133,4 +133,13 @@ if (!empty($_SESSION['error_page6'])) {
  </span>
 <?php include('../components/holland-career-test/eng-report.php'); ?>
 
+<script language="javascript" type="text/javascript">
+  /* <![CDATA[ */
+    document.write('<a href="pdf.php?url=' + encodeURIComponent(location.href) +'">');
+    document.write('Create PDF file of this page');
+    document.write('</a>');
+  /* ]]> */
+</script>
+
 <?php include('../components/footer.inc.php'); ?>
+

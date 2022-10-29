@@ -49,6 +49,9 @@
     <!-- Template Main CSS File -->
     <link href="../assets/css/style.css" rel="stylesheet">
 
+    <!-- mpdf Stylesheet -->
+    <link href="../assets/css/mpdf.css" type="text/css" rel="stylesheet" media="mpdf" />
+
 </head>
 
 <body>
