@@ -18,8 +18,8 @@
         <div class="row align-items-center top-bar">
             <div class="col-lg-4 col-md-12 text-center text-lg-start">
                 <a href="" class="navbar-brand m-0 p-0">
-                    <h1 class="fw-bold text-primary m-0"><i class="fa fa-laptop-code me-3"></i>DGcom</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <img src="../assets/img/logo/University_of_Peradeniya_crest.png" alt="University Of Peradeniya" width="40" height="40"> 
+                    Career Guidance Unit
                 </a>
             </div>
             <div class="col-lg-8 col-md-7 d-none d-lg-block">

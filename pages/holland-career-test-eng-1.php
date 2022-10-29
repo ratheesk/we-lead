@@ -1,8 +1,8 @@
-<?php include('../components/header.inc.php'); ?>
-
 <?php
 session_start(); // Session starts here.
 ?>
+
+<?php include('../components/header.inc.php'); ?>
 
 <!--========================= Choose Language Section========================= -->
 <section>
