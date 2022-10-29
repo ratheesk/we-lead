@@ -24,7 +24,7 @@
                             </div>
                             <div class="ps-3">
                                 <p class="mb-2 text-secondary">Opening Hour</p>
-                                <h6 class="mb-0">Mon - Fri, 8:00 - 9:00</h6>
+                                <h6 class="mb-0">Mon - Fri, 8:00 - 17:00</h6>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="ps-3">
                                 <p class="mb-2 text-secondary">Call Us</p>
-                                <h6 class="mb-0">+012 345 6789</h6>
+                                <h6 class="mb-0">+9481 239 2013</h6>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                             </div>
                             <div class="ps-3">
                                 <p class="mb-2 text-secondary">Email Us</p>
-                                <h6 class="mb-0">info@example.com</h6>
+                                <h6 class="mb-0">cgu@pdn.ac.lk</h6>
                             </div>
                         </div>
                     </div>

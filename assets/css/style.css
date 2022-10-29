@@ -3,7 +3,7 @@
   --primary: #8B0000;
   --secondary: #777777;
   --light: #F8F8F8;
-  --dark: #252525;
+  --dark: #FFD200;
 }
 
 .back-to-top {
@@ -492,13 +492,6 @@
 /*--------------------------------------------------------------
 # Under construction
 --------------------------------------------------------------*/
-
-#under-construction {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 #under-construction h2 {
   margin-top: 40px;
