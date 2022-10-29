@@ -1,5 +1,5 @@
 <!--========================= Choose Language Section========================= -->
-<section id="choose-language">
+<section>
 <div class="container">
   <div class="row justify-content-center">
 <div class="card" style="max-width: 400px;">
