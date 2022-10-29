@@ -1,8 +1,10 @@
 <!--========================= Report Section========================= -->
 <section>
     <div class="container">
-        <div class="section-title text-center mt-4">
-            <span data-aos="fade-up">Results</span>
+    <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
+                <h4 class="section-title bg-white text-center text-primary px-3">Results</h4>
+    </div>
+        <div class=" text-center mt-4">
             <?php 
             if (count($same_primary_interest_areas) > 1) {
               echo '<p class="text-danger pt-3">There are ' .count($same_primary_interest_areas). ' primary interest areas for you according to your answers.

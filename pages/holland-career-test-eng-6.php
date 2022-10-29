@@ -1,5 +1,3 @@
-<?php include('../components/header.inc.php'); ?>
-
 
 <?php
  session_start();
@@ -123,6 +121,7 @@
 
 
  ?>
+ <?php include('../components/header.inc.php'); ?>
    <span id="error">
 <?php
 // To show error of page 4.
