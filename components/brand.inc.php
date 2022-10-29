@@ -1,12 +1,57 @@
     <!-- Brand & Contact Start -->
     <div class="container-fluid py-4 px-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="row align-items-center top-bar">
-            <div class="col-12 text-center text-lg-start">
+            <div class="col-lg-4 col-md-5 text-center text-lg-start">
                 <a href="" class="navbar-brand m-0 p-0">
-                    <img src="../assets/img/logo/University_of_Peradeniya_crest.png" alt="University Of Peradeniya" width="40" height="40"> 
-                    Career Guidance Unit - University Of Peradeniya
+                    <div class="row">
+                        <div class="col-2">
+                        <img src="../assets/img/logo/University_of_Peradeniya_crest.png" alt="University Of Peradeniya" width="50" height="50"> 
+                        </div>
+                        <div class="col-10">
+                        Career Guidance Unit <br>
+                        University Of Peradeniya
+                        </div>
+                    </div>                    
                 </a>
             </div>
-        </div>
+        
+        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div class="flex-shrink-0 btn-lg-square border rounded-circle mr-3">
+                                <i class="far fa-clock text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <p class="mb-2 text-secondary">Opening Hour</p>
+                                <h6 class="mb-0">Mon - Fri, 8:00 - 9:00</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div class="flex-shrink-0 btn-lg-square border rounded-circle mr-3">
+                                <i class="fa fa-phone text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <p class="mb-2 text-secondary">Call Us</p>
+                                <h6 class="mb-0">+012 345 6789</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div class="flex-shrink-0 btn-lg-square border rounded-circle mr-3">
+                                <i class="far fa-envelope text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <p class="mb-2 text-secondary">Email Us</p>
+                                <h6 class="mb-0">info@example.com</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
     </div>
     <!-- Brand & Contact End -->
