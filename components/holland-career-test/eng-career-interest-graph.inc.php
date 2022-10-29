@@ -4,13 +4,12 @@
 
 <?php
  //get the percentages
- $building = ($k / 10) * 100;
- $thinking = ($q / 10) * 100;
- $creating = ($m / 10) * 100;
- $helping = ($n / 10) * 100;
- $persuading = ($o / 10) * 100;
- $organising = ($p / 10) * 100;
- echo 'Your primary interest area is '.$primary_interest_area[0].' and is in ' . $primary_interest_area[1];
+ $building = ($k / 50) * 100;
+ $thinking = ($q / 50) * 100;
+ $creating = ($m / 50) * 100;
+ $helping = ($n / 50) * 100;
+ $persuading = ($o / 50) * 100;
+ $organising = ($p / 50) * 100;
  ?>
 
 

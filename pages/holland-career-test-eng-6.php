@@ -24,12 +24,6 @@
  $o=$o_1+$o_2+$o_3+$o_4+$o_5+$o_6+$o_7+$o_8+$o_9+$o_1_0;
  $p=$p_1+$p_2+$p_3+$p_4+$p_5+$p_6+$p_7+$p_8+$p_9+$p_1_0;
 
- echo $k;
- echo $q;
- echo $m;
- echo $n;
- echo $o;
- echo $p;
      //function to get the primary interest area
      function primary_interest($args) {
         $results = array();
