@@ -40,7 +40,20 @@ if (!empty($_SESSION['error_page3'])) {
 }
 ?>
  </span>
-
+ <div class="row g-4 mb-3">
+            <div class="col-12">
+                <div class="skill">
+                    <div class="d-flex justify-content-between">
+                        <!--<p class="mb-2">Your Progress</p>-->
+                        <p class="mb-2">60%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
  <form action="holland-career-test-eng-4.php" method="post">
  <div class="container-fluid card pt-3 pb-3 holland-quiz-container">
         <?php
