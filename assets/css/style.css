@@ -1006,12 +1006,12 @@ input[class="neutral"]:focus + svg {
 input[class="bore"]:hover + svg,
 input[class="bore"]:checked + svg,
 input[class="bore"]:focus + svg {
-	fill: #c50606;;
+	fill: #cb4545;;
 }
 
 input[class="dull"]:hover + svg,
 input[class="dull"]:checked + svg,
 input[class="dull"]:focus + svg {
-	fill: #990000;
+	fill: #ad2d2d;
 }
 
