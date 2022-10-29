@@ -935,7 +935,7 @@ section {
 # Holland quiz form
 --------------------------------------------------------------*/
 
-.rating-container {
+.holland-quiz-container {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -946,13 +946,13 @@ section {
 	width: 100%;
 }
 
-.rating-text p {
+.holland-quiz-text p {
 	color: rgba(0, 0, 16, 0.8);
 	font-size: 1.3rem;
 	padding: 0.3rem;
 }
 
-.rating {
+.holland-quiz {
 	background-color: rgba(244, 244, 245, 0.8);
 	padding: 0.4rem 0.4rem 0.1rem 0.4rem;
 	border-radius: 2.2rem;
@@ -971,7 +971,7 @@ svg {
 	position: relative;
 }
 
-.rating input[type="radio"] {
+.holland-quiz input[type="radio"] {
 	position: absolute;
 	opacity: 0;
 }

@@ -62,7 +62,7 @@ if (!empty($_SESSION['error_page4'])) {
         
             for ($i = 0; $i < 12; $i++) {
                 echo '
-                <div class="row border-0 pt-3 ml-2 mr-2 mt-2 rating">
+                <div class="row border-0 pt-3 ml-2 mr-2 mt-2 holland-quiz">
                 <div class="col-md-6 my-auto">
                     <p>'.$data[$i][0].'</p>
                 </div>
