@@ -159,7 +159,8 @@
                     the more likely you'll be happy with it in the long term.</p>
 
                 <!--Your Core Needs-->
-                <span class="ml-2"><strong>Your Core Needs :</strong><span>
+                <div class="container-fluid">
+                <span class="ml-2"><strong>Your Core Needs :</strong></span>
 
                  <?php
                  foreach ($same_primary_interest_areas as $value) {
@@ -187,7 +188,7 @@
                      }
                  }
                  ?>
-
+                </div>
                 <!--End of Your Core Needs-->
                 <h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
                 <p class="card-text">One of the most important aspects of job satisfaction is the extent to
@@ -202,7 +203,8 @@
                             below.
                 </p>
                 <!--Prefered tasks-->
-                <span class="ml-2"><strong>Your prefered tasks :</strong><span>
+                <div class="container-fluid">
+                <span class="ml-2"><strong>Your prefered tasks :</strong></span>
                 <?php
                 foreach ($same_primary_interest_areas as $value) {
                     switch ($value) {
@@ -229,6 +231,7 @@
                     }
                 }
                 ?>
+                </div>
                 <!--End of Prefered tasks-->
                 <!--Tasks to avoid-->
                 <h5 class="card-title mt-4">Avoiding What You Don't Like</h5>
@@ -243,7 +246,8 @@
                                     important to avoid career paths that require a lot of time spent on activities that
                                     you simply aren't suited to.</p>
 
-                <span class="ml-2"><strong>Tasks to Avoid :</strong><span>
+                <div class="container-fluid">
+                    <span class="ml-2"><strong>Tasks to Avoid :</strong></span>
                 <?php
                 foreach ($same_least_interest_areas as $value) {
                     switch ($value) {
@@ -270,6 +274,7 @@
                     }
                 }
                 ?>
+                </div>
                 <!--End of Tasks to avoid-->
                 <!--Asking questions-->
                 <h5 class="card-title mt-4">Asking The Important Questions</h5>
@@ -290,7 +295,8 @@
                                             every question, but to gain a better and more complete understanding of
                                             whether a career is a good fit for you.</p>
 
-                <span class="ml-2"><strong>Your Key Questions :</strong><span>
+                <div class="container-fluid">
+                 <span class="ml-2"><strong>Your Key Questions :</strong></span>
                 <?php
                 foreach ($same_primary_interest_areas as $value) {
                     switch ($value) {
@@ -317,6 +323,7 @@
                     }
                 }
                 ?>
+                </div>
                 <!--End of Asking questions-->
                 <!--End of Choosing the right career-->
                 <!--The Next Step-->
