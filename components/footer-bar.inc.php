@@ -58,7 +58,7 @@
         <div class="container-fluid copyright">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center text-md-start mb-3 mb-md-0">
+                    <div class="col-12 text-center mb-3 mb-md-0">
                         &copy; <?php echo date('Y'); ?> Copyright:
     <a href="https://www.pdn.ac.lk/cgu/">Career Guidance Unit | University of Peradeniya</a>, All Right Reserved.
                     </div>
