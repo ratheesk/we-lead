@@ -1,4 +1,5 @@
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <?php
  session_start();
  
@@ -134,10 +135,36 @@ if (!empty($_SESSION['error_page6'])) {
  </span>
 <?php include('../components/holland-career-test/eng-report.php'); ?>
 
-<?php include('pdf.php'); ?>
+<?php //include('pdf.php'); ?>
+<script>
+
+window.jsPDF = window.jspdf.jsPDF;
+
+// Convert HTML content to PDF
+function generate() {
+    var doc = new jsPDF();
+	
+    // Source HTMLElement or a string containing HTML.
+    var elementHTML = document.querySelector("#report");
+
+    doc.html(elementHTML, {
+        callback: function(doc) {
+            // Save the PDF
+            doc.save('document-html.pdf');
+        },
+        margin: [10, 10, 10, 10],
+        autoPaging: 'text',
+        x: 0,
+        y: 0,
+        width: 190, //target width in the PDF document
+        windowWidth: 675 //window width in CSS pixels
+    });
+}
+</script>
 
 <div class="container">
     <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
+    <button onclick="generate()">Generate PDF</button>
         <a href="career_test_report.pdf" class="btn btn-sm btn-primary rounded-pill py-2 px-4" download>Download My pdf Report</a>
     </div>
 </div>
