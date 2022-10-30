@@ -133,7 +133,13 @@ if (!empty($_SESSION['error_page6'])) {
 ?>
  </span>
 <?php include('../components/holland-career-test/eng-report.php'); ?>
+
 <?php include('pdf.php'); ?>
-<a href='filename.pdf' download>Download mt report</a>
+
+<div class="container">
+    <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
+        <a href="career_test_report.pdf" class="btn btn-sm btn-primary rounded-pill py-2 px-4" download>Download My pdf Report</a>
+    </div>
+</div>
 <?php include('../components/footer.inc.php'); ?>
 

@@ -915,7 +915,7 @@ $mpdf->CSSselectMedia='mpdf'; // assuming you used this in the document header
 //$mpdf->setBasePath($url);
 $mpdf->WriteHTML($html);
 
-$mpdf->Output('filename.pdf');
+$mpdf->Output('career_test_report.pdf');
 
 
 ?>
