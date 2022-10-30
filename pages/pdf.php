@@ -476,10 +476,7 @@ $html = '
             </div>
         </div>
         
-        <div class="card">
-            <div class="card-header">
-                Get started!
-            </div>
+        <div >
             <div class="card-body ml-2 mr-2">
 
                 <h4 class="card-title">Your Career Interest Profile</h4>
@@ -908,12 +905,15 @@ $html .= '
 ';
 
 $mpdf = new \Mpdf\Mpdf();
+$stylesheet = file_get_contents('../assets/css/bootstrap.min.css');
 
 $mpdf->useSubstitutions = true; // optional - just as an example
 //$mpdf->SetHeader($url . "\n\n" . 'Page {PAGENO}');  // optional - just as an example
 $mpdf->CSSselectMedia='mpdf'; // assuming you used this in the document header
 //$mpdf->setBasePath($url);
-$mpdf->WriteHTML($html);
+$mpdf->WriteHTML($stylesheet,\Mpdf\HTMLParserMode::HEADER_CSS);
+$mpdf->WriteHTML($html,\Mpdf\HTMLParserMode::HTML_BODY);
+//$mpdf->WriteHTML($html);
 
 $mpdf->Output('career_test_report.pdf');
 
