@@ -1,8 +1,4 @@
 <?php
-// require composer autoload
-require __DIR__ . '../../vendor/autoload.php';
-$mpdf = new \Mpdf\Mpdf();
-//unlink('filename.pdf');
 
 $primary = [
     ['BUILDING',
@@ -903,19 +899,4 @@ $html .= '
 </div>
 </section>
 ';
-
-$mpdf = new \Mpdf\Mpdf();
-$stylesheet = file_get_contents('../assets/css/bootstrap.min.css');
-
-$mpdf->useSubstitutions = true; // optional - just as an example
-//$mpdf->SetHeader($url . "\n\n" . 'Page {PAGENO}');  // optional - just as an example
-$mpdf->CSSselectMedia='mpdf'; // assuming you used this in the document header
-//$mpdf->setBasePath($url);
-$mpdf->WriteHTML($stylesheet,\Mpdf\HTMLParserMode::HEADER_CSS);
-$mpdf->WriteHTML($html,\Mpdf\HTMLParserMode::HTML_BODY);
-//$mpdf->WriteHTML($html);
-
-$mpdf->Output('career_test_report.pdf');
-
-
 ?>
