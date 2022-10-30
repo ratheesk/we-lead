@@ -80,6 +80,28 @@ $areas_of_study = [
     'Culinary Arts']
 ];
 
+$core_needs = [
+    ['Use my hands and body to do something useful',
+    'Learn how to use tools, machines, and practical objects',
+    'Get outdoors regularly and/or have a connection to nature',
+    'Have a physical, tangible product to show for my efforts']
+];
+
+$prefered_tasks = [
+    ['Working with tools or machines',
+    'Working with plants or animals',
+    'Repairing or maintaining things, especially mechanical systems',
+    'Building, constructing, or crafting things',
+    'Being athletic or physical',
+    'Making something tangible, practical and useful']
+];
+
+$key_questions = [
+    ['Will this career allow me to be active throughout the day?',
+    'Will I learn and use practical skills in this career?',
+    'Will this career allow me to do plenty of hands-on work?']
+];
+
 $ind = 0;
 
 $html = '
@@ -238,7 +260,179 @@ $html .='</ul>
         </div>
     </div>
 </div>
+
+<!--Choosing the right career-->
+<h4 class="card-title mt-4">Choosing the Right Career</h4>
+<p class="card-text">As you continue in your career search, it will be crucial that you have a system
+    for evaluating your opportunities.
+    You need a well-defined approach to looking at various careers and deciding whether they are worth
+    further
+    exploration. You’ve already taken the first step by assessing your interests, but now the task is to
+    take that selfknowledge and translate it into a game plan for exploring your career options.</p>
+
+<p class="card-text">The first step is to clearly understand your criteria for the career path you seek.
+    You don’t need to know exactly
+    which career is right for you, but you do need to know what you are looking for. You must understand
+    the factors
+    which are more important to your happiness and satisfaction in a career. Equally, you must
+    understand the
+    aspects of a career that you want to avoid, so that you don’t end up in a job that frequently
+    requires you to do
+    things that are not a good fit.</p>
+
+<p class="card-text">This section will suggest some criteria that you may want to use as part of your
+    career exploration process. These
+    are based on your interest profile, but you will probably find that some of the suggested criteria
+    seem more
+    relevant to you than others. You may also find that you want to add to what is given here. Use these
+    suggestions
+    as a starting point to build your own system of evaluating possible careers.
+</p>
+<h5 class="card-title mt-4">What Makes Your Ideal Career?</h5>
+<p class="card-text">In choosing a career, you want to be mindful of the factors that are most important
+    to you. Many of these factors will be based on your interests and personality, but some will be
+    unique to you. This section will provide you with some guidance in the factors that may be important
+    to you in your career search. </p>
+
+
+<h5 class="card-title mt-4">Satisfying Your Core Needs</h5>
+<p class="card-text">An ideal career should satisfy your most fundamental motivations to work. Although
+    everyone wants to feel a sense of purpose, we all differ in how we like to feel that we contribute.
+    To understand what sort of career will be satisfying, you must understand the factors that create
+    satisfaction for you.</p>
+
+<p class="card-text">Below, you will see a list of the factors that are most likely to be important to
+    you in a career. Generally, if a career has all or most of these factors, you will find the
+    day-to-day work satisfying. As you explore different careers, you can use this list as a sort of
+    checklist for each potential career. The more closely a career seems to fit your list of core needs,
+    the more likely you will be happy with it in the long term.</p>
+
+<!--Your Core Needs-->
+<div class="container-fluid">
+<span class="ml-2"><strong>Your Core Needs :</strong></span>
+<ul class="list-group mt-1 ml-3">
 ';
+
+foreach ($core_needs[$ind] as $value) {
+    $html .= '<li class="list-item">'.$value.'</li>';
+} 
+
+$html .= '</ul>
+</div>
+<!--End of Your Core Needs-->
+<h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
+<p class="card-text">One of the most important aspects of job satisfaction is the extent to
+            which your
+            daily work fits with your preferred
+            types of activities. Although this may seem obvious, it can be easy to overlook the mundane
+            day-to-day aspects of
+            a job that sounds exciting in the abstract. Before you decide a job is right for you, be
+            sure you
+            understand what the
+            everyday tasks of that job entail, and compare these tasks with your preferred tasks listed
+            below.
+</p>
+<!--Prefered tasks-->
+<div class="container-fluid">
+<span class="ml-2"><strong>Your prefered tasks :</strong></span>
+<ul class="list-group mt-1 ml-3">
+';
+
+foreach ($prefered_tasks[$ind] as $value) {
+    $html .= '<li class="list-item">'.$value.'</li>';
+} 
+
+$html .= '
+</ul>
+</div>
+<!--End of Prefered tasks-->
+<!--Tasks to avoid-->
+<h5 class="card-title mt-4">Avoiding What You Do not Like</h5>
+<p class="card-text">Almost as important as understanding what tasks you enjoy is
+                    understanding which tasks and activites you would prefer to avoid. If some parts of
+                    a job are very appealing to you, but other aspects are boring, irritating, or
+                    otherwise unpleasant, it is unlikely you will be happy in that job over the long term.
+</p>
+<p class="card-text">For each career you are considering, take stock of the typical daily
+                    activities and make sure that you will not have to spend significant time on tasks
+                    you do not enjoy. Although nobody has a job that they love all the time, it is
+                    important to avoid career paths that require a lot of time spent on activities that
+                    you simply are not suited to.</p>
+
+<div class="container-fluid">
+    <span class="ml-2"><strong>Tasks to Avoid :</strong></span>
+    <ul class="list-group mt-1 ml-3">
+';
+
+foreach ($prefered_tasks[$ind] as $value) {
+    $html .= '<li class="list-item">'.$value.'</li>';
+}
+
+$html .= '
+</ul>
+</div>
+<!--End of Tasks to avoid-->
+<!--Asking questions-->
+<h5 class="card-title mt-4">Asking The Important Questions</h5>
+<p class="card-text">As you explore careers, you will be asking many questions.
+                            You are probably already wondering about common concerns, like how much
+                            money you might make, how much education or training you will need, or how
+                            easy it might be to find a job in a particular field.</p>
+
+<p class="card-text">But it’s also important that you ask questions that are
+                            personal to you and your interests. These questions will help you dial in to
+                            the careers that will suit your personality. Here, we suggest some questions
+                            that you may want to ask about each career you are seriously considering.
+</p>
+<p class="card-text">You might answer these questions by doing research online,
+                            in books, magazines, or trade journals, or by interviewing people in the
+                            field. You may find that the answers to some questions are not a clear “yes”
+                            or “no,” and that’s fine. The goal is not to get black-and-white answers to
+                            every question, but to gain a better and more complete understanding of
+                            whether a career is a good fit for you.</p>
+
+<div class="container-fluid">
+ <span class="ml-2"><strong>Your Key Questions :</strong></span>
+ <ul class="list-group mt-1 ml-3">
+';
+
+foreach ($key_questions[$ind] as $value) {
+    $html .= '<li class="list-item">'.$value.'</li>';
+}
+
+$html .= '
+</ul>
+</div>
+<!--End of Asking questions-->
+<!--End of Choosing the right career-->
+<!--The Next Step-->
+<h4 class="card-title mt-4">The Next Step</h4>
+<p class="card-text">You have just made an excellent start to your career
+                                    search process by exploring your interests, talents, preferences,
+                                    and values. Give yourself a pat on the back!</p>
+
+<p class="card-text">Although choosing a career is not an easy process,
+                                    it can be an incredibly rewarding one when done right. By doing
+                                    an objective assessment of who you are and what you are suited to,
+                                    you have already gotten off to a huge head start.</p>
+
+<p class="card-text">You have digested a lot of information, so take a
+                                    while to sit with it. When you are ready, come back to your list of
+                                    careers and pick out the ones that sound most appealing. Click on
+                                    the "Read more" link next to each of these
+                                    careers to learn more about them. Use this as a jumping-off point to
+                                    begin your own research.
+</p>
+<p class="card-text">You have plenty of work ahead of you to find your
+                                    ideal career, but you should now feel well prepared to get
+                                    started. We wish you the best of luck in your search!</p>
+<!--End of The Next Step-->
+</div>
+</div>
+</div>
+</section>
+';
+
 $mpdf = new \Mpdf\Mpdf();
 
 $mpdf->useSubstitutions = true; // optional - just as an example
