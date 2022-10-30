@@ -1,7 +1,6 @@
 
 <!--chartjs-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <?php
  //get the percentages
  $building = ($k / 40) * 100;
@@ -14,7 +13,7 @@
 
 
 <div class="d-flex justify-content-center">
-    <canvas id="myChart" height="400px" style="width:100%; max-width:600px; max-height:400px"></canvas>
+    <canvas id="myChart" height="400px" style="width:100%; max-width:600px; max-height:400px; "></canvas>
 </div>
 
 
@@ -31,7 +30,21 @@ var yValues = [<?php echo $building; ?>,
 ];
 var barColors = ["red", "green", "blue", "orange", "brown", "yellow"];
 
-new Chart("myChart", {
+const ctx = document.getElementById('myChart');
+
+const plugin = {
+  id: 'custom_canvas_background_color',
+  beforeDraw: (chart) => {
+    const {ctx} = chart;
+    ctx.save();
+    ctx.globalCompositeOperation = 'destination-over';
+    ctx.fillStyle = 'white';
+    ctx.fillRect(0, 0, chart.width, chart.height);
+    ctx.restore();
+  }
+};
+
+const myChart = new Chart(ctx, {
     type: "bar",
     data: {
         labels: xValues,
@@ -41,14 +54,19 @@ new Chart("myChart", {
         }]
     },
     options: {
-        legend: {
-            display: false
+        plugins: {
+            legend: {
+                display: false
+            }
         },
         title: {
             display: true,
             text: "Your interest areas"
         },
         scales: {
+            y: {
+                suggestedMax: 100
+            },
             yAxes: [{
                 display: true,
                 ticks: {
@@ -58,7 +76,8 @@ new Chart("myChart", {
                 }
             }]
         }
-    }
+    },
+    plugins: [plugin]
 });
 </script>
 <!--End of Script for bar chart-->
