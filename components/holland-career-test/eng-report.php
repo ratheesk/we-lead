@@ -37,6 +37,8 @@
                     will appeal to you, while others will be less attractive. Choosing a career which is a good match
                     for your interest profile ensures that you enjoy your daily work and get satisfaction out of your
                     accomplishments.</p>
+                
+                    <!--<div class="pdf-break" style="width:100% ; height:500px; display:none"></div>-->
 
                 <!--Bar chart-->
                 <?php include('eng-career-interest-graph.inc.php'); ?>
