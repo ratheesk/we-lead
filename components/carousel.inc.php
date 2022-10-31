@@ -18,8 +18,8 @@
                     <img class="w-100" src="../assets/img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-4 animated zoomIn">We Are Leader In</h4>
-                            <h1 class="display-1 text-white mb-0 animated zoomIn">Creative & Innovative Digital Solution</h1>
+                            <h4 class="text-white text-uppercase mb-4 animated zoomIn">We Are Working On</h4>
+                            <h1 class="display-1 text-white mb-0 animated zoomIn">Enhancement of Employability Skills</h1>
                         </div>
                     </div>
                 </div>
@@ -27,8 +27,8 @@
                     <img class="w-100" src="../assets/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-4 animated zoomIn">We Are Leader In</h4>
-                            <h1 class="display-1 text-white mb-0 animated zoomIn">Creative & Innovative Digital Solution</h1>
+                            <h4 class="text-white text-uppercase mb-4 animated zoomIn">We Are Working On</h4>
+                            <h1 class="display-1 text-white mb-0 animated zoomIn">Entrepreneurship Skills Development</h1>
                         </div>
                     </div>
                 </div>
@@ -36,8 +36,8 @@
                     <img class="w-100" src="../assets/img/carousel-3.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-4 animated zoomIn">We Are Leader In</h4>
-                            <h1 class="display-1 text-white mb-0 animated zoomIn">Creative & Innovative Digital Solution</h1>
+                            <h4 class="text-white text-uppercase mb-4 animated zoomIn">We Are Working On</h4>
+                            <h1 class="display-1 text-white mb-0 animated zoomIn">Networking With The Industry</h1>
                         </div>
                     </div>
                 </div>
