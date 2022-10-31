@@ -11,7 +11,8 @@ if (isset($_POST['k_1'])){
     // Fetching all values posted from second page and storing it in variable.
     foreach ($_POST as $key => $value) {
     $_SESSION['post'][$key] = $value;
-    }
+    } 
+        extract($_SESSION['lan']); // Function to extract array.
     } 
 
 } else {

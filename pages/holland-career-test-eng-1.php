@@ -9,9 +9,6 @@ if (isset($_POST['lang'])){
 
        extract($_SESSION['lan']); // Function to extract array.
 
-       echo $lang;
-
-       unset($_SESSION['lan']);
    
    } else {
     header("location: index.php");//redirecting to home page
