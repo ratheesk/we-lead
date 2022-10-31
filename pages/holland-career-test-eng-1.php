@@ -5,7 +5,7 @@ session_start(); // Session starts here.
 <?php include('../components/header.inc.php'); ?>
 <?php include('../components/holland-career-test/eng-data.inc.php'); ?>
 
-<!--========================= Choose Language Section========================= -->
+<!--========================= Quiz page 1 ========================= -->
 <section>
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
@@ -151,6 +151,6 @@ session_start(); // Session starts here.
     </div>
 </section>
 
-<!--========================= End Choose Language Section========================= -->
+<!--========================= End Quiz page 1========================= -->
 
 <?php include('../components/footer.inc.php'); ?>
