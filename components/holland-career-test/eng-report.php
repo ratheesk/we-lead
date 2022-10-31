@@ -26,9 +26,7 @@
         </div>
         
         <div class="card">
-            <div class="card-header">
-                let's get started!
-            </div>
+
             <div class="card-body ml-2 mr-2">
 
                 <h4 class="card-title">Your Career Interest Profile</h4>
