@@ -89,30 +89,109 @@
 
                 <!--Primary interest area-->
                 <?php
-                foreach ($same_primary_interest_areas as $value) {
-                    switch ($value) {
-                        case "build":
-                            include('eng-primary-building.inc.php');
-                            break;
-                        case "think":
-                            include('eng-primary-thinking.inc.php');
-                            break;
-                        case "creat":
-                            include('eng-primary-creating.inc.php');
-                            break;
-                        case "help":
-                            include('eng-primary-helping.inc.php');
-                            break;
-                        case "persuade":
-                            include('eng-primary-persuading.inc.php');
-                            break;
-                        case "organise":
-                            include('eng-primary-organising.inc.php');
-                            break;
-                        default:
-                            echo "Something went wrong";
-                    }
-                }
+foreach ($same_primary_interest_areas as $value) {
+    switch ($value) {
+        case "build":
+            $ind = 0;
+            break;
+        case "think":
+            $ind = 1;
+            break;
+        case "creat":
+            $ind = 2;
+            break;
+        case "help":
+            $ind = 3;
+            break;
+        case "persuade":
+            $ind = 4;
+            break;
+        case "organise":
+            $ind = 5;
+            break;
+        default:
+            $ind = 6;
+    }
+
+
+    echo '<h4 class="card-title mt-4">YOUR PRIMARY INTEREST AREA IS '.$primary[$ind][0].'</h4>
+    <p class="card-text">'.$paragraph[$ind][0].'</p>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <span><strong>Top Job Tasks</strong><span>
+                        <ul class="list-group mt-1">';
+
+    foreach ($top_job_tasks[$ind] as $value) {
+        echo '<li class="list-item">'.$value.'</li>';
+    }
+
+    echo '</ul>
+            </div>
+            <div class="col-md-4 mb-3">
+                <span><strong>Your Core Values</strong><span>
+                        <ul class="list-group mt-1">';
+
+    foreach ($core_values[$ind] as $value) {
+        echo '<li class="list-item">'.$value.'</li>';
+    }
+                        
+    echo'</ul>
+            </div>
+            <div class="col-md-4 mb-3">
+                <span><strong>Key Personality Traits</strong><span>
+                        <ul class="list-group mt-1">';
+    foreach ($key_personality_traits[$ind] as $value) {
+        echo '<li class="list-item">'.$value.'</li>';
+    }
+
+    echo'</ul>
+            </div>
+        </div>
+    </div>
+
+    <p class="card-text">'.$paragraph[$ind][1].'</p>
+
+    <p class="card-text">'.$paragraph[$ind][2].'</p>
+
+    <p class="card-text">'.$paragraph[$ind][3].'</p>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <span><strong>Sample Jobs for '.$primary[$ind][1].'</strong><span>
+                        <ul class="list-group mt-1">';
+
+    foreach ($sample_jobs[$ind] as $value) {
+        echo '<li class="list-item">'.$value.'</li>';
+    }                    
+
+    echo'</ul>
+            </div>
+            <div class="col-md-4 mb-3">
+                <span><strong>Career Fields for '.$primary[$ind][1].'</strong><span>
+                        <ul class="list-group mt-1">';
+
+    foreach ($career_fields[$ind] as $value) {
+        echo '<li class="list-item">'.$value.'</li>';
+    }  
+                
+    echo'</ul>
+            </div>
+            <div class="col-md-4 mb-3">
+                <span><strong>Areas of Study for '.$primary[$ind][1].'</strong><span>
+                        <ul class="list-group mt-1">';
+
+    foreach ($areas_of_study[$ind] as $value) {
+        echo '<li class="list-item">'.$value.'</li>';
+    }  
+
+    echo '</ul>
+            </div>
+        </div>
+    </div>';
+}
                 ?>
                 <!--End of Primary interest area-->
 
@@ -165,33 +244,37 @@
                 <!--Your Core Needs-->
                 <div class="container-fluid">
                 <span class="ml-2"><strong>Your Core Needs :</strong></span>
-
+                <ul class="list-group mt-1 ml-3">
                  <?php
                  foreach ($same_primary_interest_areas as $value) {
-                     switch ($value) {
-                         case "build":
-                             include('eng-core-needs-building.inc.php');
-                             break;
-                         case "think":
-                             include('eng-core-needs-thinking.inc.php');
-                             break;
-                         case "creat":
-                             include('eng-core-needs-creating.inc.php');
-                             break;
-                         case "help":
-                             include('eng-core-needs-helping.inc.php');
-                             break;
-                         case "persuade":
-                             include('eng-core-needs-persuading.inc.php');
-                             break;
-                         case "organise":
-                             include('eng-core-needs-organising.inc.php');
-                             break;
-                         default:
-                             echo "Something went wrong";
-                     }
-                 }
+                    switch ($value) {
+                        case "build":
+                            $ind = 0;
+                            break;
+                        case "think":
+                            $ind = 1;
+                            break;
+                        case "creat":
+                            $ind = 2;
+                            break;
+                        case "help":
+                            $ind = 3;
+                            break;
+                        case "persuade":
+                            $ind = 4;
+                            break;
+                        case "organise":
+                            $ind = 5;
+                            break;
+                        default:
+                            $ind = 6;
+                    }
+                    foreach ($core_needs[$ind] as $value) {
+                        echo '<li class="list-item">'.$value.'</li>';
+                    }
+                }
                  ?>
+                 </ul>
                 </div>
                 <!--End of Your Core Needs-->
                 <h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
@@ -209,32 +292,37 @@
                 <!--Prefered tasks-->
                 <div class="container-fluid">
                 <span class="ml-2"><strong>Your prefered tasks :</strong></span>
+                <ul class="list-group mt-1 ml-3">
                 <?php
                 foreach ($same_primary_interest_areas as $value) {
                     switch ($value) {
                         case "build":
-                            include('eng-prefered-task-building.inc.php');
+                            $ind = 0;
                             break;
                         case "think":
-                            include('eng-prefered-task-thinking.inc.php');
+                            $ind = 1;
                             break;
                         case "creat":
-                            include('eng-prefered-task-creating.inc.php');
+                            $ind = 2;
                             break;
                         case "help":
-                            include('eng-prefered-task-helping.inc.php');
+                            $ind = 3;
                             break;
                         case "persuade":
-                            include('eng-prefered-task-persuading.inc.php');
+                            $ind = 4;
                             break;
                         case "organise":
-                            include('eng-prefered-task-organising.inc.php');
+                            $ind = 5;
                             break;
                         default:
-                            echo "Something went wrong";
+                            $ind = 6;
+                    }
+                    foreach ($prefered_tasks[$ind] as $value) {
+                        echo '<li class="list-item">'.$value.'</li>';
                     }
                 }
                 ?>
+                </ul>
                 </div>
                 <!--End of Prefered tasks-->
                 <!--Tasks to avoid-->
@@ -252,32 +340,37 @@
 
                 <div class="container-fluid">
                     <span class="ml-2"><strong>Tasks to Avoid :</strong></span>
+                    <ul class="list-group mt-1 ml-3">
                 <?php
                 foreach ($same_least_interest_areas as $value) {
                     switch ($value) {
                         case "build":
-                            include('eng-prefered-task-building.inc.php');
+                            $ind = 0;
                             break;
                         case "think":
-                            include('eng-prefered-task-thinking.inc.php');
+                            $ind = 1;
                             break;
                         case "creat":
-                            include('eng-prefered-task-creating.inc.php');
+                            $ind = 2;
                             break;
                         case "help":
-                            include('eng-prefered-task-helping.inc.php');
+                            $ind = 3;
                             break;
                         case "persuade":
-                            include('eng-prefered-task-persuading.inc.php');
+                            $ind = 4;
                             break;
                         case "organise":
-                            include('eng-prefered-task-organising.inc.php');
+                            $ind = 5;
                             break;
                         default:
-                            echo "Something went wrong";
+                            $ind = 6;
+                    }
+                    foreach ($prefered_tasks[$ind] as $value) {
+                        echo '<li class="list-item">'.$value.'</li>';
                     }
                 }
                 ?>
+                </ul>
                 </div>
                 <!--End of Tasks to avoid-->
                 <!--Asking questions-->
@@ -301,32 +394,37 @@
 
                 <div class="container-fluid">
                  <span class="ml-2"><strong>Your Key Questions :</strong></span>
+                 <ul class="list-group mt-1 ml-3">
                 <?php
                 foreach ($same_primary_interest_areas as $value) {
                     switch ($value) {
                         case "build":
-                            include('eng-questions-building.inc.php');
+                            $ind = 0;
                             break;
                         case "think":
-                            include('eng-questions-thinking.inc.php');
+                            $ind = 1;
                             break;
                         case "creat":
-                            include('eng-questions-creating.inc.php');
+                            $ind = 2;
                             break;
                         case "help":
-                            include('eng-questions-helping.inc.php');
+                            $ind = 3;
                             break;
                         case "persuade":
-                            include('eng-questions-persuading.inc.php');
+                            $ind = 4;
                             break;
                         case "organise":
-                            include('eng-questions-organising.inc.php');
+                            $ind = 5;
                             break;
                         default:
-                            echo "Something went wrong";
+                            $ind = 6;
+                    }
+                    foreach ($key_questions[$ind] as $value) {
+                        echo '<li class="list-item">'.$value.'</li>';
                     }
                 }
                 ?>
+                </ul>
                 </div>
                 <!--End of Asking questions-->
                 <!--End of Choosing the right career-->

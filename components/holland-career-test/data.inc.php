@@ -553,7 +553,7 @@ foreach ($same_primary_interest_areas as $value) {
     }
 
 
-    $html .= '<h4 class="card-title mt-4">YOUR PRIMARY INTEREST AREA IS '.$primary[$ind][0].'</h4>
+    echo '<h4 class="card-title mt-4">YOUR PRIMARY INTEREST AREA IS '.$primary[$ind][0].'</h4>
     <p class="card-text">'.$paragraph[$ind][0].'</p>
 
     <div class="container-fluid">
@@ -563,29 +563,29 @@ foreach ($same_primary_interest_areas as $value) {
                         <ul class="list-group mt-1">';
 
     foreach ($top_job_tasks[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }
 
-    $html .= '</ul>
+    echo '</ul>
             </div>
             <div class="col-md-4 mb-3">
                 <span><strong>Your Core Values</strong><span>
                         <ul class="list-group mt-1">';
 
     foreach ($core_values[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }
                         
-    $html .='</ul>
+    echo'</ul>
             </div>
             <div class="col-md-4 mb-3">
                 <span><strong>Key Personality Traits</strong><span>
                         <ul class="list-group mt-1">';
     foreach ($key_personality_traits[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }
 
-    $html .='</ul>
+    echo'</ul>
             </div>
         </div>
     </div>
@@ -603,36 +603,36 @@ foreach ($same_primary_interest_areas as $value) {
                         <ul class="list-group mt-1">';
 
     foreach ($sample_jobs[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }                    
 
-    $html .='</ul>
+    echo'</ul>
             </div>
             <div class="col-md-4 mb-3">
                 <span><strong>Career Fields for '.$primary[$ind][1].'</strong><span>
                         <ul class="list-group mt-1">';
 
     foreach ($career_fields[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }  
                 
-    $html .='</ul>
+    echo'</ul>
             </div>
             <div class="col-md-4 mb-3">
                 <span><strong>Areas of Study for '.$primary[$ind][1].'</strong><span>
                         <ul class="list-group mt-1">';
 
     foreach ($areas_of_study[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }  
 
-    $html .= '</ul>
+    echo '</ul>
             </div>
         </div>
     </div>';
 }
 
-$html .= '<!--Choosing the right career-->
+echo '<!--Choosing the right career-->
 <h4 class="card-title mt-4">Choosing the Right Career</h4>
 <p class="card-text">As you continue in your career search, it will be crucial that you have a system
     for evaluating your opportunities.
@@ -708,11 +708,11 @@ foreach ($same_primary_interest_areas as $value) {
             $ind = 6;
     }
     foreach ($core_needs[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }
 }
 
-$html .= '</ul>
+echo '</ul>
 </div>
 <!--End of Your Core Needs-->
 <h5 class="card-title mt-4">Doing tasks and activities that suit you</h5>
@@ -757,11 +757,11 @@ foreach ($same_primary_interest_areas as $value) {
             $ind = 6;
     }
     foreach ($prefered_tasks[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }
 }
 
-$html .= '
+echo '
 </ul>
 </div>
 <!--End of Prefered tasks-->
@@ -807,11 +807,11 @@ foreach ($same_least_interest_areas as $value) {
             $ind = 6;
     }
     foreach ($prefered_tasks[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }
 }
 
-$html .= '
+echo '
 </ul>
 </div>
 <!--End of Tasks to avoid-->
@@ -863,11 +863,11 @@ foreach ($same_primary_interest_areas as $value) {
             $ind = 6;
     }
     foreach ($key_questions[$ind] as $value) {
-        $html .= '<li class="list-item">'.$value.'</li>';
+        echo '<li class="list-item">'.$value.'</li>';
     }
 }
 
-$html .= '
+echo '
 </ul>
 </div>
 <!--End of Asking questions-->
