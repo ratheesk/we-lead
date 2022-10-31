@@ -112,7 +112,7 @@ if (isset($_POST['lang'])){
 
 
         <form action="holland-career-test-eng-2.php" method="post">
-            <div class="container-fluid card pt-3 pb-3 holland-quiz-container">
+            <div class="container-fluid card p-3 holland-quiz-container">
                 <?php
         
             for ($i = 0; $i < 12; $i++) {

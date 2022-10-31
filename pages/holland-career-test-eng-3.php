@@ -55,7 +55,7 @@ if (!empty($_SESSION['error_page3'])) {
             </div>
         </div>
  <form action="holland-career-test-eng-4.php" method="post">
- <div class="container-fluid card pt-3 pb-3 holland-quiz-container">
+ <div class="container-fluid card p-3 holland-quiz-container">
         <?php        
             for ($i = 24; $i < 36; $i++) {
                 echo '
