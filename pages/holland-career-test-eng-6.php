@@ -149,7 +149,7 @@ function generate() {
     doc.html(elementHTML, {
         callback: function(doc) {
             // Save the PDF
-            doc.save('document-html.pdf');
+            doc.save('holland-code-career-test.pdf');
         },
         margin: [10, 10, 10, 10],
         autoPaging: 'text',
