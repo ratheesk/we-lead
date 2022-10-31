@@ -1,6 +1,6 @@
-<?php
 
-?>
+
+<?php include('data.inc.php')?>
 
 <!--========================= Report Section========================= -->
 <section id="report">
