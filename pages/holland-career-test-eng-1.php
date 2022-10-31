@@ -1,5 +1,21 @@
 <?php
 session_start(); // Session starts here.
+// Checking first page values for empty,If it finds any blank field then redirected to first page.
+if (isset($_POST['lang'])){
+       // Fetching all values posted from second page and storing it in variable.
+       foreach ($_POST as $key => $value) {
+       $_SESSION['lan'][$key] = $value;
+       }
+
+       extract($_SESSION['lan']); // Function to extract array.
+
+       echo $lang;
+
+       unset($_SESSION['lan']);
+   
+   } else {
+    header("location: index.php");//redirecting to home page
+   }
 ?>
 
 <?php include('../components/header.inc.php'); ?>
