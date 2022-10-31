@@ -1,5 +1,20 @@
 <?php
 
+$questions = [
+    ["Repair a dishwasher", "k_1"],
+    ["Use precision machines to build custom metal parts", "k_2"],
+    ["Analyze the structure of molecules", "q_1"],
+    ["Do scientific experiments", "q_2"],
+    ["Design a magazine cover", "m_1"],
+    ["Paint a portrait", "m_2"],
+    ["Teach social skills to disabled children", "n_1"],
+    ["Teach adults to read", "n_2"],
+    ["Coordinate a business conference", "o_1"],
+    ["Plan a marketing strategy for a new company", "o_2"],
+    ["Track monthly expenses for a company", "p_1"],
+    ["Review financial records for accuracy", "p_2"]
+    ];
+
 $primary = [
     ['BUILDING',
     'Builders'],
