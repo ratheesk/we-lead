@@ -5,25 +5,60 @@ session_start(); // Session starts here.
 
 // check the submit key for empty
 if (isset($_POST['submit'])) {
-    // check the value of submit
-    switch($_POST['submit']) {
-        // execute functions for page 1
-        case 'Start':
-            // check language value for empty
-            if (isset($_POST['lang'])) {
-                // set the initial values
-                $question_start = 0;
-                $question_end = 12;
-                $page_num = 1;
-                $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
-                $submit_value = 'Page 2';
-                // Fetching value and storing it in the variable
-                foreach ($_POST as $key => $value) {
-                    $_SESSION['language'][$key] = $value;
+    // validate the values
+    if ($_POST['submit'] == 'Start' 
+    || $_POST['submit'] == 'Page 2' 
+    || $_POST['submit'] == 'Page 3'
+    || $_POST['submit'] == 'Page 4'
+    || $_POST['submit'] == 'Page 5'
+    || $_POST['submit'] == 'Report'){
+        // check the value of submit
+        switch($_POST['submit']) {
+            // execute functions for page 1
+            case 'Start':
+                // check language value for empty
+                if (isset($_POST['lang'])) {
+                    // set the initial values
+                    $question_start = 0;
+                    $question_end = 12;
+                    $page_num = 1;
+                    $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
+                    $submit_value = 'Page 2';
+                    // Fetching value and storing it in the variable
+                    foreach ($_POST as $key => $value) {
+                        $_SESSION['language'][$key] = $value;
+                    }
+                    // extract the array
+                    extract($_SESSION['language']);
+                    // validate the input
+                    // include particuler language questions data
+                    switch($lang) {
+                        case 'english':
+                            include('../components/holland-career-test/eng-data.inc.php');
+                            break;
+                        case 'sinhala':
+                            include('../components/holland-career-test/sin-data.inc.php');
+                            break;
+                        case 'tamil':
+                            include('../components/holland-career-test/tamil-data.inc.php');
+                            break;
+                    }
+                } else {
+                    // redirect to home page
+                    header("location: index.php");
                 }
-                // extract the array
+                break;
+                // execute functions for page 2
+            case 'Page 2':
+
+                $question_start = 12;
+                $question_end = 24;
+                $page_num = 2;
+                $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
+                $submit_value = 'Page 3';
+
                 extract($_SESSION['language']);
-                // include particuler language questions data
+
                 switch($lang) {
                     case 'english':
                         include('../components/holland-career-test/eng-data.inc.php');
@@ -35,111 +70,87 @@ if (isset($_POST['submit'])) {
                         include('../components/holland-career-test/tamil-data.inc.php');
                         break;
                 }
-            } else {
-                // redirect to home page
-                header("location: index.php");
-            }
-            break;
-        // execute functions for page 2
-        case 'Page 2':
 
-            $question_start = 12;
-            $question_end = 24;
-            $page_num = 2;
-            $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
-            $submit_value = 'Page 3';
+                break;
 
-            extract($_SESSION['language']);
+                // execute functions for page 3
+            case 'Page 3':
 
-            switch($lang) {
-                case 'english':
-                    include('../components/holland-career-test/eng-data.inc.php');
-                    break;
-                case 'sinhala':
-                    include('../components/holland-career-test/sin-data.inc.php');
-                    break;
-                case 'tamil':
-                    include('../components/holland-career-test/tamil-data.inc.php');
-                    break;
-            }
+                $question_start = 24;
+                $question_end = 36;
+                $page_num = 3;
+                $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
+                $submit_value = 'Page 4';
 
-            break;
+                extract($_SESSION['language']);
 
-        // execute functions for page 3
-        case 'Page 3':
+                switch($lang) {
+                    case 'english':
+                        include('../components/holland-career-test/eng-data.inc.php');
+                        break;
+                    case 'sinhala':
+                        include('../components/holland-career-test/sin-data.inc.php');
+                        break;
+                    case 'tamil':
+                        include('../components/holland-career-test/tamil-data.inc.php');
+                        break;
+                }
 
-            $question_start = 24;
-            $question_end = 36;
-            $page_num = 3;
-            $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
-            $submit_value = 'Page 4';
+                break;
 
-            extract($_SESSION['language']);
+                // execute functions for page 4
+            case 'Page 4':
 
-            switch($lang) {
-                case 'english':
-                    include('../components/holland-career-test/eng-data.inc.php');
-                    break;
-                case 'sinhala':
-                    include('../components/holland-career-test/sin-data.inc.php');
-                    break;
-                case 'tamil':
-                    include('../components/holland-career-test/tamil-data.inc.php');
-                    break;
-            }
+                $question_start = 36;
+                $question_end = 48;
+                $page_num = 4;
+                $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
+                $submit_value = 'Page 5';
 
-            break;
+                extract($_SESSION['language']);
 
-        // execute functions for page 4
-        case 'Page 4':
+                switch($lang) {
+                    case 'english':
+                        include('../components/holland-career-test/eng-data.inc.php');
+                        break;
+                    case 'sinhala':
+                        include('../components/holland-career-test/sin-data.inc.php');
+                        break;
+                    case 'tamil':
+                        include('../components/holland-career-test/tamil-data.inc.php');
+                        break;
+                }
 
-            $question_start = 36;
-            $question_end = 48;
-            $page_num = 4;
-            $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
-            $submit_value = 'Page 5';
+                break;
 
-            extract($_SESSION['language']);
+                // execute functions for page 5
+            case 'Page 5':
 
-            switch($lang) {
-                case 'english':
-                    include('../components/holland-career-test/eng-data.inc.php');
-                    break;
-                case 'sinhala':
-                    include('../components/holland-career-test/sin-data.inc.php');
-                    break;
-                case 'tamil':
-                    include('../components/holland-career-test/tamil-data.inc.php');
-                    break;
-            }
+                $question_start = 48;
+                $question_end = 60;
+                $page_num = 5;
+                $action_page = 'holland-career-test-eng-6.php';
+                $submit_value = 'Report';
 
-            break;
+                extract($_SESSION['language']);
 
-        // execute functions for page 5
-        case 'Page 5':
+                switch($lang) {
+                    case 'english':
+                        include('../components/holland-career-test/eng-data.inc.php');
+                        break;
+                    case 'sinhala':
+                        include('../components/holland-career-test/sin-data.inc.php');
+                        break;
+                    case 'tamil':
+                        include('../components/holland-career-test/tamil-data.inc.php');
+                        break;
+                }
 
-            $question_start = 48;
-            $question_end = 60;
-            $page_num = 5;
-            $action_page = 'holland-career-test-eng-6.php';
-            $submit_value = 'Report';
-
-            extract($_SESSION['language']);
-
-            switch($lang) {
-                case 'english':
-                    include('../components/holland-career-test/eng-data.inc.php');
-                    break;
-                case 'sinhala':
-                    include('../components/holland-career-test/sin-data.inc.php');
-                    break;
-                case 'tamil':
-                    include('../components/holland-career-test/tamil-data.inc.php');
-                    break;
-            }
-
-            break;
-    }
+                break;
+        }
+    } else {
+        header("location: index.php");//redirecting to home page
+    } 
 } else {
     header("location: index.php");//redirecting to home page
 }
