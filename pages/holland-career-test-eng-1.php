@@ -9,20 +9,21 @@ if (isset($_POST['submit'])) {
     switch($_POST['submit']) {
         // execute functions for page 1
         case 'Start':
-
+            // check language value for empty
             if (isset($_POST['lang'])) {
+                // set the initial values
                 $question_start = 0;
                 $question_end = 12;
                 $page_num = 1;
                 $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
                 $submit_value = 'Page 2';
-
+                // Fetching value and storing it in the variable
                 foreach ($_POST as $key => $value) {
                     $_SESSION['language'][$key] = $value;
                 }
-
+                // extract the array
                 extract($_SESSION['language']);
-
+                // include particuler language questions data
                 switch($lang) {
                     case 'english':
                         include('../components/holland-career-test/eng-data.inc.php');
@@ -35,7 +36,8 @@ if (isset($_POST['submit'])) {
                         break;
                 }
             } else {
-                header("location: index.php");//redirecting to home page
+                // redirect to home page
+                header("location: index.php");
             }
             break;
         // execute functions for page 2
