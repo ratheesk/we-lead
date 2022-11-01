@@ -108,9 +108,9 @@
     // $p = 2;
 
     //if (count($same_primary_interest_areas) > 1) {
-    //    include('../components/holland-career-test/eng-report-confirm-modal.inc.php');
+    //    include('../components/holland-code-career-test/eng-report-confirm-modal.inc.php');
     //}else {
-    //    include('../components/holland-career-test/eng-report.php'); 
+    //    include('../components/holland-code-career-test/eng-report.php'); 
     //}
 
 
@@ -125,7 +125,7 @@ if (!empty($_SESSION['error_page6'])) {
 }
 ?>
  </span>
-<?php include('../components/holland-career-test/eng-report.php'); ?>
+<?php include('../components/holland-code-career-test/eng-report.php'); ?>
 
 <script>
 

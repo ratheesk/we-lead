@@ -51,13 +51,13 @@ if (isset($_POST['submit'])) {
                         // include particuler language questions data
                         switch($_SESSION['language']) {
                             case 'english':
-                                include('../components/holland-career-test/eng-data.inc.php');
+                                include('../components/holland-code-career-test/eng-data.inc.php');
                                 break;
                             case 'sinhala':
-                                include('../components/holland-career-test/sin-data.inc.php');
+                                include('../components/holland-code-career-test/sin-data.inc.php');
                                 break;
                             case 'tamil':
-                                include('../components/holland-career-test/tamil-data.inc.php');
+                                include('../components/holland-code-career-test/tamil-data.inc.php');
                                 break;
                         }
                     } else {
@@ -74,13 +74,13 @@ if (isset($_POST['submit'])) {
                 if (!empty($_SESSION['language'])) {
                     switch($_SESSION['language']) {
                         case 'english':
-                            include('../components/holland-career-test/eng-data.inc.php');
+                            include('../components/holland-code-career-test/eng-data.inc.php');
                             break;
                         case 'sinhala':
-                            include('../components/holland-career-test/sin-data.inc.php');
+                            include('../components/holland-code-career-test/sin-data.inc.php');
                             break;
                         case 'tamil':
-                            include('../components/holland-career-test/tamil-data.inc.php');
+                            include('../components/holland-code-career-test/tamil-data.inc.php');
                             break;
                     }
                 } else {
@@ -131,13 +131,13 @@ if (isset($_POST['submit'])) {
                 if (!empty($_SESSION['language'])) {
                     switch($_SESSION['language']) {
                         case 'english':
-                            include('../components/holland-career-test/eng-data.inc.php');
+                            include('../components/holland-code-career-test/eng-data.inc.php');
                             break;
                         case 'sinhala':
-                            include('../components/holland-career-test/sin-data.inc.php');
+                            include('../components/holland-code-career-test/sin-data.inc.php');
                             break;
                         case 'tamil':
-                            include('../components/holland-career-test/tamil-data.inc.php');
+                            include('../components/holland-code-career-test/tamil-data.inc.php');
                             break;
                     }
                 } else {
@@ -190,13 +190,13 @@ if (isset($_POST['submit'])) {
                 if (!empty($_SESSION['language'])) {
                     switch($_SESSION['language']) {
                         case 'english':
-                            include('../components/holland-career-test/eng-data.inc.php');
+                            include('../components/holland-code-career-test/eng-data.inc.php');
                             break;
                         case 'sinhala':
-                            include('../components/holland-career-test/sin-data.inc.php');
+                            include('../components/holland-code-career-test/sin-data.inc.php');
                             break;
                         case 'tamil':
-                            include('../components/holland-career-test/tamil-data.inc.php');
+                            include('../components/holland-code-career-test/tamil-data.inc.php');
                             break;
                     }
                 } else {
@@ -248,13 +248,13 @@ if (isset($_POST['submit'])) {
                 if (!empty($_SESSION['language'])) {
                     switch($_SESSION['language']) {
                         case 'english':
-                            include('../components/holland-career-test/eng-data.inc.php');
+                            include('../components/holland-code-career-test/eng-data.inc.php');
                             break;
                         case 'sinhala':
-                            include('../components/holland-career-test/sin-data.inc.php');
+                            include('../components/holland-code-career-test/sin-data.inc.php');
                             break;
                         case 'tamil':
-                            include('../components/holland-career-test/tamil-data.inc.php');
+                            include('../components/holland-code-career-test/tamil-data.inc.php');
                             break;
                     }
                 } else {
@@ -305,13 +305,13 @@ if (isset($_POST['submit'])) {
                 if (!empty($_SESSION['language'])) {
                     switch($_SESSION['language']) {
                         case 'english':
-                            include('../components/holland-career-test/eng-data.inc.php');
+                            include('../components/holland-code-career-test/eng-data.inc.php');
                             break;
                         case 'sinhala':
-                            include('../components/holland-career-test/sin-data.inc.php');
+                            include('../components/holland-code-career-test/sin-data.inc.php');
                             break;
                         case 'tamil':
-                            include('../components/holland-career-test/tamil-data.inc.php');
+                            include('../components/holland-code-career-test/tamil-data.inc.php');
                             break;
                     }
                 } else {
