@@ -1,11 +1,32 @@
-<?php include('../components/holland-career-test/eng-data.inc.php'); ?>
+<?php //include('../components/holland-career-test/eng-data.inc.php'); ?>
 
 <?php
 session_start(); // Session starts here.
 
 switch($_POST['submit']) {
-    case 'Start': 
-        echo 'hello';
+    // execute functions for quiz 1
+    case 'Start':
+        if (isset($_POST['lang'])) {
+            foreach ($_POST as $key => $value) {
+                $_SESSION['language'][$key] = $value;
+            }
+
+            extract($_SESSION['language']);
+
+            switch($lang) {
+                case 'english':
+                    include('../components/holland-career-test/eng-data.inc.php');
+                    break;
+                case 'sinhala':
+                    include('../components/holland-career-test/sin-data.inc.php');
+                    break;
+                case 'tamil':
+                    include('../components/holland-career-test/tamil-data.inc.php');
+                    break;
+            }
+        } else {
+            header("location: index.php");//redirecting to home page
+        }
     break;
     case 'Next':
         echo 'hi';
