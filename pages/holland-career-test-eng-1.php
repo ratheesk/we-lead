@@ -1,5 +1,3 @@
-<?php //include('../components/holland-career-test/eng-data.inc.php'); ?>
-
 <?php
 session_start(); // Session starts here.
 
@@ -162,23 +160,6 @@ if (isset($_POST['submit'])) {
 } else {
     header("location: index.php");//redirecting to home page
 }
-// Checking first page values for empty,If it finds any blank field then redirected to first page.
-//if (isset($_POST['submit'])){
-//    // Fetching all values posted from second page and storing it in variable.
-//    foreach ($_POST as $key => $value) {
-//    $_SESSION['lan'][$key] = $value;
-//    }
-//
-//    extract($_SESSION['lan']); // Function to extract array.
-//
-//
-//} else {
-// header("location: index.php");//redirecting to home page
-//}
-//
-//   if (isset($_POST['k_1'])){
-//    echo 'hello';
-//   }
 ?>
 
 <?php include('../components/header.inc.php'); ?>
