@@ -11,37 +11,43 @@ if (isset($_POST['submit'])) {
     || $_POST['submit'] == 'Page 3'
     || $_POST['submit'] == 'Page 4'
     || $_POST['submit'] == 'Page 5'
-    || $_POST['submit'] == 'Report'){
+    || $_POST['submit'] == 'Report') {
         // check the value of submit
         switch($_POST['submit']) {
             // execute functions for page 1
             case 'Start':
                 // check language value for empty
                 if (isset($_POST['lang'])) {
-                    // set the initial values
-                    $question_start = 0;
-                    $question_end = 12;
-                    $page_num = 1;
-                    $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
-                    $submit_value = 'Page 2';
-                    // Fetching value and storing it in the variable
-                    foreach ($_POST as $key => $value) {
-                        $_SESSION['language'][$key] = $value;
-                    }
-                    // extract the array
-                    extract($_SESSION['language']);
-                    // validate the input
-                    // include particuler language questions data
-                    switch($lang) {
-                        case 'english':
-                            include('../components/holland-career-test/eng-data.inc.php');
-                            break;
-                        case 'sinhala':
-                            include('../components/holland-career-test/sin-data.inc.php');
-                            break;
-                        case 'tamil':
-                            include('../components/holland-career-test/tamil-data.inc.php');
-                            break;
+                    if ($_POST['lang'] == 'english'
+                    || $_POST['lang'] == 'sinhala'
+                    || $_POST['lang'] == 'tamil') {
+                        // set the initial values
+                        $question_start = 0;
+                        $question_end = 12;
+                        $page_num = 1;
+                        $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
+                        $submit_value = 'Page 2';
+                        // Fetching value and storing it in the variable
+                        foreach ($_POST as $key => $value) {
+                            $_SESSION['language'][$key] = $value;
+                        }
+                        // extract the array
+                        extract($_SESSION['language']);
+                        // validate the input
+                        // include particuler language questions data
+                        switch($lang) {
+                            case 'english':
+                                include('../components/holland-career-test/eng-data.inc.php');
+                                break;
+                            case 'sinhala':
+                                include('../components/holland-career-test/sin-data.inc.php');
+                                break;
+                            case 'tamil':
+                                include('../components/holland-career-test/tamil-data.inc.php');
+                                break;
+                        }
+                    } else {
+                        echo 'Unexpected value is submitted';
                     }
                 } else {
                     // redirect to home page
@@ -149,7 +155,7 @@ if (isset($_POST['submit'])) {
                 break;
         }
     } else {
-        header("location: index.php");//redirecting to home page
+        echo 'Undefined submission';
     } 
 } else {
     header("location: index.php");//redirecting to home page
