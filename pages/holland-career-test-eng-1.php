@@ -3,8 +3,9 @@
 <?php
 session_start(); // Session starts here.
 
+// check the submit key for empty
 if (isset($_POST['submit'])) {
-    //check the value of submit
+    // check the value of submit
     switch($_POST['submit']) {
         // execute functions for page 1
         case 'Start':
@@ -37,7 +38,7 @@ if (isset($_POST['submit'])) {
                 header("location: index.php");//redirecting to home page
             }
             break;
-
+        // execute functions for page 2
         case 'Page 2':
 
             $question_start = 12;
@@ -62,6 +63,7 @@ if (isset($_POST['submit'])) {
 
             break;
 
+        // execute functions for page 3
         case 'Page 3':
 
             $question_start = 24;
@@ -86,6 +88,7 @@ if (isset($_POST['submit'])) {
 
             break;
 
+        // execute functions for page 4
         case 'Page 4':
 
             $question_start = 36;
@@ -110,6 +113,7 @@ if (isset($_POST['submit'])) {
 
             break;
 
+        // execute functions for page 5
         case 'Page 5':
 
             $question_start = 48;
