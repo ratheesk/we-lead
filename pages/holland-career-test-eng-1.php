@@ -12,6 +12,16 @@ function test_input($data) {
     return $data;
   }
 
+function quiz_values($page_num, $question_start, $question_end, $submit_value, $action_page) {
+
+    $GLOBALS['page_num'] = $page_num;
+    $GLOBALS['question_start'] = $question_start;
+    $GLOBALS['question_end'] = $question_end;
+    $GLOBALS['submit_value'] = $submit_value;
+    $GLOBALS['action_page'] = $action_page;
+} 
+
+
 // check the submit key for empty
 if (isset($_POST['submit'])) {
     // test input
@@ -35,11 +45,7 @@ if (isset($_POST['submit'])) {
                     || $language == 'sinhala'
                     || $language == 'tamil') {
                         // set the initial values
-                        $question_start = 0;
-                        $question_end = 12;
-                        $page_num = 1;
-                        $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
-                        $submit_value = 'Page 2';
+                        quiz_values(1,0,12,'Page 2',htmlspecialchars($_SERVER["PHP_SELF"]));
                         // store the choosed language it in the session
                         $_SESSION['language'] = $language;
                         // include particuler language questions data
