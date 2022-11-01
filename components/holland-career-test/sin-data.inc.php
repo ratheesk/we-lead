@@ -13,7 +13,7 @@ $questions = [
     ["Plan a marketing strategy for a new company", "o_2"],
     ["Track monthly expenses for a company", "p_1"],
     ["Review financial records for accuracy", "p_2"],
-    ["Install a hardwood floor", "k_3"],
+    ["Sinhala q - 2", "k_3"],
     ["Repair an air conditioning system", "k_4"],
     ["Research the properties of nuclear energy", "q_3"],
     ["Research a new medicine", "q_4"],

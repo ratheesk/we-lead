@@ -16,38 +16,36 @@ function test_input($data) {
 
 // check the submit key for empty
 if (isset($_POST['submit'])) {
+    // test input
+    $submitted_value = test_input($_POST['submit']);
     // validate the values
-    if ($_POST['submit'] == 'Start' 
-    || $_POST['submit'] == 'Page 2' 
-    || $_POST['submit'] == 'Page 3'
-    || $_POST['submit'] == 'Page 4'
-    || $_POST['submit'] == 'Page 5'
-    || $_POST['submit'] == 'Report') {
+    if ($submitted_value == 'Start' 
+    || $submitted_value == 'Page 2' 
+    || $submitted_value == 'Page 3'
+    || $submitted_value == 'Page 4'
+    || $submitted_value == 'Page 5'
+    || $submitted_value == 'Report') {
         // check the value of submit
-        switch($_POST['submit']) {
+        switch($submitted_value) {
             // execute functions for page 1
             case 'Start':
                 // check language value for empty
                 if (isset($_POST['lang'])) {
+                    $language = test_input($_POST['lang']);
                     // validate the language value
-                    if ($_POST['lang'] == 'english'
-                    || $_POST['lang'] == 'sinhala'
-                    || $_POST['lang'] == 'tamil') {
+                    if ($language == 'english'
+                    || $language == 'sinhala'
+                    || $language == 'tamil') {
                         // set the initial values
                         $question_start = 0;
                         $question_end = 12;
                         $page_num = 1;
                         $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
                         $submit_value = 'Page 2';
-                        // Fetching value and storing it in the variable
-                        foreach ($_POST as $key => $value) {
-                            $_SESSION['language'][$key] = $value;
-                        }
-                        // extract the array
-                        extract($_SESSION['language']);
-                        // validate the input
+                        // store the choosed language it in the session
+                        $_SESSION['language'] = $language;
                         // include particuler language questions data
-                        switch($lang) {
+                        switch($_SESSION['language']) {
                             case 'english':
                                 include('../components/holland-career-test/eng-data.inc.php');
                                 break;
@@ -75,9 +73,7 @@ if (isset($_POST['submit'])) {
                 $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
                 $submit_value = 'Page 3';
 
-                extract($_SESSION['language']);
-
-                switch($lang) {
+                switch($_SESSION['language']) {
                     case 'english':
                         include('../components/holland-career-test/eng-data.inc.php');
                         break;
@@ -100,9 +96,7 @@ if (isset($_POST['submit'])) {
                 $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
                 $submit_value = 'Page 4';
 
-                extract($_SESSION['language']);
-
-                switch($lang) {
+                switch($_SESSION['language']) {
                     case 'english':
                         include('../components/holland-career-test/eng-data.inc.php');
                         break;
@@ -125,9 +119,7 @@ if (isset($_POST['submit'])) {
                 $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
                 $submit_value = 'Page 5';
 
-                extract($_SESSION['language']);
-
-                switch($lang) {
+                switch($_SESSION['language']) {
                     case 'english':
                         include('../components/holland-career-test/eng-data.inc.php');
                         break;
@@ -150,9 +142,7 @@ if (isset($_POST['submit'])) {
                 $action_page = 'holland-career-test-eng-6.php';
                 $submit_value = 'Report';
 
-                extract($_SESSION['language']);
-
-                switch($lang) {
+                switch($_SESSION['language']) {
                     case 'english':
                         include('../components/holland-career-test/eng-data.inc.php');
                         break;
