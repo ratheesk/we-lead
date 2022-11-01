@@ -3,6 +3,17 @@
 <?php
 session_start(); // Session starts here.
 
+// function to test inputs in forms
+function test_input($data) {
+    // strip unnecessary characters
+    $data = trim($data);
+    // remove backslashes
+    $data = stripslashes($data);
+    // convert special characters to HTML entities
+    $data = htmlspecialchars($data);
+    return $data;
+  }
+
 // check the submit key for empty
 if (isset($_POST['submit'])) {
     // validate the values
@@ -18,6 +29,7 @@ if (isset($_POST['submit'])) {
             case 'Start':
                 // check language value for empty
                 if (isset($_POST['lang'])) {
+                    // validate the language value
                     if ($_POST['lang'] == 'english'
                     || $_POST['lang'] == 'sinhala'
                     || $_POST['lang'] == 'tamil') {
