@@ -3,13 +3,48 @@
 <?php
 session_start(); // Session starts here.
 
-switch($_POST['submit']) {
-    // execute functions for quiz 1
-    case 'Start':
-        if (isset($_POST['lang'])) {
-            foreach ($_POST as $key => $value) {
-                $_SESSION['language'][$key] = $value;
+if (isset($_POST['submit'])) {
+    //check the value of submit
+    switch($_POST['submit']) {
+        // execute functions for page 1
+        case 'Start':
+
+            if (isset($_POST['lang'])) {
+                $question_start = 0;
+                $question_end = 12;
+                $page_num = 1;
+                $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
+                $submit_value = 'Page 2';
+
+                foreach ($_POST as $key => $value) {
+                    $_SESSION['language'][$key] = $value;
+                }
+
+                extract($_SESSION['language']);
+
+                switch($lang) {
+                    case 'english':
+                        include('../components/holland-career-test/eng-data.inc.php');
+                        break;
+                    case 'sinhala':
+                        include('../components/holland-career-test/sin-data.inc.php');
+                        break;
+                    case 'tamil':
+                        include('../components/holland-career-test/tamil-data.inc.php');
+                        break;
+                }
+            } else {
+                header("location: index.php");//redirecting to home page
             }
+            break;
+
+        case 'Page 2':
+
+            $question_start = 12;
+            $question_end = 24;
+            $page_num = 2;
+            $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
+            $submit_value = 'Page 3';
 
             extract($_SESSION['language']);
 
@@ -24,13 +59,83 @@ switch($_POST['submit']) {
                     include('../components/holland-career-test/tamil-data.inc.php');
                     break;
             }
-        } else {
-            header("location: index.php");//redirecting to home page
-        }
-    break;
-    case 'Next':
-        echo 'hi';
-    break;
+
+            break;
+
+        case 'Page 3':
+
+            $question_start = 24;
+            $question_end = 36;
+            $page_num = 3;
+            $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
+            $submit_value = 'Page 4';
+
+            extract($_SESSION['language']);
+
+            switch($lang) {
+                case 'english':
+                    include('../components/holland-career-test/eng-data.inc.php');
+                    break;
+                case 'sinhala':
+                    include('../components/holland-career-test/sin-data.inc.php');
+                    break;
+                case 'tamil':
+                    include('../components/holland-career-test/tamil-data.inc.php');
+                    break;
+            }
+
+            break;
+
+        case 'Page 4':
+
+            $question_start = 36;
+            $question_end = 48;
+            $page_num = 4;
+            $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
+            $submit_value = 'Page 5';
+
+            extract($_SESSION['language']);
+
+            switch($lang) {
+                case 'english':
+                    include('../components/holland-career-test/eng-data.inc.php');
+                    break;
+                case 'sinhala':
+                    include('../components/holland-career-test/sin-data.inc.php');
+                    break;
+                case 'tamil':
+                    include('../components/holland-career-test/tamil-data.inc.php');
+                    break;
+            }
+
+            break;
+
+        case 'Page 5':
+
+            $question_start = 48;
+            $question_end = 60;
+            $page_num = 5;
+            $action_page = 'holland-career-test-eng-6.php';
+            $submit_value = 'Report';
+
+            extract($_SESSION['language']);
+
+            switch($lang) {
+                case 'english':
+                    include('../components/holland-career-test/eng-data.inc.php');
+                    break;
+                case 'sinhala':
+                    include('../components/holland-career-test/sin-data.inc.php');
+                    break;
+                case 'tamil':
+                    include('../components/holland-career-test/tamil-data.inc.php');
+                    break;
+            }
+
+            break;
+    }
+} else {
+    header("location: index.php");//redirecting to home page
 }
 // Checking first page values for empty,If it finds any blank field then redirected to first page.
 //if (isset($_POST['submit'])){
@@ -57,7 +162,7 @@ switch($_POST['submit']) {
 <section>
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
-            <h4 class="section-title bg-white text-center text-primary px-3">Page 1</h4>
+            <h4 class="section-title bg-white text-center text-primary px-3">Page <?php echo $page_num; ?></h4>
             <p data-aos="fade-up">To take the holland code career quiz, mark your interest in each activity shown. Do
                 not worry about whether you have the skills or training to do an activity, or how much money you might
                 make. Simply think about whether you would enjoy doing it or not.</p>
@@ -142,12 +247,13 @@ switch($_POST['submit']) {
             </div>
         </div>
 
-
-        <form action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> method="post">
-            <div class="container-fluid card p-3 holland-quiz-container">
-                <?php
+        <?php
+        echo'
+        <form action='.$action_page.' method="post">
+            <div class="container-fluid card p-3 holland-quiz-container">';
+                
         
-            for ($i = 0; $i < 12; $i++) {
+            for ($i = $question_start; $i < $question_end; $i++) {
                 echo '
                 <div class="row border-0 pt-3 ml-2 mr-2 mt-2 holland-quiz">
                 <div class="col-md-6 my-auto">
@@ -189,16 +295,17 @@ switch($_POST['submit']) {
                 </div>
             </div>';
             }
-        ?>
+             echo '
             </div>
             <div class="form-group text-center pt-3 pb-3">
                 <input class="btn btn-danger mr-4" type="reset" value="Reset" />
-                <input class="btn btn-success" type="submit" name="submit" value="Next" />
+                <input class="btn btn-success" type="submit" name="submit" value="'.$submit_value.'" />
             </div>
         </form>
     </div>
 </section>
 
 <!--========================= End Quiz page 1========================= -->
-
+';
+?>
 <?php include('../components/footer.inc.php'); ?>
