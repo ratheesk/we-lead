@@ -8,7 +8,7 @@
     <h5 class="card-title">Choose your language</h5>
     <p class="card-text">You may continue with your convenient language</p>
   </div>
-  <form action="holland-career-test-eng-1.php" method="POST">
+  <form action="holland-code-career-test.php" method="POST">
   <div class="form-check">
   <input class="form-check-input" type="radio" name="lang" id="english" value="english" required="required" checked>
   <label class="form-check-label" for="english">

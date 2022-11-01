@@ -96,7 +96,7 @@
 
  } else {
     if (empty($_SESSION['error_page6'])) {
-    header("location: holland-career-test-eng-1.php");//redirecting to first page
+    header("location: holland-code-career-test.php");//redirecting to first page
     }
    }
     //dummy values

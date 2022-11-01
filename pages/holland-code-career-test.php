@@ -348,7 +348,7 @@ if (isset($_POST['submit'])) {
                             $_SESSION['post'][$key] = $value;
                         }
 
-                        header("location: holland-career-test-eng-6.php");
+                        header("location: holland-code-career-test-report.php");
 
                     }
                 } else {
