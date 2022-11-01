@@ -71,11 +71,7 @@ if (isset($_POST['submit'])) {
                 // execute functions for page 2
             case 'Page 2':
 
-                $question_start = 12;
-                $question_end = 24;
-                $page_num = 2;
-                $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
-                $submit_value = 'Page 3';
+                quiz_values(2,12,24,'Page 3',htmlspecialchars($_SERVER["PHP_SELF"]));
 
                 switch($_SESSION['language']) {
                     case 'english':
@@ -94,11 +90,7 @@ if (isset($_POST['submit'])) {
                 // execute functions for page 3
             case 'Page 3':
 
-                $question_start = 24;
-                $question_end = 36;
-                $page_num = 3;
-                $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
-                $submit_value = 'Page 4';
+                quiz_values(3,24,36,'Page 4',htmlspecialchars($_SERVER["PHP_SELF"]));
 
                 switch($_SESSION['language']) {
                     case 'english':
@@ -116,12 +108,8 @@ if (isset($_POST['submit'])) {
 
                 // execute functions for page 4
             case 'Page 4':
-
-                $question_start = 36;
-                $question_end = 48;
-                $page_num = 4;
-                $action_page = htmlspecialchars($_SERVER["PHP_SELF"]);
-                $submit_value = 'Page 5';
+                
+                quiz_values(4,36,48,'Page 5',htmlspecialchars($_SERVER["PHP_SELF"]));
 
                 switch($_SESSION['language']) {
                     case 'english':
@@ -140,11 +128,7 @@ if (isset($_POST['submit'])) {
                 // execute functions for page 5
             case 'Page 5':
 
-                $question_start = 48;
-                $question_end = 60;
-                $page_num = 5;
-                $action_page = 'holland-career-test-eng-6.php';
-                $submit_value = 'Report';
+                quiz_values(5,48,60,'Report','holland-career-test-eng-6.php');
 
                 switch($_SESSION['language']) {
                     case 'english':
