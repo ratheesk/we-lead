@@ -28,7 +28,7 @@
   </label>
 </div>
 <div class="form-group text-center pt-3 pb-3">
-  <input class="btn btn-success" type="submit" value="Start" />
+  <input class="btn btn-success" type="submit" name="submit" value="Start" />
 </div>
   </form>
 </div>

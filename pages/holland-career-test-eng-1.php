@@ -1,22 +1,36 @@
+<?php include('../components/holland-career-test/eng-data.inc.php'); ?>
+
 <?php
 session_start(); // Session starts here.
+
+switch($_POST['submit']) {
+    case 'Start': 
+        echo 'hello';
+    break;
+    case 'Next':
+        echo 'hi';
+    break;
+}
 // Checking first page values for empty,If it finds any blank field then redirected to first page.
-if (isset($_POST['lang'])){
-       // Fetching all values posted from second page and storing it in variable.
-       foreach ($_POST as $key => $value) {
-       $_SESSION['lan'][$key] = $value;
-       }
-
-       extract($_SESSION['lan']); // Function to extract array.
-
-   
-   } else {
-    header("location: index.php");//redirecting to home page
-   }
+//if (isset($_POST['submit'])){
+//    // Fetching all values posted from second page and storing it in variable.
+//    foreach ($_POST as $key => $value) {
+//    $_SESSION['lan'][$key] = $value;
+//    }
+//
+//    extract($_SESSION['lan']); // Function to extract array.
+//
+//
+//} else {
+// header("location: index.php");//redirecting to home page
+//}
+//
+//   if (isset($_POST['k_1'])){
+//    echo 'hello';
+//   }
 ?>
 
 <?php include('../components/header.inc.php'); ?>
-<?php include('../components/holland-career-test/eng-data.inc.php'); ?>
 
 <!--========================= Quiz page 1 ========================= -->
 <section>
@@ -108,7 +122,7 @@ if (isset($_POST['lang'])){
         </div>
 
 
-        <form action="holland-career-test-eng-2.php" method="post">
+        <form action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> method="post">
             <div class="container-fluid card p-3 holland-quiz-container">
                 <?php
         
@@ -158,7 +172,7 @@ if (isset($_POST['lang'])){
             </div>
             <div class="form-group text-center pt-3 pb-3">
                 <input class="btn btn-danger mr-4" type="reset" value="Reset" />
-                <input class="btn btn-success" type="submit" value="Next" />
+                <input class="btn btn-success" type="submit" name="submit" value="Next" />
             </div>
         </form>
     </div>
