@@ -70,21 +70,59 @@ if (isset($_POST['submit'])) {
                 break;
                 // execute functions for page 2
             case 'Page 2':
-
-                quiz_values(2,12,24,'Page 3',htmlspecialchars($_SERVER["PHP_SELF"]));
-
-                switch($_SESSION['language']) {
-                    case 'english':
-                        include('../components/holland-career-test/eng-data.inc.php');
-                        break;
-                    case 'sinhala':
-                        include('../components/holland-career-test/sin-data.inc.php');
-                        break;
-                    case 'tamil':
-                        include('../components/holland-career-test/tamil-data.inc.php');
-                        break;
+                // check the language avalilability in session
+                if (!empty($_SESSION['language'])) {
+                    switch($_SESSION['language']) {
+                        case 'english':
+                            include('../components/holland-career-test/eng-data.inc.php');
+                            break;
+                        case 'sinhala':
+                            include('../components/holland-career-test/sin-data.inc.php');
+                            break;
+                        case 'tamil':
+                            include('../components/holland-career-test/tamil-data.inc.php');
+                            break;
+                    }
+                } else {
+                    header("location: index.php");
                 }
 
+                $input_set = true;
+
+                for ($i = 0; $i < 12; $i++) {
+                    if(!isset($_POST[$questions[$i][1]])) {
+                        $input_set = false;
+                        break;
+                    }
+                }
+
+                if ($input_set) {
+
+                    $input_empty = false;
+
+                    for ($i = 0; $i < 12; $i++) {
+                        if(empty($_POST[$questions[$i][1]])) {
+                            $input_empty = true;
+                            break;
+                        }
+                    }
+
+                    if ($input_empty) {
+                        // Set error message
+                        $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
+                        quiz_values(1,0,12,'Page 2',htmlspecialchars($_SERVER["PHP_SELF"]));
+                    } else {
+                        // Fetch all values posted from first page and storing it in variable.
+                        foreach ($_POST as $key => $value) {
+                            $_SESSION['post'][$key] = $value;
+                        }
+
+                        quiz_values(2, 12, 24, 'Page 3', htmlspecialchars($_SERVER["PHP_SELF"]));
+
+                    }
+                } else {
+                    quiz_values(1,0,12,'Page 2',htmlspecialchars($_SERVER["PHP_SELF"]));
+                }
                 break;
 
                 // execute functions for page 3
@@ -108,7 +146,7 @@ if (isset($_POST['submit'])) {
 
                 // execute functions for page 4
             case 'Page 4':
-                
+
                 quiz_values(4,36,48,'Page 5',htmlspecialchars($_SERVER["PHP_SELF"]));
 
                 switch($_SESSION['language']) {
@@ -127,6 +165,8 @@ if (isset($_POST['submit'])) {
 
                 // execute functions for page 5
             case 'Page 5':
+
+                $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
 
                 quiz_values(5,48,60,'Report','holland-career-test-eng-6.php');
 
