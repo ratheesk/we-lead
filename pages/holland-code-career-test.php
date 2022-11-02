@@ -68,10 +68,7 @@ if (isset($_POST['submit'])) {
                     } else {
                         echo 'Unexpected value is submitted';
                     }
-                } else {
-                    // redirect to home page
-                    header("location: index.php");
-                }
+                } 
                 break;
                 // execute functions for page 2
             case 'Page 2':
@@ -89,7 +86,9 @@ if (isset($_POST['submit'])) {
                             break;
                     }
                 } else {
-                    header("location: index.php");
+                    unset($_SESSION['language']);
+                    header('Location: '.$_SERVER['PHP_SELF']);
+                    break;
                 }
 
                 $input_set = true;
@@ -146,7 +145,9 @@ if (isset($_POST['submit'])) {
                             break;
                     }
                 } else {
-                    header("location: index.php");
+                    unset($_SESSION['language']);
+                    header('Location: '.$_SERVER['PHP_SELF']);
+                    break;
                 }
 
                 $input_set = true;
@@ -205,7 +206,9 @@ if (isset($_POST['submit'])) {
                             break;
                     }
                 } else {
-                    header("location: index.php");
+                    unset($_SESSION['language']);
+                    header('Location: '.$_SERVER['PHP_SELF']);
+                    break;
                 }
 
                 $input_set = true;
@@ -263,7 +266,9 @@ if (isset($_POST['submit'])) {
                             break;
                     }
                 } else {
-                    header("location: index.php");
+                    unset($_SESSION['language']);
+                    header('Location: '.$_SERVER['PHP_SELF']);
+                    break;
                 }
 
                 $input_set = true;
@@ -320,7 +325,9 @@ if (isset($_POST['submit'])) {
                             break;
                     }
                 } else {
-                    header("location: index.php");
+                    unset($_SESSION['language']);
+                    header('Location: '.$_SERVER['PHP_SELF']);
+                    break;
                 }
 
                 $input_set = true;
