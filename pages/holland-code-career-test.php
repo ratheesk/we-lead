@@ -378,7 +378,7 @@ if (isset($_POST['submit'])) {
 <?php include('../components/header.inc.php'); ?>
 
 <?php
-if (!empty($_SESSION['language'])){
+if (!empty($_SESSION['language']) && isset($_POST['submit'])){
     include('../components/holland-code-career-test/quiz.inc.php');
 } else {
     include('../components/holland-code-career-test/choose-lang.inc.php');
