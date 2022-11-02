@@ -18,13 +18,13 @@
 <div class="form-check">
   <input class="form-check-input" type="radio" name="lang" id="sinhala" value="sinhala">
   <label class="form-check-label" for="sinhala">
-    Sinhala
+  සිංහල
   </label>
 </div>
 <div class="form-check">
   <input class="form-check-input" type="radio" name="lang" id="tamil" value="tamil">
   <label class="form-check-label" for="tamil">
-    Tamil
+  தமிழ்
   </label>
 </div>
 <div class="form-group text-center pt-3 pb-3">
