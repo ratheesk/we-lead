@@ -99,30 +99,16 @@
     header("location: holland-code-career-test.php");//redirecting to first page
     }
    }
-    //dummy values
-    // $k = 5;
-    // $q = 9;
-    // $m = 2;
-    // $n = 6;
-    // $o = 9;
-    // $p = 2;
-
-    //if (count($same_primary_interest_areas) > 1) {
-    //    include('../components/holland-code-career-test/eng-report-confirm-modal.inc.php');
-    //}else {
-    //    include('../components/holland-code-career-test/eng-report.php'); 
-    //}
-
 
  ?>
  <?php include('../components/header.inc.php'); ?>
    <span id="error">
 <?php
-// To show error of page 4.
-if (!empty($_SESSION['error_page6'])) {
- echo $_SESSION['error_page6'];
- unset($_SESSION['error_page6']);
-}
+    // To show error of page 4.
+    if (!empty($_SESSION['error_page6'])) {
+    echo $_SESSION['error_page6'];
+    unset($_SESSION['error_page6']);
+    }
 ?>
  </span>
 <?php include('../components/holland-code-career-test/eng-report.php'); ?>
