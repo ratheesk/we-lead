@@ -59,13 +59,20 @@ if (isset($_POST['submit'])) {
     || $submitted_value == 'Page 4'
     || $submitted_value == 'Page 5'
     || $submitted_value == 'Report'
-    || $submitted_value == 'Change Language') {
+    || $submitted_value == 'Change Language'
+    || $submitted_value == 'Try Again') {
         // check the value of submit
         switch($submitted_value) {
             case 'Change Language':
                 unset($_SESSION['language']);
                 header('Location: '.$_SERVER['PHP_SELF']);
                 break;
+
+            case 'Try Again':
+                unset($_SESSION['language']);
+                header('Location: '.$_SERVER['PHP_SELF']);
+                break;
+                
             // execute functions for page 1
             case 'Start':
                 // check language value for empty
