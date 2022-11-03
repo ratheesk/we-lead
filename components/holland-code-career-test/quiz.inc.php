@@ -101,7 +101,7 @@
             <div class="container-fluid card p-3 holland-quiz-container">';
                 
         
-            for ($i = $question_start; $i < $question_end; $i++) {
+            for ($i = 0; $i < 12; $i++) {
                 echo '
                 <div class="row border-0 pt-3 ml-2 mr-2 mt-2 holland-quiz">
                 <div class="col-md-6 my-auto">
