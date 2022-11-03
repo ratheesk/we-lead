@@ -86,6 +86,8 @@ if (isset($_POST['submit'])) {
                         case 'tamil':
                             include('../components/holland-code-career-test/tamil-data.inc.php');
                             break;
+                        default:
+                            include('../components/holland-code-career-test/eng-data.inc.php');
                     }
                     // set the initial values
                     quiz_values(1, 'Page 2', 20, $p_1_questions);
@@ -108,6 +110,8 @@ if (isset($_POST['submit'])) {
                     case 'tamil':
                         include('../components/holland-code-career-test/tamil-data.inc.php');
                         break;
+                    default:
+                        include('../components/holland-code-career-test/eng-data.inc.php');
                 }
             } else {
                 unset($_SESSION['language']);
@@ -146,6 +150,8 @@ if (isset($_POST['submit'])) {
                     case 'tamil':
                         include('../components/holland-code-career-test/tamil-data.inc.php');
                         break;
+                    default:
+                        include('../components/holland-code-career-test/eng-data.inc.php');                        
                 }
             } else {
                 unset($_SESSION['language']);
@@ -184,6 +190,8 @@ if (isset($_POST['submit'])) {
                     case 'tamil':
                         include('../components/holland-code-career-test/tamil-data.inc.php');
                         break;
+                    default:
+                        include('../components/holland-code-career-test/eng-data.inc.php');
                 }
             } else {
                 unset($_SESSION['language']);
@@ -222,6 +230,8 @@ if (isset($_POST['submit'])) {
                     case 'tamil':
                         include('../components/holland-code-career-test/tamil-data.inc.php');
                         break;
+                    default:
+                        include('../components/holland-code-career-test/eng-data.inc.php');
                 }
             } else {
                 unset($_SESSION['language']);
@@ -260,6 +270,8 @@ if (isset($_POST['submit'])) {
                     case 'tamil':
                         include('../components/holland-code-career-test/tamil-data.inc.php');
                         break;
+                    default:
+                        include('../components/holland-code-career-test/eng-data.inc.php');
                 }
             } else {
                 unset($_SESSION['language']);
