@@ -18,8 +18,33 @@ function quiz_values($page_num, $submit_value, $progress, $questions) {
     $GLOBALS['submit_value'] = $submit_value;
     $GLOBALS['progress'] = $progress;
     $GLOBALS['questions'] = $questions;
+
 } 
 
+function test_input_set($questions) {
+
+    $GLOBALS['input_set'] = true;
+
+    for ($i = 0; $i < 12; $i++) {
+        if(!isset($_POST[$questions[$i][1]])) {
+            $GLOBALS['input_set'] = false;
+            break;
+        }
+    }
+
+}
+
+function test_input_numeric ($questions) {
+
+    $GLOBALS['input_numeric'] = true;
+
+    for ($i = 0; $i < 12; $i++) {
+        if(!is_numeric($_POST[$questions[$i][1]]) && empty($_POST[$questions[$i][1]])) {
+            $GLOBALS['input_numeric'] = false;
+            break;
+        }
+    }
+}
 
 // check the submit key for empty
 if (isset($_POST['submit'])) {
@@ -67,7 +92,7 @@ if (isset($_POST['submit'])) {
 
                         // set the initial values
                         quiz_values(1, 'Page 2', 20, $p_1_questions);
-                        $questions = $p_1_questions;
+
                     } else {
                         echo 'Unexpected value is submitted';
                     }
@@ -94,27 +119,13 @@ if (isset($_POST['submit'])) {
                     break;
                 }
 
-                $input_set = true;
-
-                for ($i = 0; $i < 12; $i++) {
-                    if(!isset($_POST[$questions[$i][1]])) {
-                        $input_set = false;
-                        break;
-                    }
-                }
+                test_input_set($p_1_questions);
 
                 if ($input_set) {
 
-                    $input_empty = false;
+                    test_input_numeric($p_1_questions);
 
-                    for ($i = 0; $i < 12; $i++) {
-                        if(empty($_POST[$questions[$i][1]])) {
-                            $input_empty = true;
-                            break;
-                        }
-                    }
-
-                    if ($input_empty) {
+                    if (!$input_numeric) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                         quiz_values(1, 'Page 2', 20, $p_1_questions);
@@ -153,27 +164,13 @@ if (isset($_POST['submit'])) {
                     break;
                 }
 
-                $input_set = true;
-
-                for ($i = 12; $i < 24; $i++) {
-                    if(!isset($_POST[$questions[$i][1]])) {
-                        $input_set = false;
-                        break;
-                    }
-                }
+                test_input_set($p_2_questions);
 
                 if ($input_set) {
 
-                    $input_empty = false;
+                    test_input_numeric($p_2_questions);
 
-                    for ($i = 12; $i < 24; $i++) {
-                        if(empty($_POST[$questions[$i][1]])) {
-                            $input_empty = true;
-                            break;
-                        }
-                    }
-
-                    if ($input_empty) {
+                    if (!$input_numeric) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                         quiz_values(2, 'Page 3', 40, $p_2_questions);
@@ -214,27 +211,13 @@ if (isset($_POST['submit'])) {
                     break;
                 }
 
-                $input_set = true;
-
-                for ($i = 24; $i < 36; $i++) {
-                    if(!isset($_POST[$questions[$i][1]])) {
-                        $input_set = false;
-                        break;
-                    }
-                }
+                test_input_set($p_3_questions);
 
                 if ($input_set) {
 
-                    $input_empty = false;
+                    test_input_numeric($p_3_questions);
 
-                    for ($i = 24; $i < 36; $i++) {
-                        if(empty($_POST[$questions[$i][1]])) {
-                            $input_empty = true;
-                            break;
-                        }
-                    }
-
-                    if ($input_empty) {
+                    if (!$input_numeric) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                         quiz_values(3, 'Page 4', 60, $p_3_questions);
@@ -274,27 +257,13 @@ if (isset($_POST['submit'])) {
                     break;
                 }
 
-                $input_set = true;
-
-                for ($i = 36; $i < 48; $i++) {
-                    if(!isset($_POST[$questions[$i][1]])) {
-                        $input_set = false;
-                        break;
-                    }
-                }
+                test_input_set($p_4_questions);
 
                 if ($input_set) {
 
-                    $input_empty = false;
+                    test_input_numeric($p_4_questions);
 
-                    for ($i = 36; $i < 48; $i++) {
-                        if(empty($_POST[$questions[$i][1]])) {
-                            $input_empty = true;
-                            break;
-                        }
-                    }
-
-                    if ($input_empty) {
+                    if (!$input_numeric) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                         quiz_values(4, 'Page 4', 80, $p_4_questions);
@@ -308,7 +277,7 @@ if (isset($_POST['submit'])) {
 
                     }
                 } else {
-                    quiz_values(4, 'Page 4', 80, $p_1_questions);
+                    quiz_values(4, 'Page 4', 80, $p_4_questions);
                 }
 
                 break;
@@ -333,27 +302,13 @@ if (isset($_POST['submit'])) {
                     break;
                 }
 
-                $input_set = true;
-
-                for ($i = 48; $i < 60; $i++) {
-                    if(!isset($_POST[$questions[$i][1]])) {
-                        $input_set = false;
-                        break;
-                    }
-                }
+                test_input_set($p_5_questions);
 
                 if ($input_set) {
 
-                    $input_empty = false;
+                    test_input_numeric($p_5_questions);
 
-                    for ($i = 48; $i < 60; $i++) {
-                        if(empty($_POST[$questions[$i][1]])) {
-                            $input_empty = true;
-                            break;
-                        }
-                    }
-
-                    if ($input_empty) {
+                    if (!$input_numeric) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                         quiz_values(5, 'Report', 100, $p_5_questions);
