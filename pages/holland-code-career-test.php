@@ -12,13 +12,12 @@ function test_input($data) {
     return $data;
   }
 
-function quiz_values($page_num, $question_start, $question_end, $submit_value, $progress) {
+function quiz_values($page_num, $submit_value, $progress, $questions) {
 
     $GLOBALS['page_num'] = $page_num;
-    $GLOBALS['question_start'] = $question_start;
-    $GLOBALS['question_end'] = $question_end;
     $GLOBALS['submit_value'] = $submit_value;
     $GLOBALS['progress'] = $progress;
+    $GLOBALS['questions'] = $questions;
 } 
 
 
@@ -49,10 +48,10 @@ if (isset($_POST['submit'])) {
                     if ($language == 'english'
                     || $language == 'sinhala'
                     || $language == 'tamil') {
-                        // set the initial values
-                        quiz_values(1,0,12,'Page 2',20);
+                        
                         // store the choosed language it in the session
                         $_SESSION['language'] = $language;
+
                         // include particuler language questions data
                         switch($_SESSION['language']) {
                             case 'english':
@@ -65,6 +64,10 @@ if (isset($_POST['submit'])) {
                                 include('../components/holland-code-career-test/tamil-data.inc.php');
                                 break;
                         }
+
+                        // set the initial values
+                        quiz_values(1, 'Page 2', 20, $p_1_questions);
+                        $questions = $p_1_questions;
                     } else {
                         echo 'Unexpected value is submitted';
                     }
@@ -114,18 +117,18 @@ if (isset($_POST['submit'])) {
                     if ($input_empty) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
-                        quiz_values(1,0,12,'Page 2',20);
+                        quiz_values(1, 'Page 2', 20, $p_1_questions);
                     } else {
                         // Fetch all values posted from first page and storing it in variable.
                         foreach ($_POST as $key => $value) {
                             $_SESSION['post'][$key] = $value;
                         }
 
-                        quiz_values(2, 12, 24, 'Page 3', 40);
+                        quiz_values(2, 'Page 3', 40, $p_2_questions);
 
                     }
                 } else {
-                    quiz_values(1,0,12,'Page 2',20);
+                    quiz_values(1, 'Page 2', 20, $p_1_questions);
                 }
                 break;
 
@@ -173,18 +176,18 @@ if (isset($_POST['submit'])) {
                     if ($input_empty) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
-                        quiz_values(2,12,24,'Page 3',40);
+                        quiz_values(2, 'Page 3', 40, $p_2_questions);
                     } else {
                         // Fetch all values posted from first page and storing it in variable.
                         foreach ($_POST as $key => $value) {
                             $_SESSION['post'][$key] = $value;
                         }
 
-                        quiz_values(3, 24, 36, 'Page 4', 60);
+                        quiz_values(3, 'Page 4', 60, $p_3_questions);
 
                     }
                 } else {
-                    quiz_values(2,12,24,'Page 3',40);
+                    quiz_values(2, 'Page 3', 40, $p_2_questions);
                 }
 
                 break;
@@ -234,18 +237,18 @@ if (isset($_POST['submit'])) {
                     if ($input_empty) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
-                        quiz_values(3,24,36,'Page 4',60);
+                        quiz_values(3, 'Page 4', 60, $p_3_questions);
                     } else {
                         // Fetch all values posted from first page and storing it in variable.
                         foreach ($_POST as $key => $value) {
                             $_SESSION['post'][$key] = $value;
                         }
 
-                        quiz_values(4, 36, 48, 'Page 5', 80);
+                        quiz_values(4, 'Page 5', 80, $p_4_questions);
 
                     }
                 } else {
-                    quiz_values(3,24,36,'Page 4',60);
+                    quiz_values(3, 'Page 4', 60, $p_3_questions);
                 }
 
                 break;
@@ -294,18 +297,18 @@ if (isset($_POST['submit'])) {
                     if ($input_empty) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
-                        quiz_values(4,36,48,'Page 4',80);
+                        quiz_values(4, 'Page 4', 80, $p_4_questions);
                     } else {
                         // Fetch all values posted from first page and storing it in variable.
                         foreach ($_POST as $key => $value) {
                             $_SESSION['post'][$key] = $value;
                         }
 
-                        quiz_values(5, 48, 60, 'Report', 100);
+                        quiz_values(5, 'Report', 100, $p_5_questions);
 
                     }
                 } else {
-                    quiz_values(4,36,48,'Page 4',80);
+                    quiz_values(4, 'Page 4', 80, $p_1_questions);
                 }
 
                 break;
@@ -353,7 +356,7 @@ if (isset($_POST['submit'])) {
                     if ($input_empty) {
                         // Set error message
                         $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
-                        quiz_values(5,48,60,'Report',100);
+                        quiz_values(5, 'Report', 100, $p_5_questions);
                     } else {
                         // Fetch all values posted from first page and storing it in variable.
                         foreach ($_POST as $key => $value) {
@@ -364,7 +367,7 @@ if (isset($_POST['submit'])) {
 
                     }
                 } else {
-                    quiz_values(5,48,60,'Report',100);
+                    quiz_values(5, 'Report', 100, $p_5_questions);
                 }
 
                 break;
