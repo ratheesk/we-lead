@@ -19,6 +19,8 @@ function quiz_values($page_num, $submit_value, $progress, $questions) {
     $GLOBALS['progress'] = $progress;
     $GLOBALS['questions'] = $questions;
 
+    // shuffle the questions
+    shuffle($GLOBALS['questions']);
 } 
 
 function test_input_set($questions) {
