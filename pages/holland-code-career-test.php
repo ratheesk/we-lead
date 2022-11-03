@@ -72,7 +72,7 @@ if (isset($_POST['submit'])) {
                 unset($_SESSION['language']);
                 header('Location: '.$_SERVER['PHP_SELF']);
                 break;
-                
+
             // execute functions for page 1
             case 'Start':
                 // check language value for empty
@@ -103,7 +103,7 @@ if (isset($_POST['submit'])) {
                         quiz_values(1, 'Page 2', 20, $p_1_questions);
 
                     } else {
-                        echo 'Unexpected value is submitted';
+                        echo 'Unexpected language is submitted';
                     }
                 } 
                 break;
