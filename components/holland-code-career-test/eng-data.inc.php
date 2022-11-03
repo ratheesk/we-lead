@@ -1,6 +1,6 @@
 <?php
 
-$questions = array(
+$p_1_questions = array(
     array("Repair a dishwasher", "k_1"),
     array("Use precision machines to build custom metal parts", "k_2"),
     array("Analyze the structure of molecules", "q_1"),
@@ -12,7 +12,10 @@ $questions = array(
     array("Coordinate a business conference", "o_1"),
     array("Plan a marketing strategy for a new company", "o_2"),
     array("Track monthly expenses for a company", "p_1"),
-    array("Review financial records for accuracy", "p_2"),
+    array("Review financial records for accuracy", "p_2")
+    );
+
+$p_2_questions = array(
     array("Install a hardwood floor", "k_3"),
     array("Repair an air conditioning system", "k_4"),
     array("Research the properties of nuclear energy", "q_3"),
@@ -24,7 +27,10 @@ $questions = array(
     array("Negotiate business partnerships", "o_3"),
     array("Motivate employees to achieve success", "o_4"),
     array("Keep payroll records", "p_3"),
-    array("Use spreadsheets to organize financial data", "p_4"),
+    array("Use spreadsheets to organize financial data", "p_4")
+    );
+
+$p_3_questions = array(
     array("Install an alarm system in a building", "k_5"),
     array("Install kitchen cabinets", "k_6"),
     array("Look at cells through a microscope", "q_5"),
@@ -36,7 +42,10 @@ $questions = array(
     array("Hire and fire employees", "o_5"),
     array("Close an important business deal", "o_6"),
     array("Check tax returns for errors", "p_5"),
-    array("Calculate the cost of an insurance claim", "p_6"),
+    array("Calculate the cost of an insurance claim", "p_6")
+    );
+
+$p_4_questions =array(
     array("Build a stone wall", "k_7"),
     array("Operate a bulldozer", "k_8"),
     array("Analyze soil samples for pollution", "q_7"),
@@ -48,7 +57,10 @@ $questions = array(
     array("Lead a team", "o_7"),
     array("Start a new business", "o_8"),
     array("Calculate the cost of a construction project", "p_7"),
-    array("Help customers fill out loan applications", "p_8"),
+    array("Help customers fill out loan applications", "p_8")
+    );
+
+$p_5_questions = array(
     array("Take apart a car engine", "k_9"),
     array("Inspect a roof for leaks", "k_1_0"),
     array("Do laboratory tests to diseases", "q_9"),
