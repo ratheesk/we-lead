@@ -1,85 +1,85 @@
 <?php
 
-$questions = [
-    ["Repair a dishwasher", "k_1"],
-    ["Use precision machines to build custom metal parts", "k_2"],
-    ["Analyze the structure of molecules", "q_1"],
-    ["Do scientific experiments", "q_2"],
-    ["Design a magazine cover", "m_1"],
-    ["Paint a portrait", "m_2"],
-    ["Teach social skills to disabled children", "n_1"],
-    ["Teach adults to read", "n_2"],
-    ["Coordinate a business conference", "o_1"],
-    ["Plan a marketing strategy for a new company", "o_2"],
-    ["Track monthly expenses for a company", "p_1"],
-    ["Review financial records for accuracy", "p_2"],
-    ["Install a hardwood floor", "k_3"],
-    ["Repair an air conditioning system", "k_4"],
-    ["Research the properties of nuclear energy", "q_3"],
-    ["Research a new medicine", "q_4"],
-    ["Design a greeting card", "m_3"],
-    ["Illustrate a children’s book", "m_4"],
-    ["Help a disabled person with their daily routine", "n_3"],
-    ["Tutor a child with a learning disability", "n_4"],
-    ["Negotiate business partnerships", "o_3"],
-    ["Motivate employees to achieve success", "o_4"],
-    ["Keep payroll records", "p_3"],
-    ["Use spreadsheets to organize financial data", "p_4"],
-    ["Install an alarm system in a building", "k_5"],
-    ["Install kitchen cabinets", "k_6"],
-    ["Look at cells through a microscope", "q_5"],
-    ["Work in a chemistry lab", "q_6"],
-    ["Design magazine ads", "m_5"],
-    ["Write a script for a television show", "m_6"],
-    ["Counsel a person recovering from drug addiction", "n_5"],
-    ["Counsel a person with depression", "n_6"],
-    ["Hire and fire employees", "o_5"],
-    ["Close an important business deal", "o_6"],
-    ["Check tax returns for errors", "p_5"],
-    ["Calculate the cost of an insurance claim", "p_6"],
-    ["Build a stone wall", "k_7"],
-    ["Operate a bulldozer", "k_8"],
-    ["Analyze soil samples for pollution", "q_7"],
-    ["Study a fault line to predict earthquakes", "q_8"],
-    ["Design a billboard advertisement", "m_7"],
-    ["Edit a movie", "m_8"],
-    ["Plan educational games for preschool children", "n_7"],
-    ["Plan activities for elderly people", "n_8"],
-    ["Lead a team", "o_7"],
-    ["Start a new business", "o_8"],
-    ["Calculate the cost of a construction project", "p_7"],
-    ["Help customers fill out loan applications", "p_8"],
-    ["Take apart a car engine", "k_9"],
-    ["Inspect a roof for leaks", "k_1_0"],
-    ["Do laboratory tests to diseases", "q_9"],
-    ["Research heat esistant materials for airplane engines", "q_1_0"],
-    ["Compose a song", "m_9"],
-    ["Write a poem", "m_1_0"],
-    ["Help diabetic patients plan a proper diet plan", "n_9"],
-    ["Help a needy family find appropriate housing", "n_1_0"],
-    ["Give a speech in front of many people", "o_9"],
-    ["Persuade others to my point of view", "o_1_0"],
-    ["Collect tax payments", "p_9"],
-    ["Develop a budget for a city government", "p_1_0"]
-    ];
+$questions = array(
+    array("Repair a dishwasher", "k_1"),
+    array("Use precision machines to build custom metal parts", "k_2"),
+    array("Analyze the structure of molecules", "q_1"),
+    array("Do scientific experiments", "q_2"),
+    array("Design a magazine cover", "m_1"),
+    array("Paint a portrait", "m_2"),
+    array("Teach social skills to disabled children", "n_1"),
+    array("Teach adults to read", "n_2"),
+    array("Coordinate a business conference", "o_1"),
+    array("Plan a marketing strategy for a new company", "o_2"),
+    array("Track monthly expenses for a company", "p_1"),
+    array("Review financial records for accuracy", "p_2"),
+    array("Install a hardwood floor", "k_3"),
+    array("Repair an air conditioning system", "k_4"),
+    array("Research the properties of nuclear energy", "q_3"),
+    array("Research a new medicine", "q_4"),
+    array("Design a greeting card", "m_3"),
+    array("Illustrate a children’s book", "m_4"),
+    array("Help a disabled person with their daily routine", "n_3"),
+    array("Tutor a child with a learning disability", "n_4"),
+    array("Negotiate business partnerships", "o_3"),
+    array("Motivate employees to achieve success", "o_4"),
+    array("Keep payroll records", "p_3"),
+    array("Use spreadsheets to organize financial data", "p_4"),
+    array("Install an alarm system in a building", "k_5"),
+    array("Install kitchen cabinets", "k_6"),
+    array("Look at cells through a microscope", "q_5"),
+    array("Work in a chemistry lab", "q_6"),
+    array("Design magazine ads", "m_5"),
+    array("Write a script for a television show", "m_6"),
+    array("Counsel a person recovering from drug addiction", "n_5"),
+    array("Counsel a person with depression", "n_6"),
+    array("Hire and fire employees", "o_5"),
+    array("Close an important business deal", "o_6"),
+    array("Check tax returns for errors", "p_5"),
+    array("Calculate the cost of an insurance claim", "p_6"),
+    array("Build a stone wall", "k_7"),
+    array("Operate a bulldozer", "k_8"),
+    array("Analyze soil samples for pollution", "q_7"),
+    array("Study a fault line to predict earthquakes", "q_8"),
+    array("Design a billboard advertisement", "m_7"),
+    array("Edit a movie", "m_8"),
+    array("Plan educational games for preschool children", "n_7"),
+    array("Plan activities for elderly people", "n_8"),
+    array("Lead a team", "o_7"),
+    array("Start a new business", "o_8"),
+    array("Calculate the cost of a construction project", "p_7"),
+    array("Help customers fill out loan applications", "p_8"),
+    array("Take apart a car engine", "k_9"),
+    array("Inspect a roof for leaks", "k_1_0"),
+    array("Do laboratory tests to diseases", "q_9"),
+    array("Research heat esistant materials for airplane engines", "q_1_0"),
+    array("Compose a song", "m_9"),
+    array("Write a poem", "m_1_0"),
+    array("Help diabetic patients plan a proper diet plan", "n_9"),
+    array("Help a needy family find appropriate housing", "n_1_0"),
+    array("Give a speech in front of many people", "o_9"),
+    array("Persuade others to my point of view", "o_1_0"),
+    array("Collect tax payments", "p_9"),
+    array("Develop a budget for a city government", "p_1_0")
+    );
 
-$primary = [
-    ['BUILDING',
-    'Builders'],
-    ['THINKING',
-    'Thinkers'],
-    ['CREATING',
-    'Creators'],
-    ['HELPING',
-    'Helpers'],
-    ['PERSUADING',
-    'Persuaders'],
-    ['ORGANIZING',
-    'Organizers']
-];
+$primary = array(
+    array('BUILDING',
+    'Builders'),
+    array('THINKING',
+    'Thinkers'),
+    array('CREATING',
+    'Creators'),
+    array('HELPING',
+    'Helpers'),
+    array('PERSUADING',
+    'Persuaders'),
+    array('ORGANIZING',
+    'Organizers')
+);
 
-$paragraph = [
-    ['As a Builder, you prefer physical work that uses your hands and body and gives you a tangible
+$paragraph = array(
+    array('As a Builder, you prefer physical work that uses your hands and body and gives you a tangible
     result for your efforts. You prefer working with concrete objects, not abstract concepts. You may be drawn to work
     with tools, machines, plants, or animals. You like to be outdoors and be physically active throughout the day.',
     'Because you are a Builder, you will prefer a career that allows you to use and hone your hands-on
@@ -90,8 +90,8 @@ $paragraph = [
     get it done.',
     'Builders like their work best when they can see a real, physical result of their efforts. As a
     Builder, your primary career goal will be to discover a job where you can use your physical or mechanical skills to
-    take useful, observable action on the world around you.'],
-    ['As a Thinker, you enjoy working with ideas and theories. You want to solve complex problems through
+    take useful, observable action on the world around you.'),
+    array('As a Thinker, you enjoy working with ideas and theories. You want to solve complex problems through
     rational, logical analysis. You are fascinated by the sciences and the process of discovering new information about
     the world around you. You are drawn to environments where research is the focus, such as academia or scientific
     industries. You want to explore and discover new ideas in your work.',
@@ -104,8 +104,8 @@ $paragraph = [
     'Thinkers like their work best when they can continually grow their intellect and improve their
     understanding of the laws of the universe. As a Thinker, your primary career goal will be to find a job that allows
     you to use your powers of rational analysis to form theories, test hypotheses, gather data, and make exciting new
-    discoveries.'],
-    ['As a Creator, your primary drive is to use your creative talents and express yourself artistically
+    discoveries.'),
+    array('As a Creator, your primary drive is to use your creative talents and express yourself artistically
     through your work. You have a strong aesthetic sense and seek work that allows you to connect with experiences that
     stimulate the senses. You enjoy art, music, drama, dance, architecture, and literature, and seek work that exposes
     you to various art forms and allows you to communicate your own vision among them.',
@@ -118,8 +118,8 @@ $paragraph = [
     'Creators like their work best when they can be free of rules and regulations, and follow their
     inspiration to create something original. As a Creator, your primary career goal will be to decide on the best
     outlet for your artistic talent and creative expression, and then to create a plan for channeling your inspiration
-    into a profitable career.'],
-    ['As a Helper, you strive to dedicate your work life to serving, caring for, and inspiring others.
+    into a profitable career.'),
+    array('As a Helper, you strive to dedicate your work life to serving, caring for, and inspiring others.
     You are highly attuned to the needs of the people around you and gain satisfaction from attending to those needs.
     You are driven by values in your work, and motivated by an aspiration to make the world a better place.',
     'Because you are a Helper, it will be essential that you have a job that allows you to relate
@@ -130,8 +130,8 @@ $paragraph = [
     problems. They are often selfless and may put their own needs aside in the service of others.',
     'Helpers like their work best when it connects deeply with their values and makes them feel that
     they are making a difference in the world. As a Helper, your primary goal will be to understand what is important to
-    you, and decide how you can best manifest your ideals in your chosen career path.'],
-    ['As a Persuader, you are driven to lead, influence, motivate, and direct other people. You are
+    you, and decide how you can best manifest your ideals in your chosen career path.'),
+    array('As a Persuader, you are driven to lead, influence, motivate, and direct other people. You are
     interested in making your mark on the world by impacting the perspectives and decisions of others. You enjoy feeling
     powerful and important, and want to lead the way.',
     'Because you are a Persuader, you will often gravitate to roles that allow you to sell other people
@@ -143,8 +143,8 @@ $paragraph = [
     aggressive drive. They are typically competitive, goal-oriented, and ambitious.',
     'Persuaders like their work best when they can chase exciting goals, promote new ideas, and close
     important deals. As a Persuader, your primary career goal will be to find a job where you can take the lead to start
-    and carry out initiatives, act quickly and decisively to set a course, and use your charisma to influence others.'],
-    ['As an Organizer, you like to work with data, processes, and systems. You enjoy putting things in
+    and carry out initiatives, act quickly and decisively to set a course, and use your charisma to influence others.'),
+    array('As an Organizer, you like to work with data, processes, and systems. You enjoy putting things in
     order and completing tasks in a systematic fashion. You appreciate a structured work environment where rules,
     policies, and standard procedures are clear and well enforced.',
     'Because you are an Organizer, you are interested in keeping orderly systems in place. You will
@@ -155,110 +155,110 @@ $paragraph = [
     They are cautious and careful and typically dislike taking risks.',
     'Organizers like their work best when they can carefully systematize processes to work toward
     well-defined goals. As an Organizer, your primary career goal will be to find a job where you can focus on the
-    details and create reliable systems to produce predictable, precise results.']
-];
+    details and create reliable systems to produce predictable, precise results.')
+);
 
-$top_job_tasks = [
-    ['Building',
+$top_job_tasks = array(
+    array('Building',
     'Repairing',
     'Taking Action',
     'Using Machines',
-    'Using Tools'],
-    ['Researching',
+    'Using Tools'),
+    array('Researching',
     'Experimenting',
     'Theorizing',
     'Analyzing',
-    'Problem Solving'],
-    ['Creating Art',
+    'Problem Solving'),
+    array('Creating Art',
     'Writing',
     'Interpreting',
     'Designing',
-    'Expressing Ideas'],
-    ['Counseling',
+    'Expressing Ideas'),
+    array('Counseling',
     'Assisting',
     'Advising',
     'Teaching',
-    'Providing Service'],
-    ['Managing',
+    'Providing Service'),
+    array('Managing',
     'Deciding',
     'Strategizing',
     'Selling',
-    'Motivating'],
-    ['Filing',
+    'Motivating'),
+    array('Filing',
     'Calculating',
     'Processing',
     'Systematizing',
-    'Following Procedures']
-];
+    'Following Procedures')
+);
 
-$core_values = [
-    ['Practicality',
+$core_values = array(
+    array('Practicality',
     'Productivity',
     'Structure',
     'Independence',
-    'Physical Skill'],
-    ['Discovery',
+    'Physical Skill'),
+    array('Discovery',
     'Understanding',
     'Logic',
     'Independence',
-    'Intellect'],
-    ['Individuality',
+    'Intellect'),
+    array('Individuality',
     'Creativity',
     'Originality',
     'Freedom',
-    'Flexibility'],
-    ['Cooperation',
+    'Flexibility'),
+    array('Cooperation',
     'Service',
     'Altruism',
     'Connection',
-    'Compassion'],
-    ['Influence',
+    'Compassion'),
+    array('Influence',
     'Leadership',
     'Risk-Taking',
     'Achievement',
-    'Initiative'],
-    ['Structure',
+    'Initiative'),
+    array('Structure',
     'Order',
     'Clarity',
     'Precision',
-    'Attention to Detail']
-];
+    'Attention to Detail')
+);
 
-$key_personality_traits = [
-    ['Realistic',
+$key_personality_traits = array(
+    array('Realistic',
     'Sensible',
     'Mechanical',
     'Traditional',
-    'Down-to-earth'],
-    ['Intellectual',
+    'Down-to-earth'),
+    array('Intellectual',
     'Curious',
     'Logical',
     'Analytical',
-    'Scholarly'],
-    ['Independent',
+    'Scholarly'),
+    array('Independent',
     'Intuitive',
     'Sensitive',
     'Imaginative',
-    'Spontaneous'],
-    ['Compassionate',
+    'Spontaneous'),
+    array('Compassionate',
     'Patient',
     'Helpful',
     'Friendly',
-    'Generous'],
-    ['Assertive',
+    'Generous'),
+    array('Assertive',
     'Energetic',
     'Confident',
     'Ambitious',
-    'Adventurous'],
-    ['Orderly',
+    'Adventurous'),
+    array('Orderly',
     'Precise',
     'Detail-Oriented',
     'Conservative',
-    'Thorough']
-];
+    'Thorough')
+);
 
-$sample_jobs = [
-    ['Police Officer or Detective',
+$sample_jobs = array(
+    array('Police Officer or Detective',
     'Pilot',
     'Electrician',
     'Carpenter',
@@ -266,8 +266,8 @@ $sample_jobs = [
     'Building Inspector',
     'Machinist',
     'Civil Engineer',
-    'Athlete or Coach'],
-    ['Physician',
+    'Athlete or Coach'),
+    array('Physician',
     'Mathematician',
     'Computer Software Engineer',
     'Chemist',
@@ -275,8 +275,8 @@ $sample_jobs = [
     'Biological Scientist',
     'Management Consultant or Analyst',
     'Economist',
-    'Pharmacist'],
-    ['Fashion Designer',
+    'Pharmacist'),
+    array('Fashion Designer',
     'Art Director',
     'Graphic Designer',
     'Writer',
@@ -284,8 +284,8 @@ $sample_jobs = [
     'Interior Designer',
     'Landscape Architect',
     'Photographer',
-    'Reporter'],
-    ['Teacher',
+    'Reporter'),
+    array('Teacher',
     'Child Care Worker',
     'Physical Therapist',
     'Nurse',
@@ -293,8 +293,8 @@ $sample_jobs = [
     'Health Educator',
     'Physician Assistant',
     'Occupational Therapist',
-    'Speech-Language Pathologist'],
-    ['Executive',
+    'Speech-Language Pathologist'),
+    array('Executive',
     'Attorney',
     'Public Relations Specialist',
     'Financial Manager',
@@ -302,8 +302,8 @@ $sample_jobs = [
     'Buyer or Purchasing Agent',
     'Real Estate Agent or Broker',
     'Securities Broker',
-    'Health Services Manager'],
-    ['Accountant or Auditor',
+    'Health Services Manager'),
+    array('Accountant or Auditor',
     'Actuary',
     'Budget Analyst',
     'Paralegal',
@@ -311,11 +311,11 @@ $sample_jobs = [
     'Financial Analyst',
     'Administrative Assistant',
     'Cost Estimator',
-    'Court Reporter']
-];
+    'Court Reporter')
+);
 
-$career_fields = [
-    ['Construction',
+$career_fields = array(
+    array('Construction',
     'Mechanics',
     'Transportation & Distribution',
     'Military',
@@ -323,8 +323,8 @@ $career_fields = [
     'Farming or Ranching',
     'Manufacturing and Industry',
     'Maintenance and Repair',
-    'Food Preparation'],
-    ['Physical Science',
+    'Food Preparation'),
+    array('Physical Science',
     'Life Science',
     'Medicine and Health Sciences',
     'Statistics or Applied Mathematics',
@@ -332,8 +332,8 @@ $career_fields = [
     'Medical or Pharmaceutical Research',
     'Social Science',
     'Engineering',
-    'Architecture'],
-    ['Fine Arts',
+    'Architecture'),
+    array('Fine Arts',
     'Craft Arts',
     'Performing Arts',
     'Design',
@@ -341,34 +341,34 @@ $career_fields = [
     'Writing and Communications',
     'Film and Media',
     'Public Relations',
-    'Arts Education'],
-    ['Counseling and Coaching',
+    'Arts Education'),
+    array('Counseling and Coaching',
     'Social Service',
     'Personal Care and Service',
     'Health Care',
     'Human Resources',
     'Education',
-    'Management'],
-    ['Sales',
+    'Management'),
+    array('Sales',
     'Marketing',
     'Entrepreneurship',
     'Management',
     'Public Relations',
     'Legal',
     'Politics',
-    'Real Estate'],
-    ['Administration',
+    'Real Estate'),
+    array('Administration',
     'Banking and Finance',
     'Accounting',
     'Office Management',
     'Computers and Technology',
     'Engineering',
     'Law Enforcement',
-    'Military']
-];
+    'Military')
+);
 
-$areas_of_study = [
-    ['Physical Education or Exercise Science',
+$areas_of_study = array(
+    array('Physical Education or Exercise Science',
     'Construction Management',
     'Engineering',
     'Agriculture',
@@ -376,8 +376,8 @@ $areas_of_study = [
     'Food Science',
     'Forestry',
     'Construction, Maintenance or Repair',
-    'Culinary Arts'],
-    ['Chemistry',
+    'Culinary Arts'),
+    array('Chemistry',
     'Physics',
     'Biology',
     'Other Physical or Life Sciences',
@@ -385,8 +385,8 @@ $areas_of_study = [
     'Medical Science',
     'Social Sciences',
     'Engineering',
-    'Mathematics'],
-    ['Fine Arts',
+    'Mathematics'),
+    array('Fine Arts',
     'Drama',
     'Music',
     'Dance',
@@ -394,24 +394,24 @@ $areas_of_study = [
     'Industrial Design',
     'English',
     'Foreign Language',
-    'Creative Writing'],
-    ['Social Work',
+    'Creative Writing'),
+    array('Social Work',
     'Psychology',
     'Counseling',
     'Education',
     'Child Development',
     'Gerontology',
     'Medical Sciences',
-    'Nursing'],
-    ['Business Administration',
+    'Nursing'),
+    array('Business Administration',
     'Marketing or Advertising',
     'Hospitality',
     'Real Estate',
     'Political Science',
     'Communications',
     'Law',
-    'Organizational Psychology'],
-    ['Business Administration',
+    'Organizational Psychology'),
+    array('Business Administration',
     'Accounting or Actuarial Science',
     'Finance',
     'Law',
@@ -419,98 +419,98 @@ $areas_of_study = [
     'Mathematics or Statistics',
     'Information Systems',
     'Engineering',
-    'Computer Science']
-];
+    'Computer Science')
+);
 
-$core_needs = [
-    ['Use my hands and body to do something useful',
+$core_needs = array(
+    array('Use my hands and body to do something useful',
     'Learn how to use tools, machines, and practical objects',
     'Get outdoors regularly and/or have a connection to nature',
-    'Have a physical, tangible product to show for my efforts'],
-    ['Use my intellect and intelligence to develop innovative solutions',
+    'Have a physical, tangible product to show for my efforts'),
+    array('Use my intellect and intelligence to develop innovative solutions',
     'Research and learn to expand my knowledge and understanding',
     'Explore and discover interesting ideas',
-    'Analyze information to solve complex problems'],
-    ['Use my creative talents to do something original and unique to me',
+    'Analyze information to solve complex problems'),
+    array('Use my creative talents to do something original and unique to me',
     'Express my ideas, feelings and experiences',
     'Experience my senses through art, design, music, drama, or other aesthetic media',
-    'Follow my inspiration to create what is authentic to me'],
-    ['See the positive impact of my work on other people’s lives',
+    'Follow my inspiration to create what is authentic to me'),
+    array('See the positive impact of my work on other people’s lives',
     'Help people grow, develop, learn, and thrive',
     'Empathize with others to understand their needs',
-    'Use my skills and abilities to make the world a better and more caring place'],
-    ['Use my charisma and powers of persuasion to motivate and influence other people',
+    'Use my skills and abilities to make the world a better and more caring place'),
+    array('Use my charisma and powers of persuasion to motivate and influence other people',
     'Set exciting goals and take risks to achieve success',
     'Increase my power and standing within my field',
-    'Promote novel ideas and impact key decisions to make my mark on the world'],
-    ['Use my organizational skills to maintain rational, orderly systems',
+    'Promote novel ideas and impact key decisions to make my mark on the world'),
+    array('Use my organizational skills to maintain rational, orderly systems',
     'Work within rules and expectations',
     'Follow clear processes to achieve measured outcomes',
-    'Ensure correct and accurate results']
-];
+    'Ensure correct and accurate results')
+);
 
-$prefered_tasks = [
-    ['Working with tools or machines',
+$prefered_tasks = array(
+    array('Working with tools or machines',
     'Working with plants or animals',
     'Repairing or maintaining things, especially mechanical systems',
     'Building, constructing, or crafting things',
     'Being athletic or physical',
-    'Making something tangible, practical and useful'],
-    ['Researching scientific principles and theories',
+    'Making something tangible, practical and useful'),
+    array('Researching scientific principles and theories',
     'Gathering and analyzing data',
     'Developing and testing hypotheses',
     'Using logic and reason to form conclusions',
     'Reading and learning to increase knowledge and understanding',
-    'Applying expertise to devise innovative solutions'],
-    ['Working with forms, colors, patterns, or other visual elements',
+    'Applying expertise to devise innovative solutions'),
+    array('Working with forms, colors, patterns, or other visual elements',
     'Working with aesthetic or expressive media like dance, music, or drama',
     'Creating a visually appealing presentation or design',
     'Coming up with an original idea with few or no guidelines to follow',
     'Working on what inspires you at the moment, rather than a predetermined task',
-    'Being imaginative, creative, and original'],
-    ['Caring for others’ personal needs',
+    'Being imaginative, creative, and original'),
+    array('Caring for others’ personal needs',
     'Educating or training people',
     'Counseling people on their personal issues',
     'Looking after vulnerable people, including the sick, very young, or very old',
     'Helping others grow and develop',
-    'Being supportive and sympathetic'],
-    ['Selling products or services',
+    'Being supportive and sympathetic'),
+    array('Selling products or services',
     'Leading or managing a team',
     'Pitching ideas or initiatives',
     'Starting a new business or other venture',
     'Speaking in front of groups of people',
-    'Influencing people to your way of thinking'],
-    ['Managing data, files, or other forms of information',
+    'Influencing people to your way of thinking'),
+    array('Managing data, files, or other forms of information',
     'Keeping things in order',
     'Developing organizational systems',
     'Following clear procedures',
     'Ensuring accuracy and correctness',
-    'Maintaining efficient and well-ordered processe']
-];
+    'Maintaining efficient and well-ordered processe')
+);
 
-$key_questions = [
-    ['Will this career allow me to be active throughout the day?',
+$key_questions = array(
+    array('Will this career allow me to be active throughout the day?',
     'Will I learn and use practical skills in this career?',
-    'Will this career allow me to do plenty of hands-on work?'],
-    ['Will this career allow me to regularly learn new things and explore new ideas?',
+    'Will this career allow me to do plenty of hands-on work?'),
+    array('Will this career allow me to regularly learn new things and explore new ideas?',
     'Will this career stimulate my mind and intellect?',
     'Will this career connect me with ideas, theories, and/or fields of thought that interest me?',
-    'Will this career let me improve my understanding of how the world works?'],
-    ['Will this career allow me to come up with my own unique and original way of doing things?',
+    'Will this career let me improve my understanding of how the world works?'),
+    array('Will this career allow me to come up with my own unique and original way of doing things?',
     'Will this career allow me to be authentic and true to myself on the job?',
     'Does this career take advantage of my creative talents?',
-    'Will this career put me in environments which are aesthetically pleasing and stimulating to the senses?'],
-    ['Does this career allow me to see the positive impact of my work on other people?',
+    'Will this career put me in environments which are aesthetically pleasing and stimulating to the senses?'),
+    array('Does this career allow me to see the positive impact of my work on other people?',
     'Can I show my caring, sensitive side in this career?',
     'Does this career connect with my values and allow me to change the world for the better?',
-    'Will I feel that I’m doing important, meaningful work in this career?'],
-    ['Will this career allow me to influence and motivate other people?',
+    'Will I feel that I’m doing important, meaningful work in this career?'),
+    array('Will this career allow me to influence and motivate other people?',
     'Will I feel powerful and important in this career?',
     'Will this career allow me to take risks and pursue exciting achievements?',
-    'Will this career give me a platform to share my ideas and persuade other people to my point of view?'],
-    ['Will this career allow me to use my organizational skills?',
+    'Will this career give me a platform to share my ideas and persuade other people to my point of view?'),
+    array('Will this career allow me to use my organizational skills?',
     'Will I be able to identify and follow clear processes and procedures in this career?',
     'Will I be working with orderly, logical systems in this career?',
-    'Will my success in this career depend on my accuracy, correctness, and ability to follow specific instructions?']
-];
+    'Will my success in this career depend on my accuracy, correctness, and ability to follow specific instructions?')
+);
 ?>
