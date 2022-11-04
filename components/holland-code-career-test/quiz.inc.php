@@ -7,11 +7,11 @@
                 not worry about whether you have the skills or training to do an activity, or how much money you might
                 make. Simply think about whether you would enjoy doing it or not.</p>
 
-                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-                    <div class="form-group text-center pt-3 pb-3">                
-                        <input class="btn btn-success" type="submit" name="submit" value="Change Language" />
-                    </div>
-                </form>
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                <div class="form-group text-center pt-3 pb-3">
+                    <input class="btn btn-success" type="submit" name="submit" value="Change Language" />
+                </div>
+            </form>
         </div>
         <span class="text-danger" id="error">
             <!---- Initializing Session for errors --->
