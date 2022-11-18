@@ -302,16 +302,15 @@ if (isset($_POST['submit'])) {
                 header('Location: '.$_SERVER['PHP_SELF']);
     }
 } 
-?>
 
-<?php include('../components/header.inc.php'); ?>
+ include('../components/header.inc.php');
 
-<?php
-if (!empty($_SESSION['language']) && isset($_POST['submit'])){
-    include('../components/holland-code-career-test/quiz.inc.php');
-} else {
-    include('../components/holland-code-career-test/choose-lang.inc.php');
-}
+    if (!empty($_SESSION['language']) && isset($_POST['submit'])){
+        include('../components/holland-code-career-test/quiz.inc.php');
+    } else {
+        include('../components/holland-code-career-test/choose-lang.inc.php');
+    }
+
+ include('../components/footer.inc.php'); 
+ 
  ?>
-
-<?php include('../components/footer.inc.php'); ?>
