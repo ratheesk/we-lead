@@ -7,8 +7,8 @@
 
     <!-- Primary Meta Tags -->
     <title>We Lead</title>
-    <meta name="title" content="">
-    <meta name="description" content="">
+    <meta name="title" content="We Lead">
+    <meta name="description" content="“We Lead” (Career Skills Society) is an initiative of the Career Guidance Unit of the University of Peradeniya. The ultimate goal of society is to guide career planning and develop the employability skills of Peradeniya graduates to reach their dream destinations in their professions. We are providing our service to undergraduates and graduates. In addition, customized projects will be offered to the local community as university-to-community (U2C) services.">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicon/apple-icon-57x57.png">
