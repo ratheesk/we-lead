@@ -5,11 +5,12 @@
                 <a href="" class="navbar-brand m-0 p-0">
                     <div class="row">
                         <div class="col-2">
-                        <img src="../assets/img/logo/University_of_Peradeniya_crest.png" alt="University Of Peradeniya" width="50" height="50"> 
+                        <img src="../assets/img/logo/we-lead-logo-1.png" alt="University Of Peradeniya" width="50" height="50"> 
                         </div>
                         <div class="col-10">
-                        Career Guidance Unit <br>
-                        University Of Peradeniya
+                            <a class="">WE LEAD</a>
+                         <br>
+                        Career Guidance Unit - University Of Peradeniya
                         </div>
                     </div>                    
                 </a>
