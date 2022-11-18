@@ -3,6 +3,8 @@
 <?php
  session_start();
  
+ $title = "We Lead | Holland Code Career Test Report";
+ $description = "Take this FREE career test to discover your interest in different types of careers in the world and find your most suitable job catergaries to work.";
 
  if (!empty($_SESSION['post']) && !empty($_SESSION['language'])){
  
