@@ -2,7 +2,7 @@
 <section>
     <div class="container mt-5">
         <div class="text-center justify-content-left mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
-            <h4 class="section-title bg-white text-center text-primary px-3 mb-5">Holland Code Career Test</h4>
+            <h4 class="section-title text-center text-primary px-3 mb-5">Holland Code Career Test</h4>
 
             <p>Take this <strong>FREE </strong>career test to discover your interest in different types of
                 careers in the world and find your most suitable job catergaries to work.</p>

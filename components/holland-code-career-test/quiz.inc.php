@@ -2,7 +2,7 @@
 <section>
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
-            <h4 class="section-title bg-white text-center text-primary px-3">Page <?php echo $page_num; ?></h4>
+            <h4 class="section-title text-center text-primary px-3">Page <?php echo $page_num; ?></h4>
             <p data-aos="fade-up">To take the holland code career quiz, mark your interest in each activity shown. Do
                 not worry about whether you have the skills or training to do an activity, or how much money you might
                 make. Simply think about whether you would enjoy doing it or not.</p>
@@ -38,7 +38,7 @@
             </div>
         </div>';
         ?>
-        <div class="card border-0 mb-2 mr-2 ml-2">
+        <div class="card border-0 mb-2 mr-2 ml-2 holland-quiz">
             <div class="holland-quiz text-center">
                 <form class="holland-quiz-form-2">
                     <label for="joyful">
@@ -98,7 +98,7 @@
         <?php
         echo'
         <form action='.htmlspecialchars($_SERVER["PHP_SELF"]).' method="post">
-            <div class="container-fluid card p-3 holland-quiz-container">';
+            <div class="container-fluid card border-0 p-5 holland-quiz-container">';
                 
         
             for ($i = 0; $i < 12; $i++) {
@@ -145,7 +145,7 @@
             }
              echo '
             </div>
-            <div class="form-group text-center pt-3 pb-3">
+            <div class="form-group text-center pt-3 pb-3 mt-3">
                 <input class="btn btn-danger mr-4" type="reset" value="Reset" />
                 <input class="btn btn-success" type="submit" name="submit" value="'.$submit_value.'" />
             </div>

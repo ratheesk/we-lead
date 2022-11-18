@@ -8,7 +8,7 @@
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="h-100">
-                    <h3 class="section-title bg-white text-start text-primary pe-3">Holland Code Career Test</h3>
+                    <h3 class="section-title text-start text-primary pe-3">Holland Code Career Test</h3>
 
                     <p>Take this <strong>FREE </strong>career test to discover your interest in different types of
                         careers in the world and find your most suitable job catergaries to work.</p>

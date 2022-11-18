@@ -9,7 +9,7 @@
                         </div>
                         <div class="col-10">
                             <p class="mb-0" style = "font-weight:900" >We Lead</p>
-                        <p class="mb-0" style="font-size: 12px;">Career Skills Society of University of Peradeniya</p>
+                        <p class="mb-0" style="font-size: 12px;">Career Skills Society of UOP</p>
                         </div>
                     </div>                    
                 </a>

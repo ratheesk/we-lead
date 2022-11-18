@@ -4,6 +4,21 @@
   --secondary: #ecac30;
   --light: #F8F8F8;
   --dark: #00a4e1;
+
+  --primary-light: #8abdff;
+  --primary-light-1: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+}
+
+body {
+  box-sizing: border-box;
+  background: var(--greyLight-1);
 }
 
 .back-to-top {
@@ -201,6 +216,7 @@
   display: inline-block;
   text-transform: uppercase;
   margin-top: 10px;
+  background-color: var(--greyLight-1) !important;
 }
 
 @media only screen and (min-width: 600px) {
@@ -451,6 +467,10 @@
 
 
 /*** Footer ***/
+.footer {
+  background-color: #04213f;
+}
+
 .footer .btn.btn-link {
   display: block;
   margin-bottom: 5px;
@@ -504,8 +524,11 @@
 --------------------------------------------------------------*/
 
 .holland-quiz-container {
-  background-color: rgba(255, 255, 255, 0.714);
-  border-radius: 2rem;
+  background-color: var(--greyLight-1);
+  border-radius: 1rem;
+  padding: 0.4rem 0.4rem 0.1rem 0.4rem;
+  box-shadow:.8rem .8rem 1.4rem var(--greyLight-2), 
+  -.2rem -.2rem 1.8rem var(--white);
 }
 
 .holland-quiz-text p {
@@ -515,19 +538,29 @@
 }
 
 .holland-quiz {
-	background-color: rgba(244, 244, 245, 0.8);
+  box-shadow:.8rem .8rem 1.4rem var(--greyLight-2), 
+  -.2rem -.2rem 1.8rem var(--white);
+	background-color: var(--greyLight-1);
 	padding: 0.4rem 0.4rem 0.1rem 0.4rem;
-	border-radius: 2.2rem;
+	border-radius: 1rem;
 }
 
-svg {
+.holland-quiz svg {
 	fill: rgb(135 138 165);
 	height: 3.3rem;
 	width: 3.3rem;
-	margin: 0.1rem;
+	margin: 0.2rem;
+  padding: 0.1rem;
+  border-radius:50%;
+  box-shadow: .3rem .3rem .6rem var(--greyLight-2), 
+  -.2rem -.2rem .5rem var(--white);
+  transition: all .5s ease;
 }
 
-
+.holland-quiz svg:active {
+  box-shadow: inset .2rem .2rem .5rem var(--greyLight-2), 
+  inset -.2rem -.2rem .5rem var(--white);
+}
 
 #radios label {
 	position: relative;
