@@ -1,6 +1,6 @@
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="row g-5">
+        <div class="row">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="img-border">
                     <img class="img-fluid" src="../assets/img/about.jpg" alt="">

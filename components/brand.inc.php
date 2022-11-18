@@ -8,9 +8,8 @@
                         <img src="../assets/img/logo/we-lead-logo-1.png" alt="University Of Peradeniya" width="50" height="50"> 
                         </div>
                         <div class="col-10">
-                            <a class="">WE LEAD</a>
-                         <br>
-                        Career Guidance Unit - University Of Peradeniya
+                            <p class="mb-0" style = "font-weight:900" >We Lead</p>
+                        <p class="mb-0" style="font-size: 12px;">Career Skills Society of University of Peradeniya</p>
                         </div>
                     </div>                    
                 </a>
