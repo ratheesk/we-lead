@@ -9,3 +9,10 @@ organising - c
 20 years of experience
 3000 X 20 years
 100+ workshops per year
+
+theme colors for we lead - 
+
+yellow - #ecac30 , (236,172,48)
+dark blue - #06305e, (6,48,94)
+light blue - #00a4e1, (0,164,225)
+black - #0c0c0c, (12,12,12)

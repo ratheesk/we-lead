@@ -27,7 +27,7 @@
             <div class="col-12">
                 <div class="skill">
                     <div class="d-flex justify-content-between">
-                        <!--<p class="mb-2">Your Progress</p>-->
+                        <p class="mb-2">Questions on this page</p>
                         <p class="mb-2">'.$progress.'%</p>
                     </div>
                     <div class="progress">
