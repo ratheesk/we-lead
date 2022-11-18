@@ -1,6 +1,7 @@
 <?php
 session_start(); // Session starts here.
-
+$title = "We Lead | Holland Code Career Test";
+$description = "Take this FREE career test to discover your interest in different types of careers in the world and find your most suitable job catergaries to work.";
 // function to test inputs in forms
 function test_input($data) {
     // strip unnecessary characters

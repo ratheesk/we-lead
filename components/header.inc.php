@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Primary Meta Tags -->
-    <title>We Lead</title>
+    <title><?php echo $title; ?></title>
     <meta name="title" content="<?php echo $title; ?>">
     <meta name="description" content="<?php echo $description; ?>">
 
