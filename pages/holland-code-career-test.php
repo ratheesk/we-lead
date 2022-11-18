@@ -2,14 +2,14 @@
 session_start(); // Session starts here.
 $title = "We Lead | Holland Code Career Test";
 $description = "Take this FREE career test to discover your interest in different types of careers in the world and find your most suitable job catergaries to work.";
+
 // function to test inputs in forms
 function test_input($data) {
-    // strip unnecessary characters
-    $data = trim($data);
-    // remove backslashes
-    $data = stripslashes($data);
-    // convert special characters to HTML entities
-    $data = htmlspecialchars($data);
+
+    $data = trim($data); // strip unnecessary characters
+    $data = stripslashes($data); // remove backslashes
+    $data = htmlspecialchars($data);  // convert special characters to HTML entities
+    
     return $data;
   }
 
@@ -20,8 +20,7 @@ function quiz_values($page_num, $submit_value, $progress, $questions) {
     $GLOBALS['progress'] = $progress;
     $GLOBALS['questions'] = $questions;
 
-    // shuffle the questions
-    shuffle($GLOBALS['questions']);
+    shuffle($GLOBALS['questions']); // shuffle the questions
 } 
 
 function test_input_set($questions) {
@@ -303,14 +302,14 @@ if (isset($_POST['submit'])) {
     }
 } 
 
- include('../components/header.inc.php');
+ include('../components/header.inc.php'); // header
 
     if (!empty($_SESSION['language']) && isset($_POST['submit'])){
-        include('../components/holland-code-career-test/quiz.inc.php');
+        include('../components/holland-code-career-test/quiz.inc.php'); //quiz component
     } else {
-        include('../components/holland-code-career-test/choose-lang.inc.php');
+        include('../components/holland-code-career-test/choose-lang.inc.php'); // choose language component
     }
 
- include('../components/footer.inc.php'); 
+ include('../components/footer.inc.php'); // footer
  
  ?>
