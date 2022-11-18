@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Primary Meta Tags -->
-    <title>Holland Career Test</title>
+    <title>We Lead</title>
     <meta name="title" content="">
     <meta name="description" content="">
 
