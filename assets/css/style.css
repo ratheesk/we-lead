@@ -510,6 +510,53 @@ body {
 .footer .copyright a:hover {
   color: var(--primary);
 }
+
+/*** Choose language ***/
+.choose-language {
+  box-shadow:.8rem .8rem 1.4rem var(--greyLight-2), 
+  -.2rem -.2rem 1.8rem var(--white);
+	background-color: var(--greyLight-1);
+	padding: 0.4rem 0.4rem 0.1rem 0.4rem;
+	border-radius: 1rem;
+  align-items: center;
+  text-align: -webkit-center;
+}
+
+.choose-language .option{
+  background: #fff;
+  height: 100%;
+  max-width: 150px;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 2px solid lightgrey;
+  transition: all 0.3s ease;
+}
+
+.choose-language input[type="radio"]{
+  display: none;
+}
+#english:checked:checked ~ .english,
+#sinhala:checked:checked ~ .sinhala,
+#tamil:checked:checked ~ .tamil{
+  border-color: var(--primary);
+  background: var(--primary);
+}
+
+.choose-language .option span{
+  font-size: 15px;
+  color: #808080;
+}
+#english:checked:checked ~ .english span,
+#sinhala:checked:checked ~ .sinhala span,
+#tamil:checked:checked ~ .tamil span{
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Under construction
 --------------------------------------------------------------*/
@@ -609,7 +656,7 @@ input[class="neutral"]:focus + svg {
 input[class="bore"]:hover + svg,
 input[class="bore"]:checked + svg,
 input[class="bore"]:focus + svg {
-	fill: #cb4545;;
+	fill: #cb4545;
 }
 
 input[class="dull"]:hover + svg,

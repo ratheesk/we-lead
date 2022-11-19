@@ -16,33 +16,32 @@
         <div class="row justify-content-center">
             <div class="card choose-language" style="max-width: 400px;">
                 <img class="card-img-top" src="../assets/img/choose.png" alt="Card image cap">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <h5 class="card-title">Choose your language</h5>
                     <p class="card-text">You may continue with your convenient language</p>
                 
                 <form action="holland-code-career-test.php" method="POST">
-                    <div class="ml-5">
-                    <div class="form-check mb-3 mb-3">
+                    <div class="form-check mt-4 mb-3">
                         <input class="form-check-input" type="radio" name="lang" id="english" value="english"
                             required="required" checked>
-                        <label class="form-check-label" for="english">
-                            English
+                        <label class="form-check-label option english" for="english">
+                           <span>English</span>
                         </label>
                     </div>
                     <div class="form-check mb-3">
                         <input class="form-check-input" type="radio" name="lang" id="sinhala" value="sinhala">
-                        <label class="form-check-label" for="sinhala">
-                            සිංහල
+                        <label class="form-check-label option sinhala" for="sinhala">
+                        <span>සිංහල</span>
                         </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="lang" id="tamil" value="tamil">
-                        <label class="form-check-label" for="tamil">
-                            தமிழ்
+                        <label class="form-check-label option tamil" for="tamil">
+                        <span>தமிழ்</span>
                         </label>
                     </div>
-                    </div>
-                    <div class="form-group text-center pt-3 pb-3">
+    
+                    <div class="form-group text-center pt-3 pb-3 ps-4">
                         <input class="btn btn-success" type="submit" name="submit" value="Start" />
                     </div>
                 </form>
