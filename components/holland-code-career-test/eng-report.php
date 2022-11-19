@@ -6,7 +6,7 @@
 <section id="report">
     <div class="container">
     <div class="text-center mx-auto mb-5 wow fadeInUp mt-5" data-wow-delay="0.1s">
-                <h4 class="section-title text-center text-primary px-3">Results</h4>
+                <h4 class="section-title text-center text-primary px-3 hide-in-pdf">Results</h4>
     </div>
         <div class=" text-center mt-4">
             <?php 
@@ -15,7 +15,7 @@
               We reccomend you to try again with more accurate answers.<p>'; } ?>
              <form action="holland-code-career-test.php" method="post">
                     <div class="form-group text-center pb-3">                
-                        <input class="btn btn-success" type="submit" name="submit" value="Try Again" />
+                        <input class="btn btn-success hide-in-pdf" type="submit" name="submit" value="Try Again" />
                     </div>
              </form>
             <div class="text-left">

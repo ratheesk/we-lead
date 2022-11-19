@@ -117,11 +117,20 @@ function generate() {
 	
     // Source HTMLElement or a string containing HTML.
     var elementHTML = document.querySelector("#report");
+    var hideElemnts = document.querySelectorAll('.hide-in-pdf');
+    
+    hideElemnts.forEach(hide => {
+        hide.style.display = 'none';
+    });
 
     doc.html(elementHTML, {
         callback: function(doc) {
             // Save the PDF
             doc.save('holland-code-career-test.pdf');
+
+            hideElemnts.forEach(hide => {
+                hide.style.display = 'inline-block';
+            });
         },
         margin: [10, 10, 10, 10],
         autoPaging: 'text',
@@ -130,6 +139,7 @@ function generate() {
         width: 190, //target width in the PDF document
         windowWidth: 675 //window width in CSS pixels
     });
+
 }
 </script>
 
