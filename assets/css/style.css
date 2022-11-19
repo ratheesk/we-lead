@@ -545,6 +545,14 @@ body {
 	border-radius: 1rem;
 }
 
+.choose-language {
+  box-shadow:.8rem .8rem 1.4rem var(--greyLight-2), 
+  -.2rem -.2rem 1.8rem var(--white);
+	background-color: var(--greyLight-1);
+	padding: 0.4rem 0.4rem 0.1rem 0.4rem;
+	border-radius: 1rem;
+}
+
 .holland-quiz svg {
 	fill: rgb(135 138 165);
 	height: 3.3rem;
