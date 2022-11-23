@@ -6,6 +6,7 @@ $description = "“We Lead” (Career Skills Society) is an initiative of the Ca
 
 include('../components/header.inc.php'); // header
 include('../components/carousel.inc.php'); // carousel
+include('../sections/about.inc.php'); // about us section
 include('../sections/holland-test.inc.php'); // holland code career test section
 include('../components/footer.inc.php'); // footer
 ?>
