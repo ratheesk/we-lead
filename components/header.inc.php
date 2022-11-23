@@ -55,6 +55,9 @@
 </head>
 
 <body>
-    <?php include('top-bar.inc.php'); ?>
-    <?php include('brand.inc.php'); ?>
-    <?php include('nav-bar.inc.php'); ?>
+    <?php 
+    include('spinner.inc.php');
+    include('top-bar.inc.php'); 
+    include('brand.inc.php'); 
+    include('nav-bar.inc.php'); 
+    ?>
