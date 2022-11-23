@@ -663,3 +663,11 @@ input[class="dull"]:focus + svg {
 	fill: #ad2d2d;
 }
 
+
+/*** about us ***/
+
+.about-us {
+  background-color: #fafafa;
+  box-shadow: 0 0 0 100vmax #fafafa;
+  clip-path: inset(0 -100vmax);
+}
