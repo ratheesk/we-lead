@@ -511,6 +511,7 @@ body {
   color: var(--primary);
 }
 
+
 /*** Choose language ***/
 .choose-language {
   box-shadow:.8rem .8rem 1.4rem var(--greyLight-2), 
@@ -557,18 +558,15 @@ body {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Under construction
---------------------------------------------------------------*/
+
+/*** Under construction ***/
 
 #under-construction h2 {
   margin-top: 40px;
   color: #274D6C;
 }
 
-/*--------------------------------------------------------------
-# Holland quiz form
---------------------------------------------------------------*/
+/*** Holland quiz form ***/
 
 .holland-quiz-container {
   background-color: var(--greyLight-1);
