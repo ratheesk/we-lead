@@ -78,16 +78,16 @@ if (isset($_POST['submit'])) {
                     // include particuler language questions data
                     switch($_SESSION['language']) {
                         case 'english':
-                            include('../components/holland-code-career-test/eng-data.inc.php');
+                            include('../holland-code-career-test/eng-data.inc.php');
                             break;
                         case 'sinhala':
-                            include('../components/holland-code-career-test/sin-data.inc.php');
+                            include('../holland-code-career-test/sin-data.inc.php');
                             break;
                         case 'tamil':
-                            include('../components/holland-code-career-test/tamil-data.inc.php');
+                            include('../holland-code-career-test/tamil-data.inc.php');
                             break;
                         default:
-                            include('../components/holland-code-career-test/eng-data.inc.php');
+                            include('../holland-code-career-test/eng-data.inc.php');
                     }
                     // set the initial values
                     quiz_values(1, 'Page 2', 20, $p_1_questions);
@@ -102,16 +102,16 @@ if (isset($_POST['submit'])) {
             if (!empty($_SESSION['language'])) {
                 switch($_SESSION['language']) {
                     case 'english':
-                        include('../components/holland-code-career-test/eng-data.inc.php');
+                        include('../holland-code-career-test/eng-data.inc.php');
                         break;
                     case 'sinhala':
-                        include('../components/holland-code-career-test/sin-data.inc.php');
+                        include('../holland-code-career-test/sin-data.inc.php');
                         break;
                     case 'tamil':
-                        include('../components/holland-code-career-test/tamil-data.inc.php');
+                        include('../holland-code-career-test/tamil-data.inc.php');
                         break;
                     default:
-                        include('../components/holland-code-career-test/eng-data.inc.php');
+                        include('../holland-code-career-test/eng-data.inc.php');
                 }
             } else {
                 unset($_SESSION['language']);
@@ -142,16 +142,16 @@ if (isset($_POST['submit'])) {
             if (!empty($_SESSION['language'])) {
                 switch($_SESSION['language']) {
                     case 'english':
-                        include('../components/holland-code-career-test/eng-data.inc.php');
+                        include('../holland-code-career-test/eng-data.inc.php');
                         break;
                     case 'sinhala':
-                        include('../components/holland-code-career-test/sin-data.inc.php');
+                        include('../holland-code-career-test/sin-data.inc.php');
                         break;
                     case 'tamil':
-                        include('../components/holland-code-career-test/tamil-data.inc.php');
+                        include('../holland-code-career-test/tamil-data.inc.php');
                         break;
                     default:
-                        include('../components/holland-code-career-test/eng-data.inc.php');                        
+                        include('../holland-code-career-test/eng-data.inc.php');                        
                 }
             } else {
                 unset($_SESSION['language']);
@@ -182,16 +182,16 @@ if (isset($_POST['submit'])) {
             if (!empty($_SESSION['language'])) {
                 switch($_SESSION['language']) {
                     case 'english':
-                        include('../components/holland-code-career-test/eng-data.inc.php');
+                        include('../holland-code-career-test/eng-data.inc.php');
                         break;
                     case 'sinhala':
-                        include('../components/holland-code-career-test/sin-data.inc.php');
+                        include('../holland-code-career-test/sin-data.inc.php');
                         break;
                     case 'tamil':
-                        include('../components/holland-code-career-test/tamil-data.inc.php');
+                        include('../holland-code-career-test/tamil-data.inc.php');
                         break;
                     default:
-                        include('../components/holland-code-career-test/eng-data.inc.php');
+                        include('../holland-code-career-test/eng-data.inc.php');
                 }
             } else {
                 unset($_SESSION['language']);
@@ -222,16 +222,16 @@ if (isset($_POST['submit'])) {
             if (!empty($_SESSION['language'])) {
                 switch($_SESSION['language']) {
                     case 'english':
-                        include('../components/holland-code-career-test/eng-data.inc.php');
+                        include('../holland-code-career-test/eng-data.inc.php');
                         break;
                     case 'sinhala':
-                        include('../components/holland-code-career-test/sin-data.inc.php');
+                        include('../holland-code-career-test/sin-data.inc.php');
                         break;
                     case 'tamil':
-                        include('../components/holland-code-career-test/tamil-data.inc.php');
+                        include('../holland-code-career-test/tamil-data.inc.php');
                         break;
                     default:
-                        include('../components/holland-code-career-test/eng-data.inc.php');
+                        include('../holland-code-career-test/eng-data.inc.php');
                 }
             } else {
                 unset($_SESSION['language']);
@@ -262,16 +262,16 @@ if (isset($_POST['submit'])) {
             if (!empty($_SESSION['language'])) {
                 switch($_SESSION['language']) {
                     case 'english':
-                        include('../components/holland-code-career-test/eng-data.inc.php');
+                        include('../holland-code-career-test/eng-data.inc.php');
                         break;
                     case 'sinhala':
-                        include('../components/holland-code-career-test/sin-data.inc.php');
+                        include('../holland-code-career-test/sin-data.inc.php');
                         break;
                     case 'tamil':
-                        include('../components/holland-code-career-test/tamil-data.inc.php');
+                        include('../holland-code-career-test/tamil-data.inc.php');
                         break;
                     default:
-                        include('../components/holland-code-career-test/eng-data.inc.php');
+                        include('../holland-code-career-test/eng-data.inc.php');
                 }
             } else {
                 unset($_SESSION['language']);
@@ -305,9 +305,9 @@ if (isset($_POST['submit'])) {
  include('../components/header.inc.php'); // header
 
     if (!empty($_SESSION['language']) && isset($_POST['submit'])){
-        include('../components/holland-code-career-test/quiz.inc.php'); //quiz component
+        include('../holland-code-career-test/quiz.inc.php'); //quiz component
     } else {
-        include('../components/holland-code-career-test/choose-lang.inc.php'); // choose language component
+        include('../holland-code-career-test/choose-lang.inc.php'); // choose language component
     }
 
  include('../components/footer.inc.php'); // footer

@@ -105,7 +105,7 @@
  ?>
  <?php include('../components/header.inc.php'); ?>
 
-<?php include('../components/holland-code-career-test/eng-report.php'); ?>
+<?php include('../holland-code-career-test/eng-report.inc.php'); ?>
 
 <script>
 
