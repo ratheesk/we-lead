@@ -3,7 +3,7 @@ session_start(); // Session starts here.
 $title = "We Lead | Holland Code Career Test";
 $description = "Take this FREE career test to discover your interest in different types of careers in the world and find your most suitable job catergaries to work.";
 
-// function to test inputs in forms
+// test inputs in forms
 function test_input($data) {
 
     $data = trim($data); // strip unnecessary characters
@@ -18,7 +18,7 @@ function quiz_values($page_num, $submit_value, $progress, $questions) {
 
     $GLOBALS['page_num'] = $page_num;
     $GLOBALS['submit_value'] = $submit_value;
-    $GLOBALS['progress'] = $progress;
+    $GLOBALS['progress'] = $page_num * 20;
     $GLOBALS['questions'] = $questions;
 
     shuffle($GLOBALS['questions']); // shuffle the questions
@@ -50,6 +50,30 @@ function test_answer_numeric ($questions) {
         }
     }
 }
+
+// check whether language is set or not in session
+function check_language_session () {
+
+    if (!empty($_SESSION['language'])) {
+        switch($_SESSION['language']) {
+            case 'english':
+                include('../holland-code-career-test/eng-data.inc.php');
+                break;
+            case 'sinhala':
+                include('../holland-code-career-test/sin-data.inc.php');
+                break;
+            case 'tamil':
+                include('../holland-code-career-test/tamil-data.inc.php');
+                break;
+            default:
+                include('../holland-code-career-test/eng-data.inc.php');
+        }
+    } else {
+        unset($_SESSION['language']);
+        header('Location: '.$_SERVER['PHP_SELF']);
+    }
+}
+
 
 // check the submit key for empty
 if (isset($_POST['submit'])) {
@@ -102,25 +126,8 @@ if (isset($_POST['submit'])) {
             // execute functions for page 2
         case 'Page 2':
             // check the language avalilability in session
-            if (!empty($_SESSION['language'])) {
-                switch($_SESSION['language']) {
-                    case 'english':
-                        include('../holland-code-career-test/eng-data.inc.php');
-                        break;
-                    case 'sinhala':
-                        include('../holland-code-career-test/sin-data.inc.php');
-                        break;
-                    case 'tamil':
-                        include('../holland-code-career-test/tamil-data.inc.php');
-                        break;
-                    default:
-                        include('../holland-code-career-test/eng-data.inc.php');
-                }
-            } else {
-                unset($_SESSION['language']);
-                header('Location: '.$_SERVER['PHP_SELF']);
-                break;
-            }
+            check_language_session();
+
             test_answer_set($p_1_questions);
             if ($answer_set) {
                 test_answer_numeric($p_1_questions);
@@ -142,25 +149,8 @@ if (isset($_POST['submit'])) {
             // execute functions for page 3
         case 'Page 3':
             // check the language avalilability in session
-            if (!empty($_SESSION['language'])) {
-                switch($_SESSION['language']) {
-                    case 'english':
-                        include('../holland-code-career-test/eng-data.inc.php');
-                        break;
-                    case 'sinhala':
-                        include('../holland-code-career-test/sin-data.inc.php');
-                        break;
-                    case 'tamil':
-                        include('../holland-code-career-test/tamil-data.inc.php');
-                        break;
-                    default:
-                        include('../holland-code-career-test/eng-data.inc.php');                        
-                }
-            } else {
-                unset($_SESSION['language']);
-                header('Location: '.$_SERVER['PHP_SELF']);
-                break;
-            }
+            check_language_session();
+
             test_answer_set($p_2_questions);
             if ($answer_set) {
                 test_answer_numeric($p_2_questions);
@@ -182,25 +172,8 @@ if (isset($_POST['submit'])) {
             // execute functions for page 4
         case 'Page 4':
             // check the language avalilability in session
-            if (!empty($_SESSION['language'])) {
-                switch($_SESSION['language']) {
-                    case 'english':
-                        include('../holland-code-career-test/eng-data.inc.php');
-                        break;
-                    case 'sinhala':
-                        include('../holland-code-career-test/sin-data.inc.php');
-                        break;
-                    case 'tamil':
-                        include('../holland-code-career-test/tamil-data.inc.php');
-                        break;
-                    default:
-                        include('../holland-code-career-test/eng-data.inc.php');
-                }
-            } else {
-                unset($_SESSION['language']);
-                header('Location: '.$_SERVER['PHP_SELF']);
-                break;
-            }
+            check_language_session();
+
             test_answer_set($p_3_questions);
             if ($answer_set) {
                 test_answer_numeric($p_3_questions);
@@ -222,25 +195,8 @@ if (isset($_POST['submit'])) {
         // execute functions for page 5
         case 'Page 5':
             // check the language avalilability in session
-            if (!empty($_SESSION['language'])) {
-                switch($_SESSION['language']) {
-                    case 'english':
-                        include('../holland-code-career-test/eng-data.inc.php');
-                        break;
-                    case 'sinhala':
-                        include('../holland-code-career-test/sin-data.inc.php');
-                        break;
-                    case 'tamil':
-                        include('../holland-code-career-test/tamil-data.inc.php');
-                        break;
-                    default:
-                        include('../holland-code-career-test/eng-data.inc.php');
-                }
-            } else {
-                unset($_SESSION['language']);
-                header('Location: '.$_SERVER['PHP_SELF']);
-                break;
-            }
+            check_language_session();
+
             test_answer_set($p_4_questions);
             if ($answer_set) {
                 test_answer_numeric($p_4_questions);
@@ -262,25 +218,8 @@ if (isset($_POST['submit'])) {
         
         case 'Report':
              // check the language avalilability in session
-            if (!empty($_SESSION['language'])) {
-                switch($_SESSION['language']) {
-                    case 'english':
-                        include('../holland-code-career-test/eng-data.inc.php');
-                        break;
-                    case 'sinhala':
-                        include('../holland-code-career-test/sin-data.inc.php');
-                        break;
-                    case 'tamil':
-                        include('../holland-code-career-test/tamil-data.inc.php');
-                        break;
-                    default:
-                        include('../holland-code-career-test/eng-data.inc.php');
-                }
-            } else {
-                unset($_SESSION['language']);
-                header('Location: '.$_SERVER['PHP_SELF']);
-                break;
-            }
+            check_language_session();
+
             test_answer_set($p_5_questions);
             if ($answer_set) {
                 test_answer_numeric($p_5_questions);
