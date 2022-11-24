@@ -13,6 +13,7 @@ function test_input($data) {
     return $data;
   }
 
+// set variable values for quiz page
 function quiz_values($page_num, $submit_value, $progress, $questions) {
 
     $GLOBALS['page_num'] = $page_num;
@@ -23,26 +24,28 @@ function quiz_values($page_num, $submit_value, $progress, $questions) {
     shuffle($GLOBALS['questions']); // shuffle the questions
 } 
 
-function test_input_set($questions) {
+// check do all questions have answers
+function test_answer_set($questions) {
 
-    $GLOBALS['input_set'] = true;
+    $GLOBALS['answer_set'] = true;
 
     for ($i = 0; $i < 12; $i++) {
         if(!isset($_POST[$questions[$i][1]])) {
-            $GLOBALS['input_set'] = false;
+            $GLOBALS['answer_set'] = false;
             break;
         }
     }
 
 }
 
-function test_input_numeric ($questions) {
+// check whether all answers are numeric
+function test_answer_numeric ($questions) {
 
-    $GLOBALS['input_numeric'] = true;
+    $GLOBALS['answer_numeric'] = true;
 
     for ($i = 0; $i < 12; $i++) {
         if(!is_numeric($_POST[$questions[$i][1]]) && empty($_POST[$questions[$i][1]])) {
-            $GLOBALS['input_numeric'] = false;
+            $GLOBALS['answer_numeric'] = false;
             break;
         }
     }
@@ -118,10 +121,10 @@ if (isset($_POST['submit'])) {
                 header('Location: '.$_SERVER['PHP_SELF']);
                 break;
             }
-            test_input_set($p_1_questions);
-            if ($input_set) {
-                test_input_numeric($p_1_questions);
-                if (!$input_numeric) {
+            test_answer_set($p_1_questions);
+            if ($answer_set) {
+                test_answer_numeric($p_1_questions);
+                if (!$answer_numeric) {
                     // Set error message
                     $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                     quiz_values(1, 'Page 2', 20, $p_1_questions);
@@ -158,10 +161,10 @@ if (isset($_POST['submit'])) {
                 header('Location: '.$_SERVER['PHP_SELF']);
                 break;
             }
-            test_input_set($p_2_questions);
-            if ($input_set) {
-                test_input_numeric($p_2_questions);
-                if (!$input_numeric) {
+            test_answer_set($p_2_questions);
+            if ($answer_set) {
+                test_answer_numeric($p_2_questions);
+                if (!$answer_numeric) {
                     // Set error message
                     $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                     quiz_values(2, 'Page 3', 40, $p_2_questions);
@@ -198,10 +201,10 @@ if (isset($_POST['submit'])) {
                 header('Location: '.$_SERVER['PHP_SELF']);
                 break;
             }
-            test_input_set($p_3_questions);
-            if ($input_set) {
-                test_input_numeric($p_3_questions);
-                if (!$input_numeric) {
+            test_answer_set($p_3_questions);
+            if ($answer_set) {
+                test_answer_numeric($p_3_questions);
+                if (!$answer_numeric) {
                     // Set error message
                     $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                     quiz_values(3, 'Page 4', 60, $p_3_questions);
@@ -238,10 +241,10 @@ if (isset($_POST['submit'])) {
                 header('Location: '.$_SERVER['PHP_SELF']);
                 break;
             }
-            test_input_set($p_4_questions);
-            if ($input_set) {
-                test_input_numeric($p_4_questions);
-                if (!$input_numeric) {
+            test_answer_set($p_4_questions);
+            if ($answer_set) {
+                test_answer_numeric($p_4_questions);
+                if (!$answer_numeric) {
                     // Set error message
                     $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                     quiz_values(4, 'Page 4', 80, $p_4_questions);
@@ -278,10 +281,10 @@ if (isset($_POST['submit'])) {
                 header('Location: '.$_SERVER['PHP_SELF']);
                 break;
             }
-            test_input_set($p_5_questions);
-            if ($input_set) {
-                test_input_numeric($p_5_questions);
-                if (!$input_numeric) {
+            test_answer_set($p_5_questions);
+            if ($answer_set) {
+                test_answer_numeric($p_5_questions);
+                if (!$answer_numeric) {
                     // Set error message
                     $_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
                     quiz_values(5, 'Report', 100, $p_5_questions);
