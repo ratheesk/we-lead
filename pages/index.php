@@ -10,6 +10,7 @@ include('../sections/who-we-are.inc.php'); // who we are section
 include('../sections/objectives.inc.php'); // objectives section
 include('../sections/holland-test.inc.php'); // holland code career test section
 include('../sections/gallery.inc.php'); // gallery section
+include('../sections/contact.inc.php'); // gallery section
 include('../components/footer.inc.php'); // footer
 ?>
 
