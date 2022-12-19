@@ -33,4 +33,4 @@
             </div>
         </div>
     </div>
-    <!-- Feature End -->
+    <!-- Objectives End -->
