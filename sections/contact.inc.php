@@ -5,7 +5,7 @@
                 <h3 class="section-title text-center text-primary px-3">CONTACT US</h3>
             </div>
             <div class="row justify-content-center">
-                <div class="col-12 text-center w-75 wow fadeInUp ">
+                <div class="col-12 text-center w-100 wow fadeInUp ">
                     <div class="row">
                         <!-- <form role="form" id="contact-form" class="contact-form">
                     <div class="row">
@@ -91,8 +91,12 @@
                                                         <span class="fa fa-map-marker"></span>
                                                     </div>
                                                     <div class="text pl-3">
-                                                        <p><span>Address:</span> 198 West 21th Street, Suite 721 New
-                                                            York NY 10016</p>
+                                                        <p><span>Address:</span> We Lead- Career Skills Society,
+                                                            Career Guidance Unit,
+                                                            WUS Building,
+                                                            University of Peradeniya,
+                                                            Peradeniya,
+                                                            Sri Lanka.</p>
                                                     </div>
                                                 </div>
                                                 <div class="dbox w-100 d-flex align-items-center">
@@ -100,8 +104,8 @@
                                                         <span class="fa fa-phone"></span>
                                                     </div>
                                                     <div class="text pl-3">
-                                                        <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355
-                                                                98</a></p>
+                                                        <p><span>Phone:</span> <a href="tel://+94714276369">+94 71 4276
+                                                                369</a></p>
                                                     </div>
                                                 </div>
                                                 <div class="dbox w-100 d-flex align-items-center">
@@ -110,7 +114,7 @@
                                                     </div>
                                                     <div class="text pl-3">
                                                         <p><span>Email:</span> <a
-                                                                href="mailto:info@yoursite.com">info@yoursite.com</a>
+                                                                href="mailto:info@weleadpera.lk">info@weleadpera.lk</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -119,7 +123,8 @@
                                                         <span class="fa fa-globe"></span>
                                                     </div>
                                                     <div class="text pl-3">
-                                                        <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                                        <p><span>Website</span> <a
+                                                                href="https://weleadpera.lk/">weleadpera.lk</a></p>
                                                     </div>
                                                 </div>
                                             </div>
