@@ -1,31 +1,17 @@
-# build, test, and ftp deploy a jekyll site
-name: ci:deploy
+name: CI -> Deploy to weleadpera.lk
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    env:
-      baseurl: ''
     steps:
       - uses: actions/checkout@v2
+      # Here is the deployment action
+      - name: Upload from public_html via FTP
+        uses: airvzxf/ftp-deployment-action@latest
         with:
-          fetch-depth: 1
-      - uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
-      - name: install
-        run: gem install bundler && bundle
-      - name: build
-        run: bundle exec rake build
-      - name: test
-        run: bundle exec rake test
-      - name: deploy
-        uses: samkirkland/ftp-deploy-action@4.0.0
-        with:
-          server: ${{secrets.ftp_server}}
-          username: ${{secrets.ftp_username}}
-          password: ${{secrets.ftp_password}}
-        
+          server: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
