@@ -1,5 +1,5 @@
     <!-- Who we are Start -->
-    <div class="container-xxl py-2 ">
+    <div class="container-xxl py-2 " id="about-us">
         <div class="container">
             <div class="text-center mx-auto mb-3 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h3 class="section-title text-center text-primary px-3">WHO WE ARE</h3>

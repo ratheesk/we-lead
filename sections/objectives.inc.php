@@ -1,5 +1,5 @@
-    <!-- Feature Start -->
-    <div class="about-us container-xxl py-5">
+    <!-- Objectives Start -->
+    <div class="about-us container-xxl py-5" id="objectives">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">

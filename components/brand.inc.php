@@ -46,7 +46,7 @@
                             </div>
                             <div class="ps-3">
                                 <p class="mb-2 text-secondary">Email Us</p>
-                                <h6 class="mb-0">cgu@pdn.ac.lk</h6>
+                                <h6 class="mb-0">info@weleadpera.lk</h6>
                             </div>
                         </div>
                     </div>

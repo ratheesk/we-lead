@@ -1,5 +1,5 @@
     <!-- Gallery Start -->
-    <div class="about-us container-xxl py-5">
+    <div class="about-us container-xxl py-5" id="gallery">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
